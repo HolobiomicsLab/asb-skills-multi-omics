@@ -1,0 +1,40 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "asb_commit": "379a3c688706a4e83edd23cc4b268ebf0e46ce80",
+  "cut_asb_commit": "450b0d05 (int/consolidation-second-cut-2026-09-18)",
+  "tooling_commit": "f554641c24ea7c60bbaa5322ec8a56b1a6bd30db",
+  "corpus_commit": "3f0993e154b4041129d0575b546956c8b5b2dc9a",
+  "hub_commit": "648a4af6",
+  "revision_authority": "caller launch contract; no git commands run",
+  "view": "asbb_classA_papers_2026-09-17 through papers_view_provisional (VIEW.source.json rule)",
+  "cut_id": "e9dd7e5b2cd9",
+  "domain": "multi-omics",
+  "model": "BAAI/bge-small-en-v1.5",
+  "thresholds": {
+    "auto_merge": 0.95,
+    "suggest": 0.9,
+    "embed_view": "name_tools",
+    "cross_run_only": true
+  },
+  "coverage_summary_sha256": "e9dd7e5b2cd912d288d1c8a26636521fe7ad87a2a518b954c71a8718289c8aa8",
+  "view_source_sha256": "a135ff6e7899f67fe6917d18f7e74a31fb1681b8e301847220d8262ed948a3b5",
+  "stage_script_sha256": {
+    "bootstrap_indexes.py": "b762d4b3832d76c9983d44998c788c97ec85238f3814361955f79e0798e083f0",
+    "collect_from_cut.py": "23f254691250811f3381f1a5d7e9e7dc281183d802eed4bd3b958ce2b1cf1bcc",
+    "join_corpus_records.py": "224efabec731651c95fe538a73af02fba1b45b9c17e05dc774ad3f240354f801",
+    "rehearsal_common.py": "3b3cf1438dc98b9861f7ef422ccab3644fd07489686255a1188c07d474fd957a",
+    "rehearse.py": "25bf9c734e28277ea727a25a8510ea7c3ceb5625a03427c29b1db838515dc0be",
+    "run_gates.py": "24a33fa3c720aaed65b6b03d98ada57f4cf3179a4baf47307f0d9d72bc22d030",
+    "same_paper_pairs.py": "004126907c96e93cf1b23bf51ce4df840794730d468f849ca0d853e9c937beb0",
+    "validate_rehearsal.py": "2b51bc1d464d86d27205b66ae84ffe28d9f19e8d19c22c9d929088b90ccf1623"
+  },
+  "generated_at": "2026-09-18T22:23:28.551020+00:00",
+  "formatting_only_after_execution": {
+    "script": "same_paper_pairs.py",
+    "executed_sha256": "faeaae0cb27ed56b48bc9720bdd9ca8d05de419c505843b40b65e3bbdf06d6f7",
+    "formatted_sha256": "004126907c96e93cf1b23bf51ce4df840794730d468f849ca0d853e9c937beb0",
+    "candidate_and_pair_reports_unchanged": true
+  }
+}

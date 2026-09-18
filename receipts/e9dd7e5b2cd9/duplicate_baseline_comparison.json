@@ -1,0 +1,45 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "exit_code": 0,
+  "baseline": "/Users/nothiasl/git/agenticsciencebuilder_dev/docs/superpowers/audits/2026-09-18-domain-release-readiness/results/within_run_pairs.json",
+  "baseline_sha256": "209f77bcee59529ff4e62724205b5f292e92c86ccdacd89823bec6ae7f01a6a1",
+  "observed": {
+    "ge_0_90": {
+      "bundles_in_a_pair": 199,
+      "components": 74,
+      "largest_component": 8,
+      "pairs": 139,
+      "runs_with_a_pair": 27,
+      "surplus_leaves": 125
+    },
+    "ge_0_95": {
+      "bundles_in_a_pair": 16,
+      "components": 8,
+      "largest_component": 2,
+      "pairs": 8,
+      "runs_with_a_pair": 7,
+      "surplus_leaves": 8
+    }
+  },
+  "expected": {
+    "same_run_ge_0_95": {
+      "pairs": 8,
+      "bundles_in_a_pair": 16,
+      "components": 8,
+      "surplus_leaves": 8,
+      "runs_with_a_pair": 7,
+      "largest_component": 2
+    },
+    "same_run_ge_0_90": {
+      "pairs": 139,
+      "bundles_in_a_pair": 199,
+      "components": 74,
+      "surplus_leaves": 125,
+      "runs_with_a_pair": 27,
+      "largest_component": 8
+    }
+  },
+  "all_counts_equal": true
+}

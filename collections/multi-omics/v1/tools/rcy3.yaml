@@ -1,0 +1,19 @@
+name: RCy3
+slug: rcy3
+version_used: 2.24.0
+edam_topics: []
+evidence_spans:
+- 'Bioconductor version**: 3.19 (RCy3: 2.24.0)'
+- '**Bioconductor version**: 3.19 (RCy3: 2.24.0)'
+- the transomics2cytoscape package in R uses RCy339 to automate40 importing multiple pathway maps
+derived_from:
+- doi: 10.1038/s41540-024-00342-8
+  title: 'Transomics2cytoscape: an automated software for interpretable 2.5-dimensional visualization of trans-omic networks'
+source_repos:
+- https://github.com/ecell/transomics2cytoscape
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ecell/transomics2cytoscape

@@ -1,0 +1,35 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "exit_code": 0,
+  "candidate_files": 1142,
+  "required_receipts_present": true,
+  "all_receipts_labelled": true,
+  "source_digest_count": 3778,
+  "collector_sources_unchanged": true,
+  "notes_sha256": "4c996f5b33189ad2bcccba9eb1eb95de8bfb2e7129fc6655413a5abc95d4c61c",
+  "scripts": {
+    "bootstrap_indexes.py": "b762d4b3832d76c9983d44998c788c97ec85238f3814361955f79e0798e083f0",
+    "collect_from_cut.py": "23f254691250811f3381f1a5d7e9e7dc281183d802eed4bd3b958ce2b1cf1bcc",
+    "join_corpus_records.py": "224efabec731651c95fe538a73af02fba1b45b9c17e05dc774ad3f240354f801",
+    "rehearsal_common.py": "3b3cf1438dc98b9861f7ef422ccab3644fd07489686255a1188c07d474fd957a",
+    "rehearse.py": "25bf9c734e28277ea727a25a8510ea7c3ceb5625a03427c29b1db838515dc0be",
+    "run_gates.py": "24a33fa3c720aaed65b6b03d98ada57f4cf3179a4baf47307f0d9d72bc22d030",
+    "same_paper_pairs.py": "004126907c96e93cf1b23bf51ce4df840794730d468f849ca0d853e9c937beb0",
+    "validate_rehearsal.py": "2b51bc1d464d86d27205b66ae84ffe28d9f19e8d19c22c9d929088b90ccf1623"
+  },
+  "code_checks": [
+    {
+      "command": "python -m ruff check --no-cache scripts",
+      "exit_code": 0,
+      "stdout": "All checks passed!"
+    },
+    {
+      "command": "python -m ruff format --check --no-cache scripts",
+      "exit_code": 0,
+      "stdout": "8 files already formatted"
+    }
+  ],
+  "children_completed": true
+}

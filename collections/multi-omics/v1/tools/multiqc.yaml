@@ -1,0 +1,22 @@
+name: MultiQC
+slug: multiqc
+version_used: null
+edam_topics: []
+evidence_spans:
+- MultiQC18 that combines many different tools in a single report
+- '**Quality Control**: FastQC and MultiQC analysis.'
+- An overview of how the pipeline works, how to run it and a description of all of the different command-line flags.
+derived_from:
+- doi: 10.1038/s41467-020-16937-8
+  title: Harmonization of quality metrics and power calculation in multi-omic studies
+- doi: 10.1101/2025.11.24.690117
+  title: 'Eduomics: a Nextflow pipeline to simulate -omics data for education'
+source_repos:
+- https://github.com/ConesaLab/MultiPower
+- https://github.com/lescai-teaching/eduomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/MultiPower

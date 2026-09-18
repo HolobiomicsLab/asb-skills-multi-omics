@@ -1,0 +1,532 @@
+{
+  "access_mapping_applied": {
+    "bronze": "link-only",
+    "closed": "link-only",
+    "gold": {
+      "otherwise": "open-access",
+      "permissive": "gold-oa"
+    },
+    "green": "green-oa",
+    "hybrid": {
+      "cc": "open-access",
+      "otherwise": "link-only"
+    },
+    "otherwise": "link-only",
+    "unknown": "link-only"
+  },
+  "cap_policy": {
+    "condition": "access.type == link-only OR source_reuse != permissive",
+    "shipped_gate_gap": "release_gate.py currently keys the cap only on access.type; the source_reuse half of Decision 7 P2 is not enforced there"
+  },
+  "capped_rows": [
+    {
+      "doi": "10.1038/s41592-025-02774-4",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-025-99219-x",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1038/s43588-024-00721-5",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1093/bib/bbae608",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1093/bib/bbaf692",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1093/nar/gkae442",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1093/nar/gkaf101",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1101/2024.07.04.601829",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1101/2025.04.27.650628",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1101/421834",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1186/s12859-025-06126-z",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1186/s12859-025-06265-3",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1186/s13059-025-03576-9",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    }
+  ],
+  "counts": {
+    "access.type": {
+      "gold-oa": 15,
+      "green-oa": 4,
+      "open-access": 10
+    },
+    "builds": 29,
+    "capped": 13,
+    "license_tier": {
+      "noncommercial": 13,
+      "open": 16
+    },
+    "oa_status_raw": {
+      "gold": 23,
+      "green": 4,
+      "hybrid": 2
+    },
+    "unique_dois": 29,
+    "unmatched": 0
+  },
+  "cut_id": "e9dd7e5b2cd9",
+  "domain": "multi-omics",
+  "duplicate_dois": [],
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "inputs": {
+    "builds": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics",
+    "license_tiers": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/governance/license_tiers.yaml",
+    "tiered": "/Users/nothiasl/git/asb-corpus-omics/multi-omics_tiered.json"
+  },
+  "offline_derivers": {
+    "derive_license_tiers.py": {
+      "reason": "not run: rehearsal is offline and network/credentials are forbidden",
+      "run": false,
+      "would_attempt_repository_lookup": [
+        "10.1002/imt2.70011",
+        "10.1038/s41467-020-16937-8",
+        "10.1038/s41467-024-48981-z",
+        "10.1038/s41540-024-00342-8",
+        "10.1038/s41540-024-00417-6",
+        "10.1038/s41592-025-02774-4",
+        "10.1038/s41598-025-99219-x",
+        "10.1038/s43588-024-00721-5",
+        "10.1093/bib/bbae399",
+        "10.1093/bib/bbae411",
+        "10.1093/bib/bbae450",
+        "10.1093/bib/bbae608",
+        "10.1093/bib/bbaf429",
+        "10.1093/bib/bbaf692",
+        "10.1093/bioadv/vbae123",
+        "10.1093/gigascience/giaf028",
+        "10.1093/nar/gkae442",
+        "10.1093/nar/gkaf101",
+        "10.1101/2024.07.04.601829",
+        "10.1101/2025.04.27.650628",
+        "10.1101/2025.11.24.690117",
+        "10.1101/421834",
+        "10.1186/s12859-025-06126-z",
+        "10.1186/s12859-025-06265-3",
+        "10.1186/s13059-021-02577-8",
+        "10.1186/s13059-024-03233-7",
+        "10.1186/s13059-024-03290-y",
+        "10.1186/s13059-024-03419-z",
+        "10.1186/s13059-025-03576-9"
+      ],
+      "would_modify_rows": []
+    },
+    "resolve_paper_license.py": {
+      "reason": "not run: rehearsal is offline and network/credentials are forbidden",
+      "run": false,
+      "would_attempt_registry_lookup": [],
+      "would_modify_rows_if_resolved": []
+    }
+  },
+  "policy_register": {
+    "applied": [
+      "P1",
+      "P2"
+    ],
+    "decision": "Decision 7",
+    "section": "Domain Release Policy Register (P1–P8, D6, D7)",
+    "source": "/Users/nothiasl/git/agenticsciencebuilder_dev/docs/asbb/DECISIONS.md"
+  },
+  "provenance_mismatches": [],
+  "rehearsal": true,
+  "schema": "asbb-corpus-join-receipt/1.0",
+  "source_digest_algorithm": "sha256",
+  "source_files": [
+    {
+      "path": "/Users/nothiasl/git/agenticsciencebuilder_dev/docs/asbb/DECISIONS.md",
+      "resolved_path": "/Users/nothiasl/git/agenticsciencebuilder_dev/docs/asbb/DECISIONS.md",
+      "sha256": "7977cd586a1af9195f6260585b85b7af90cacacc9097021d5b0e397f8685250c"
+    },
+    {
+      "path": "/Users/nothiasl/git/agenticsciencebuilder_dev/docs/superpowers/specs/2026-09-18-domain-release-pipeline-design.md",
+      "resolved_path": "/Users/nothiasl/git/agenticsciencebuilder_dev/docs/superpowers/specs/2026-09-18-domain-release-pipeline-design.md",
+      "sha256": "c2b98850a2f44cb8f8152bc4810c22c52f4094fd2345522cd35e5e618c2e4ec6"
+    },
+    {
+      "path": "/Users/nothiasl/git/asb-corpus-omics/multi-omics_tiered.json",
+      "resolved_path": "/Users/nothiasl/git/asb-corpus-omics/multi-omics_tiered.json",
+      "sha256": "eedf0c5e1d28a9863a5a5ee3510081ad6259219c9bc3fb087409ed289032ec98"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/governance/license_tiers.yaml",
+      "resolved_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/governance/license_tiers.yaml",
+      "sha256": "4d3cf7b80dcc7abf9242db3a04a0c4715727f7695e4c79a51a058f604a9a6f84"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/derive_license_tiers.py",
+      "resolved_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/derive_license_tiers.py",
+      "sha256": "5680ae86ae8c414d2a3ab6365375e8bc39feaac944f9854f55d2b950a4eefa45"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/license_tier.py",
+      "resolved_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/license_tier.py",
+      "sha256": "ff74fb4bf3d007eec22646c99db70ab693593ea51e3194f42341062378b0a0b3"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/release_gate.py",
+      "resolved_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/release_gate.py",
+      "sha256": "8c3fb81b98f4cfc9e2b117347713cf5a0b9b8ebd617bcb7c009fe3b003890549"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/resolve_paper_license.py",
+      "resolved_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/resolve_paper_license.py",
+      "sha256": "321643b7f30c930e6c50ce430628f97e1b3eae0ae17cd350ec846337bc751f9d"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/VIEW.source.json",
+      "resolved_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/VIEW.source.json",
+      "sha256": "a135ff6e7899f67fe6917d18f7e74a31fb1681b8e301847220d8262ed948a3b5"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave1_2026-09__coll_multipower_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave1_2026-09/multi-omics/coll_multipower_cq/build_manifest.json",
+      "sha256": "b2312ed9a7d7210e7aad62e5b904804e6b37cbb4ebf15d10930e49b7dadc7db7"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave1_2026-09__coll_multipower_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave1_2026-09/multi-omics/coll_multipower_cq/external_enrichment.json",
+      "sha256": "b3f4cc6f001822bbe443433970dcbf88af8ae23dcdedefb9a7ebe8ebd820e67e"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave1_2026-09__coll_muon_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave1_2026-09/multi-omics/coll_muon_cq/build_manifest.json",
+      "sha256": "081f6c7bf9d573d901f78cd42f036473c77b3a887a4eeb5650c4117e91c2bfc9"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave1_2026-09__coll_muon_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave1_2026-09/multi-omics/coll_muon_cq/external_enrichment.json",
+      "sha256": "ae4388da45db2333cd835c4cc7d40875a9fe4f1dae55fe4cf01dfdb493f79b27"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave2_2026-08-31__coll_annotatability_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave2_2026-08-31/multi-omics/coll_annotatability_cq/build_manifest.json",
+      "sha256": "578e3ef3ff2effbd851c97bb6c7d75288c7aa72e9f9f32f66df5b9a6c2dd826b"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave2_2026-08-31__coll_annotatability_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave2_2026-08-31/multi-omics/coll_annotatability_cq/external_enrichment.json",
+      "sha256": "0a25c0082489d844bd63e5e97c4f654357563cff55ce2402b51e6a4fd69a9fa2"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave2_2026-08-31__coll_mapit_seq_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave2_2026-08-31/multi-omics/coll_mapit_seq_cq/build_manifest.json",
+      "sha256": "e8a8f6cbdbbef2050e5eec1cbdec822a5994650f9b24586ba37baf45f456c5df"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave2_2026-08-31__coll_mapit_seq_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave2_2026-08-31/multi-omics/coll_mapit_seq_cq/external_enrichment.json",
+      "sha256": "d09e078c4c33ae03f059db940151d533d1c760aa0f56ae9b4c4032a24cc6c139"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave2_2026-08-31/multi-omics/coll_rwrtoolkit_cq/build_manifest.json",
+      "sha256": "e3769abf8005c992f95e03a184041d3b05f2e47cfac2f6185f163bb6a7e147e7"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave2_2026-08-31/multi-omics/coll_rwrtoolkit_cq/external_enrichment.json",
+      "sha256": "ff748a7c3030b77e11ad1469aa788488ea66a28ba2bc0e01ec03b5585a27a419"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave2_2026-08-31__coll_sopa_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave2_2026-08-31/multi-omics/coll_sopa_cq/build_manifest.json",
+      "sha256": "4fad5a41faf118da27717729ebbd1aa3d735e14f8e3bdbda4e1139bf9af7c30c"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_subwave2_2026-08-31__coll_sopa_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_subwave2_2026-08-31/multi-omics/coll_sopa_cq/external_enrichment.json",
+      "sha256": "249376219ab32914dd0e7e7b94bfcf53defd664edf021c65e721bd1ea7bb3d93"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_canseer_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_canseer_cq/build_manifest.json",
+      "sha256": "fc765bae74f069178dd9fbae4d4cb284022dbd706a538b46a75d6b9b4ac1a23f"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_canseer_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_canseer_cq/external_enrichment.json",
+      "sha256": "8754333550521ea832b364c513469dfa931010cb6e9e1f13ca4ceb323e3036ab"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_chai_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_chai_cq/build_manifest.json",
+      "sha256": "3ba779d7338bd59cb4283ce6383a13d2b0921eede4692d4c6116e3d5dfc799de"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_chai_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_chai_cq/external_enrichment.json",
+      "sha256": "344a2c15cbb8cd0e3391adbd10f383df562f097b0a6723fa4166a1050540d954"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_eduomics_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_eduomics_cq/build_manifest.json",
+      "sha256": "1bfe79dfd26654d6843ebe0f9cfb8342d99cb005a3c93415ee2e9c97101b688e"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_eduomics_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_eduomics_cq/external_enrichment.json",
+      "sha256": "156db02a8da140f86599788fd45cf41d07b851cbb489dd4e00c9b3b2cac79ef1"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_imlgam_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_imlgam_cq/build_manifest.json",
+      "sha256": "8397bb5d362ac1fe7946edc8d68d9f4024fece5823df222164367a3a047a5657"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_imlgam_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_imlgam_cq/external_enrichment.json",
+      "sha256": "821ade0772bba7a7177601a7f6feb746642df1067ecb57354e58e86736f0705d"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_lucidus_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_lucidus_cq/build_manifest.json",
+      "sha256": "b36d6027310a13314e259e9138f07b5b4a5e724f79fc36853ebd50bac63a7961"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_lucidus_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_lucidus_cq/external_enrichment.json",
+      "sha256": "0df19baf7c048ba50ba92e2fad1246fc6961b6c26fc9270190d773c6f3f16e3c"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_mcgae_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_mcgae_cq/build_manifest.json",
+      "sha256": "76ce463729e949619a10f7f2e0252d518190030221261462c3b5a90846f92392"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_mcgae_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_mcgae_cq/external_enrichment.json",
+      "sha256": "be50ce479a807415fc14d1c448fecc5a166eb071c860f925b807f1d6fa11c943"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_metacp_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_metacp_cq/build_manifest.json",
+      "sha256": "1f4c88535a7df22e17258e40639b5be47a3e60a99b8e3666c4183439b1cc868a"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_metacp_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_metacp_cq/external_enrichment.json",
+      "sha256": "8a0a382b30e7b18a3a1c3e9ddcea5183ec27302b4929f9a91563ae9705e15bd2"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_mosaicmpi_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_mosaicmpi_cq/build_manifest.json",
+      "sha256": "a4521a03b0f2f759fc1f58345a368072aa6c8f9469ee348099a0f7be0a4751f6"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_mosaicmpi_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_mosaicmpi_cq/external_enrichment.json",
+      "sha256": "da0056aff6d784272b0b7ad3cfce2572266ff4dbe409056d6038d20efdd0f30f"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_mosim_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_mosim_cq/build_manifest.json",
+      "sha256": "f20bc5edd54f25897e02151458237ed8a87cfd6668627d6ace1ed86d3bc7216e"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_mosim_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_mosim_cq/external_enrichment.json",
+      "sha256": "7067e3cc9c9cdd798c677628944614c488aaff7bcabe01490d7affe2ef28a719"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_multimodalgraphics_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_multimodalgraphics_cq/build_manifest.json",
+      "sha256": "912eb0fe4227ec17958124f6a1ea628d0b88573eda056d64a3ac4ea87e86a57a"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_multimodalgraphics_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_multimodalgraphics_cq/external_enrichment.json",
+      "sha256": "eb31529e8f84e4e634de7071d7eeda155f0192038c5f6e8d273ecf5fb823ffa2"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_protrec2_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_protrec2_cq/build_manifest.json",
+      "sha256": "f245394d48f8fe6c0467f5c87eb14c193bf3839d17477758b1f41922300a42ba"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_protrec2_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_protrec2_cq/external_enrichment.json",
+      "sha256": "158c1821d2e4c4e507f2504eae139c35d5491b91657e8b3585a79f0befeae782"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_pyparagon_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_pyparagon_cq/build_manifest.json",
+      "sha256": "4ccdea05c27303ab14cd89a8b0e48dd705dc4b8a9f408d3675e0ea4fcce4fc5c"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_pyparagon_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_pyparagon_cq/external_enrichment.json",
+      "sha256": "89bcf68122cb3989866ee8dca904d57a69e82caa64369e1b7dc19da5aed1f48e"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_sci_l3pipe_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_sci_l3pipe_cq/build_manifest.json",
+      "sha256": "edde974ffc9c28aeda4a32acee11d759221e9a36ec48e65890c0662fd80fed4f"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_sci_l3pipe_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_sci_l3pipe_cq/external_enrichment.json",
+      "sha256": "06f5035537fb50be1f07b05610db678110a97448fc14a0cf3020646b134f4632"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_scoary2_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_scoary2_cq/build_manifest.json",
+      "sha256": "85c22f6a5ff4cdc62665c1f464b8009c027a107bb27ba28d061d160bb9e22a58"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_scoary2_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_scoary2_cq/external_enrichment.json",
+      "sha256": "beb01d3f6e37c2205f141411fd96685fbce6d488988a1a751cd76ce0310a49bc"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_sgcrna_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_sgcrna_cq/build_manifest.json",
+      "sha256": "1855f78f94825694d619272fd824b56f53644490dbdd8e98d5b894f63b98b5a0"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_sgcrna_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_sgcrna_cq/external_enrichment.json",
+      "sha256": "f7e4d07fb3d766055c6a9fec72fbe156adfe85665ba2aba25c1563d507d1b216"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_signalingprofiler_2_0_cq/build_manifest.json",
+      "sha256": "e449c9a7c4f6c25b95715ec84e3eebc8fa5ec5c88e86903ec54837e91267b5bf"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_signalingprofiler_2_0_cq/external_enrichment.json",
+      "sha256": "de95ddf9c1527cf2aee3f609de1676bc8e52f0bb81c78d19dbfddc630a766677"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_simpipe_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_simpipe_cq/build_manifest.json",
+      "sha256": "ed14174adfcfaef142baf46a39c80b34db322c3cc212089981de51d2cbf0f4e6"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_simpipe_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_simpipe_cq/external_enrichment.json",
+      "sha256": "62936b6bef5a2f3a1b31376ac2f29aa5444fff446006304e4a25e93100e2bfe1"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_smopca_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_smopca_cq/build_manifest.json",
+      "sha256": "de7a8b7b10c6154534712926520e1efbda5aa758a33ae953efc9cce72f2183b2"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_smopca_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_smopca_cq/external_enrichment.json",
+      "sha256": "cb34cb4de79da16172a1b4911137499f96c79e1b4789510b1666d7971c9d9bf4"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_sparrow_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_sparrow_cq/build_manifest.json",
+      "sha256": "cc8b8fcb730342106b2586bb568323fb006e65b9f2d23dc773cc1ba2fa9feb83"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_sparrow_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_sparrow_cq/external_enrichment.json",
+      "sha256": "1578abdb54ccdced4cb9f53e016ac6a710b797bde96347586a4e800bc16fedd9"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_ssgate_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_ssgate_cq/build_manifest.json",
+      "sha256": "f0f139ab757f3990b7e79bc22f5399e852ff6fdfd3018ba41db25085c6cf5a45"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_ssgate_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_ssgate_cq/external_enrichment.json",
+      "sha256": "24754644724bcdea2aca979693064a084e9293fdab6e9a4d789fdd9a7c381d54"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_stimage_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_stimage_cq/build_manifest.json",
+      "sha256": "4c6c285ab443de74ed833cb2eb7892bf5350ccf7dfc548309f4be255846f7064"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_stimage_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_stimage_cq/external_enrichment.json",
+      "sha256": "315b6d2f3293a25fcedbe7b8c2331413165309baf980ade8d71dd409519cdb54"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_transomics2cytoscape_cq/build_manifest.json",
+      "sha256": "0dc628dbcbf36ef85fb8fbda062114b43deb143eed35efa90e15bdc971002e91"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_transomics2cytoscape_cq/external_enrichment.json",
+      "sha256": "eabdfbbf20dfd9501dbc8bccc2d29010aeca4252dcff0784c3d521076130d719"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_vi_vs_cq/build_manifest.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_vi_vs_cq/build_manifest.json",
+      "sha256": "96238a5bfcbc542f68186c12254321b0e62884e3fab294e30fcde302548058fa"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/asbb_wave250_2026-09-01__coll_vi_vs_cq/external_enrichment.json",
+      "resolved_path": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_wave250_2026-09-01/multi-omics/coll_vi_vs_cq/external_enrichment.json",
+      "sha256": "537e7a4b96a54c818c5019488c23f015008d2f5a493be3e66af98ae704c1e4be"
+    },
+    {
+      "path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/corpus/skills/coverage_summary.json",
+      "resolved_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/corpus/skills/coverage_summary.json",
+      "sha256": "e9dd7e5b2cd912d288d1c8a26636521fe7ad87a2a518b954c71a8718289c8aa8"
+    }
+  ],
+  "stage": "S4",
+  "status": "ok",
+  "unmatched_rows": []
+}

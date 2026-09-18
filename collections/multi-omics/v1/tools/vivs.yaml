@@ -1,0 +1,17 @@
+name: VIVS
+slug: vivs
+version_used: null
+edam_topics: []
+evidence_spans:
+- We implemented VI-VS in a fast and scalable way that is available as an open-source Python package.
+derived_from:
+- doi: 10.1186/s13059-024-03419-z
+  title: 'VI-VS: calibrated identification of feature dependencies in single-cell multiomics'
+source_repos:
+- https://github.com/YosefLab/VIVS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YosefLab/VIVS

@@ -1,0 +1,17 @@
+name: napari-sparrow
+slug: napari-sparrow
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2024.07.04.601829
+  title: 'SPArrOW: a flexible, interactive and scalable pipeline for spatial transcriptomics analysis'
+source_repos:
+- https://github.com/saeyslab/napari-sparrow
+- https://github.com/saeyslab/napari-SPArrOW
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/saeyslab/napari-sparrow

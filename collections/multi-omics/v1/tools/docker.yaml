@@ -1,0 +1,26 @@
+name: Docker
+slug: docker
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**Container system** (Docker, Singularity, or Conda)'
+- 'You can find a lot more documentation about installing, configuring and running nf-core pipelines on the website: [https://nf-co.re](https://nf-co.re)'
+- Container system (Docker, Singularity, or Conda)
+derived_from:
+- doi: 10.1101/2025.11.24.690117
+  title: 'Eduomics: a Nextflow pipeline to simulate -omics data for education'
+- doi: 10.1093/nar/gkaf101
+  title: Generalization of the sci-L3 method to achieve high-throughput linear amplification for replication template strand sequencing, genome conformation capture, and the joint profiling of RNA and chromatin accessibility
+- doi: 10.1186/s13059-024-03290-y
+  title: Systematic evaluation with practical guidelines for single-cell and spatially resolved transcriptomics data simulation under multiple scenarios
+source_repos:
+- https://github.com/lescai-teaching/eduomics
+- https://github.com/4dn-dcic/docker-4dn-hic
+- https://github.com/recombinationlab/sciL3Pipe
+- https://github.com/duohongrui/simpipe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lescai-teaching/eduomics

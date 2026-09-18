@@ -1,0 +1,7 @@
+REHEARSAL: unfiltered provisional cut.
+Filter: not applied (unfiltered provisional cut; D7 applies at the canonical cut)
+Environment: offline; OPENAI_API_KEY, OPENROUTER_API_KEY, ANTHROPIC_API_KEY unset.
+Command: /Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/check_license_tiers.py /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1
+Exit code: 0
+
+OK   /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1  (921 index entries, corpus checked)

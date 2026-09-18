@@ -1,0 +1,39 @@
+name: Seurat
+slug: seurat
+version_used: 4.4.0
+edam_topics: []
+evidence_spans:
+- The most noticeable distinction is `.mod` group presence where individual modalities are stored
+- The currently existing solutions for multi-omics data (Seurat, MultiAssayExperiment) are confined to the R programming language ecosystem
+- Seurat begins with dimensionality reduction methods such as PCA
+derived_from:
+- doi: 10.1186/s13059-021-02577-8
+  title: 'MUON: multimodal omics analysis framework'
+- doi: 10.1093/bib/bbae411
+  title: 'CHAI: consensus clustering through similarity matrix integration for cell-type identification'
+- doi: 10.1101/421834
+  title: 'MOSim: bulk and single-cell multi-layer regulatory network simulator'
+- doi: 10.1093/nar/gkaf101
+  title: Generalization of the sci-L3 method to achieve high-throughput linear amplification for replication template strand sequencing, genome conformation capture, and the joint profiling of RNA and chromatin accessibility
+- doi: 10.1101/2025.04.27.650628
+  title: 'SGCRNA: Spectral Clustering-Guided Co-Expression Network Analysis Without Scale-Free Constraints for Multi-Omic Data'
+- doi: 10.1093/bib/bbae450
+  title: Multi-omics integration for both single-cell and spatially resolved data based on dual-path graph attention auto-encoder
+- doi: 10.1093/bib/bbaf429
+  title: 'stImage: a versatile framework for optimizing spatial transcriptomic analysis through customizable deep histology and location informed integration'
+source_repos:
+- https://github.com/scverse/muon
+- https://github.com/lodimk2/chai
+- https://github.com/musaddiq-k-lodi/chai
+- https://github.com/ConesaLab/MOSim
+- https://github.com/recombinationlab/sciL3Pipe
+- https://github.com/C37H41N2O6/SGCRNAs.jl
+- https://github.com/Lv-BioInfo/SSGATE
+- https://github.com/satijalab/seurat
+- https://github.com/YuWang-VUMC/stImage
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scverse/muon

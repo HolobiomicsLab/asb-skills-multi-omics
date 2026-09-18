@@ -1,0 +1,19 @@
+name: iMLAGA
+slug: imlaga
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(iMLGAM)
+- 'Make sure you have R and the following packages installed: iMLAGA.'
+derived_from:
+- doi: 10.1002/imt2.70011
+  title: 'iMLGAM: Integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis for pan‐cancer immunotherapy response prediction'
+source_repos:
+- https://github.com/Yelab1994/iMLAGA
+- https://github.com/Yelab1994/iMLGAM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Yelab1994/iMLAGA

@@ -1,0 +1,94 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "domain": "multi-omics",
+  "cut_id": "e9dd7e5b2cd9",
+  "status": "completed",
+  "exit_code": 0,
+  "stages": [
+    {
+      "stage": "join",
+      "command": [
+        "/Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/scripts/join_corpus_records.py",
+        "--builds",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics",
+        "--tiered",
+        "/Users/nothiasl/git/asb-corpus-omics/multi-omics_tiered.json",
+        "--out",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1/corpus.yaml",
+        "--receipts",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9"
+      ],
+      "exit_code": 0,
+      "executed": true
+    },
+    {
+      "stage": "collect",
+      "command": [
+        "/Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/scripts/collect_from_cut.py",
+        "--cut",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics/corpus",
+        "--domain",
+        "multi-omics",
+        "--version",
+        "v1",
+        "--out",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1",
+        "--license",
+        "CC-BY-4.0",
+        "--plugin-repo",
+        "https://github.com/HolobiomicsLab/asb-skills-multi-omics",
+        "--corpus",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1/corpus.yaml",
+        "--receipts",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9"
+      ],
+      "exit_code": 0,
+      "executed": true
+    },
+    {
+      "stage": "bootstrap",
+      "command": [
+        "/Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/scripts/bootstrap_indexes.py",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1",
+        "--corpus",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1/corpus.yaml",
+        "--receipts",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9"
+      ],
+      "exit_code": 0,
+      "executed": true
+    },
+    {
+      "stage": "gates",
+      "command": [
+        "/Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/scripts/run_gates.py",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1",
+        "--corpus",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1/corpus.yaml",
+        "--receipts",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9"
+      ],
+      "exit_code": 0,
+      "executed": true
+    },
+    {
+      "stage": "same_paper",
+      "command": [
+        "/Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/scripts/same_paper_pairs.py",
+        "--view",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics",
+        "--out",
+        "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9/same_paper_pairs.json"
+      ],
+      "exit_code": 0,
+      "executed": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+name: SCANPY
+slug: scanpy
+version_used: '1.9'
+edam_topics: []
+evidence_spans:
+- sc.pp.normalise_per_cell(atac, counts_per_cell_after=1e4)
+- 'SCANPY: large-scale single-cell gene expression data analysis'
+- In the same way as violin plots created with {func}`scanpy.pl.violin` are used to visualise quality control steps, {func}`muon.pl.histogram` allows to plot histograms
+derived_from:
+- doi: 10.1186/s13059-021-02577-8
+  title: 'MUON: multimodal omics analysis framework'
+- doi: 10.1038/s43588-024-00721-5
+  title: Interpreting single-cell and spatial omics data using deep neural network training dynamics
+- doi: 10.1038/s41467-024-48981-z
+  title: 'Sopa: a technology-invariant pipeline for analyses of image-based spatial omics'
+- doi: 10.1093/bib/bbae450
+  title: Multi-omics integration for both single-cell and spatially resolved data based on dual-path graph attention auto-encoder
+- doi: 10.1186/s13059-024-03419-z
+  title: 'VI-VS: calibrated identification of feature dependencies in single-cell multiomics'
+source_repos:
+- https://github.com/scverse/muon
+- https://github.com/nitzanlab/Annotatability
+- https://github.com/prism-oncology/sopa
+- https://github.com/Lv-BioInfo/SSGATE
+- https://github.com/YosefLab/VIVS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scverse/muon

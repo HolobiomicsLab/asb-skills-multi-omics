@@ -1,0 +1,8 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "status": "not_run",
+  "stage": "S7",
+  "reason": "super-skills are outside the S3–S6 rehearsal"
+}

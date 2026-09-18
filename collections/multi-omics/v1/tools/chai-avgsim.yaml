@@ -1,0 +1,20 @@
+name: CHAI-AvgSim
+slug: chai-avgsim
+version_used: null
+edam_topics: []
+evidence_spans:
+- For CHAI-AvgSim, we calculate an average of all the binary matrices from the different clustering algorithms.
+- Once the Average Similarity matrix is computed, we use Spectral Clustering to determine the final cell clusters
+- We decided to use CHAI-AvgSim for this analysis, as it demonstrated better consistency across dataset conditions than CHAI-SNF in our benchmarking.
+derived_from:
+- doi: 10.1093/bib/bbae411
+  title: 'CHAI: consensus clustering through similarity matrix integration for cell-type identification'
+source_repos:
+- https://github.com/lodimk2/chai
+- https://github.com/musaddiq-k-lodi/chai
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lodimk2/chai

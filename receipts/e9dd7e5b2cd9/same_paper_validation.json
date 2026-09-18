@@ -1,0 +1,101 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "domain": "multi-omics",
+  "generated_at": "2026-09-18T21:58:57Z",
+  "result": "pass",
+  "artifacts": {
+    "script": {
+      "path": "scripts/same_paper_pairs.py",
+      "sha256": "faeaae0cb27ed56b48bc9720bdd9ca8d05de419c505843b40b65e3bbdf06d6f7"
+    },
+    "receipt": {
+      "path": "receipts/multi-omics/e9dd7e5b2cd9/same_paper_pairs.json",
+      "sha256_before_provenance_enrichment": "7326e794623b5a89927d42c0ebd4faff21d6efa9e02b07ffc902e9151681fbb0",
+      "sha256": "c35ed5d87f6b0209807bdbd6fd7d10f69a3daf5c18e9c59c301db79064f8b0a4"
+    }
+  },
+  "pair_list_immutability": {
+    "pairs_ge_0_95_sha256_before": "55b1c9f49b563910c8175992022f28a5e62d8fba4355128a9f45fa7d153813dd",
+    "pairs_ge_0_95_sha256_after": "55b1c9f49b563910c8175992022f28a5e62d8fba4355128a9f45fa7d153813dd",
+    "pairs_0_90_to_0_95_sha256_before": "d89d20bc9d2dba1c4a171f65b31d056e59da24d63e003011e8bd3ee938651e2f",
+    "pairs_0_90_to_0_95_sha256_after": "d89d20bc9d2dba1c4a171f65b31d056e59da24d63e003011e8bd3ee938651e2f",
+    "counts": {
+      "pairs_ge_0_95": 8,
+      "pairs_0_90_to_0_95": 131
+    },
+    "unchanged": true
+  },
+  "pinned_source": {
+    "asb_commit": "379a3c688706a4e83edd23cc4b268ebf0e46ce80",
+    "worktree": "/Users/nothiasl/git/asb-wt-second-cut",
+    "imports_resolved_within_worktree": true,
+    "files": {
+      "consolidate_skills": {
+        "path": "/Users/nothiasl/git/asb-wt-second-cut/src/agentic_science_builder/consolidate_skills.py",
+        "sha256": "6019f5a43333b55ae6292727dfd98153d8ec6c315b46204d561c13fbf5120cb6"
+      },
+      "embeddings": {
+        "path": "/Users/nothiasl/git/asb-wt-second-cut/src/agentic_science_builder/embeddings.py",
+        "sha256": "e7fd71800db85ac780332dc583330469a540654af172fa2157dd28743d94bbca"
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "standalone_provenance_enrichment",
+      "command": "env -u OPENAI_API_KEY -u OPENROUTER_API_KEY -u ANTHROPIC_API_KEY -u HF_TOKEN -u PYTHONPATH HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 ASB_EMBED_MODEL=bge-small-en-v1.5 PYTHONDONTWRITEBYTECODE=1 /Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python scripts/same_paper_pairs.py --view ../papers_view_provisional/multi-omics --out receipts/multi-omics/e9dd7e5b2cd9/same_paper_pairs.json",
+      "exit_code": 0,
+      "observed": "output_status=enriched"
+    },
+    {
+      "name": "standalone_identical_rerun",
+      "command": "the same standalone command, with PYTHONPATH unset",
+      "exit_code": 0,
+      "observed": "output_status=identical; receipt remained byte-identical"
+    },
+    {
+      "name": "receipt_and_import_assertions",
+      "command": "read-only Python assertions over pair hashes, source paths, source hashes and ASB commit",
+      "exit_code": 0,
+      "observed": "all assertions passed"
+    },
+    {
+      "name": "ruff",
+      "command": "/Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/ruff check --no-cache scripts/same_paper_pairs.py",
+      "exit_code": 0,
+      "observed": "All checks passed"
+    },
+    {
+      "name": "outside_work_root_rejection",
+      "command": "standalone CLI with --out /tmp/same_paper_pairs_outside_probe_<pid>.json",
+      "exit_code": 1,
+      "observed": "rejected before embedding; no file written"
+    },
+    {
+      "name": "symlink_output_rejection",
+      "command": "standalone CLI with --out below a temporary in-work-root symlink to /tmp",
+      "exit_code": 1,
+      "observed": "rejected before embedding; no target file written; probe removed"
+    },
+    {
+      "name": "write_surface_audit",
+      "command": "find scripts .cache receipts/multi-omics/e9dd7e5b2cd9 -type l; find scripts -type d -name __pycache__",
+      "exit_code": 0,
+      "observed": "no remaining symlinks and no Python bytecode directories"
+    }
+  ],
+  "baseline_comparison": {
+    "source": "/Users/nothiasl/git/agenticsciencebuilder_dev/docs/superpowers/audits/2026-09-18-domain-release-readiness/results/within_run_pairs.json",
+    "exact_match": true,
+    "pairs_ge_0_95": 8,
+    "pairs_ge_0_90": 139,
+    "components_ge_0_95": 8,
+    "components_ge_0_90": 74,
+    "surplus_leaves_ge_0_95": 8,
+    "surplus_leaves_ge_0_90": 125
+  },
+  "limitations": [
+    "The upstream embedding interface exposes the model identifier but not a model-weights revision digest."
+  ]
+}

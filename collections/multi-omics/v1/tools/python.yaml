@@ -1,0 +1,40 @@
+name: Python
+slug: python
+version_used: '3.0'
+edam_topics: []
+evidence_spans:
+- MUON is implemented in Python and comes with an extensive toolbox to flexibly construct, manipulate and analyse multi-omics datasets
+derived_from:
+- doi: 10.1186/s13059-021-02577-8
+  title: 'MUON: multimodal omics analysis framework'
+- doi: 10.1038/s43588-024-00721-5
+  title: Interpreting single-cell and spatial omics data using deep neural network training dynamics
+- doi: 10.1186/s12859-025-06126-z
+  title: 'metacp: a versatile software package for combining dependent or independent p-values'
+- doi: 10.1093/bib/bbaf692
+  title: 'Protrec2: tissue-specific network-based missing protein recovery method'
+- doi: 10.1093/bib/bbae399
+  title: "Unveiling hidden connections in omics data\n                    <i>via</i>\n                    pyPARAGON: an integrative hybrid approach for disease network construction"
+- doi: 10.1093/nar/gkaf101
+  title: Generalization of the sci-L3 method to achieve high-throughput linear amplification for replication template strand sequencing, genome conformation capture, and the joint profiling of RNA and chromatin accessibility
+- doi: 10.1101/2024.07.04.601829
+  title: 'SPArrOW: a flexible, interactive and scalable pipeline for spatial transcriptomics analysis'
+- doi: 10.1186/s13059-024-03419-z
+  title: 'VI-VS: calibrated identification of feature dependencies in single-cell multiomics'
+source_repos:
+- https://github.com/scverse/muon
+- https://github.com/nitzanlab/Annotatability
+- https://github.com/pbagos/metacp
+- https://github.com/miaomiao6606/Protrec2
+- https://github.com/metunetlab/pyPARAGON
+- https://github.com/netlab-ku/pyPARAGON
+- https://github.com/recombinationlab/sciL3Pipe
+- https://github.com/saeyslab/napari-sparrow
+- https://github.com/saeyslab/napari-SPArrOW
+- https://github.com/YosefLab/VIVS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scverse/muon

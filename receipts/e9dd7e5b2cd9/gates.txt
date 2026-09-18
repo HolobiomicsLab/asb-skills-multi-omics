@@ -1,0 +1,6 @@
+REHEARSAL: unfiltered provisional cut.
+Filter: not applied (unfiltered provisional cut; D7 applies at the canonical cut)
+Command: /Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/scripts/run_gates.py /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1 --corpus /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1/corpus.yaml --receipts /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9
+Exit code: 0
+
+{"rehearsal": true, "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)", "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)", "exit_code": 0, "checks": {"gate_as_shipped": 0, "gate_patched_regex": 0, "verify_patched_regex": 0, "lint": 0, "check_license_tiers": 0, "check_provenance_tiers": 0, "check_tools_index": 0, "verify": 0}}

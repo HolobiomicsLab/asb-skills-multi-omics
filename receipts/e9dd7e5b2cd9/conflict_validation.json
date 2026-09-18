@@ -1,0 +1,12 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "exit_code": 0,
+  "expected_conflict_exit_code": 2,
+  "receipt_unchanged": true,
+  "checks": [
+    "existing deterministic collector receipt rejected before writes",
+    "conflict preflight is used by both real and dry runs"
+  ]
+}

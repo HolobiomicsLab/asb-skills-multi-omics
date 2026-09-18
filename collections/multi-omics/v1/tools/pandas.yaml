@@ -1,0 +1,28 @@
+name: pandas
+slug: pandas
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'pandas: a foundational Python library for data analysis and statistics'
+- AnnData objects themselves can be easily constructed from NumPy arrays and/or Pandas DataFrames annotating features (_variables_) and samples/cells (_observations_)
+- constructed from NumPy arrays and/or Pandas DataFrames annotating features (_variables_) and samples/cells (_observations_)
+derived_from:
+- doi: 10.1186/s13059-021-02577-8
+  title: 'MUON: multimodal omics analysis framework'
+- doi: 10.1038/s43588-024-00721-5
+  title: Interpreting single-cell and spatial omics data using deep neural network training dynamics
+- doi: 10.1093/nar/gkae442
+  title: 'mosaicMPI: a framework for modular data integration across cohorts and -omics modalities'
+- doi: 10.1186/s13059-024-03233-7
+  title: 'Scoary2: rapid association of phenotypic multi-omics data with microbial pan-genomes'
+source_repos:
+- https://github.com/scverse/muon
+- https://github.com/nitzanlab/Annotatability
+- https://github.com/MorrissyLab/mosaicMPI
+- https://github.com/MrTomRod/scoary-2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scverse/muon

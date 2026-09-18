@@ -1,0 +1,16 @@
+name: Proteome Discoverer 2.5
+slug: proteome-discoverer-2-5
+version_used: '2.5'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nar/gkae442
+  title: 'mosaicMPI: a framework for modular data integration across cohorts and -omics modalities'
+source_repos:
+- https://github.com/MorrissyLab/mosaicMPI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MorrissyLab/mosaicMPI

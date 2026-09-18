@@ -1,0 +1,18 @@
+REHEARSAL: unfiltered provisional cut.
+Filter: not applied (unfiltered provisional cut; D7 applies at the canonical cut)
+Command: /Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/scripts/join_corpus_records.py --builds /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics --tiered /Users/nothiasl/git/asb-corpus-omics/multi-omics_tiered.json --out /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1/corpus.yaml --receipts /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9
+Exit code: 0
+
+{
+  "outputs": {
+    "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1/corpus.yaml": "identical",
+    "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9/corpus_join_receipt.json": "identical"
+  },
+  "receipt": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9/corpus_join_receipt.json",
+  "status": "ok",
+  "summary": {
+    "hold": 0,
+    "included": 29,
+    "total": 29
+  }
+}

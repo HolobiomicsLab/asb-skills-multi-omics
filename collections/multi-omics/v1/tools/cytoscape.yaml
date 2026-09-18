@@ -1,0 +1,23 @@
+name: Cytoscape
+slug: cytoscape
+version_used: 3.10.3
+edam_topics: []
+evidence_spans:
+- Users can further explore the lines of evidence supporting gene-to-gene interactions (coexpression, protein–protein interactions, etc.) using Cytoscape or the KBase implementation.
+- The network context around the top N ranked genes can be easily visualized via an integrated connection to Cytoscape
+- '**Cytoscape**: 3.10.3'
+derived_from:
+- doi: 10.1093/gigascience/giaf028
+  title: 'RWRtoolkit: multi-omic network analysis using random walks on multiplex networks in any species'
+- doi: 10.1038/s41540-024-00342-8
+  title: 'Transomics2cytoscape: an automated software for interpretable 2.5-dimensional visualization of trans-omic networks'
+source_repos:
+- https://github.com/dkainer/RWRtoolkit
+- https://github.com/cytoscape/cytoscape
+- https://github.com/ecell/transomics2cytoscape
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dkainer/RWRtoolkit

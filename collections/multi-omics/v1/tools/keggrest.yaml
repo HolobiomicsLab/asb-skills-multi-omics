@@ -1,0 +1,18 @@
+name: KEGGREST
+slug: keggrest
+version_used: null
+edam_topics: []
+evidence_spans:
+- Transomics2cytoscape uses KEGGREST to retrieve KGML (KEGG pathway XML).
+- '**Bioconductor version**: 3.19 (RCy3: 2.24.0)'
+derived_from:
+- doi: 10.1038/s41540-024-00342-8
+  title: 'Transomics2cytoscape: an automated software for interpretable 2.5-dimensional visualization of trans-omic networks'
+source_repos:
+- https://github.com/ecell/transomics2cytoscape
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ecell/transomics2cytoscape

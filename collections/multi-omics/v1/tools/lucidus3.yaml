@@ -1,0 +1,18 @@
+name: LUCIDus3
+slug: lucidus3
+version_used: null
+edam_topics: []
+evidence_spans:
+- which serves as the repository for the current CRAN package **LUCIDus 3.1.0**
+derived_from:
+- doi: 10.1093/bioadv/vbae123
+  title: An extension of latent unknown clustering integrating multi-omics data (LUCID) incorporating incomplete omics data
+source_repos:
+- https://github.com/USCbiostats/LUCIDus3
+- https://github.com/USCbiostats/LUCIDus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/USCbiostats/LUCIDus3

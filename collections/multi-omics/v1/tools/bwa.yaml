@@ -1,0 +1,16 @@
+name: bwa
+slug: bwa
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/nar/gkaf101
+  title: Generalization of the sci-L3 method to achieve high-throughput linear amplification for replication template strand sequencing, genome conformation capture, and the joint profiling of RNA and chromatin accessibility
+source_repos:
+- https://github.com/recombinationlab/sciL3Pipe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/recombinationlab/sciL3Pipe

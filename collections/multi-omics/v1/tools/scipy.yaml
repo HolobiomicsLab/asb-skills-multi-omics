@@ -1,0 +1,16 @@
+name: scipy
+slug: scipy
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s43588-024-00721-5
+  title: Interpreting single-cell and spatial omics data using deep neural network training dynamics
+source_repos:
+- https://github.com/nitzanlab/Annotatability
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nitzanlab/Annotatability

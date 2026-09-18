@@ -1,0 +1,23 @@
+# REHEARSAL: unfiltered provisional cut; patches applied in-process only.
+--- a/scripts/release_gate.py
++++ b/scripts/release_gate.py
+@@ -131,7 +131,7 @@
+     _PER_SPAN_CAP = 150
+     _CUMULATIVE_CAP = 1500
+     _TEXT_FIELD_CAP = 300
+-    _EVIDENCE_VERBATIM_RE = re.compile(r'^(\s*-\s+\[[^\]]*\][^:]*?):\s*"[^"]*"\s*$')
++    _EVIDENCE_VERBATIM_RE = re.compile(r'^(\s*-\s+\[[^\]]*\].*?):\s*"[^"]*"\s*$')
+     _PROMOTE_SOURCE = "vendored-fallback"
+ 
+ 
+--- a/scripts/propagate_license_tiers.py
++++ b/scripts/propagate_license_tiers.py
+@@ -19,7 +19,7 @@
+ from asb_skill_collections import layout
+ from scripts.license_tier import ack_required
+ 
+-_ORDER = {"open": 0, "noncommercial": 1, "restricted": 2}
++_ORDER = {"open": 0, "unknown": 1, "noncommercial": 2, "restricted": 3}
+ 
+ 
+ def detect_indent(text: str, default: int = 2) -> int:

@@ -1,0 +1,29 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "lead": {
+    "id": "/root",
+    "model": "gpt-6-astra",
+    "effort": "max",
+    "role": "L1 coordinator"
+  },
+  "children": [
+    {
+      "id": "/root/join_corpus",
+      "model": "gpt-5.6-sol",
+      "effort": "max",
+      "status": "completed",
+      "summary": "Corpus join implementation, DOI normalization and source checks; parent ran the same script for metabarcoding."
+    },
+    {
+      "id": "/root/same_paper_pairs",
+      "model": "gpt-5.6-sol",
+      "effort": "max",
+      "status": "completed",
+      "summary": "Offline same-paper pair script and multi-omics report; parent ran the same script for metabarcoding."
+    }
+  ],
+  "child_budget": 2,
+  "remaining_active_children": 0
+}

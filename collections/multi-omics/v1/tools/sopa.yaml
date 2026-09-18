@@ -1,0 +1,20 @@
+name: Sopa
+slug: sopa
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce Sopa ( https://github.com/gustaveroussy/sopa ), a technology-invariant, memory-efficient pipeline
+- When installing `sopa` as written in our [getting-started guidelines]
+- git clone https://github.com/prism-oncology/sopa.git
+derived_from:
+- doi: 10.1038/s41467-024-48981-z
+  title: 'Sopa: a technology-invariant pipeline for analyses of image-based spatial omics'
+source_repos:
+- https://github.com/gustaveroussy/sopa
+- https://github.com/prism-oncology/sopa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gustaveroussy/sopa

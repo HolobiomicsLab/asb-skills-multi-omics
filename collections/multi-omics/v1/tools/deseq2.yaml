@@ -1,0 +1,18 @@
+name: DESeq2
+slug: deseq2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Performs DESeq2 analysis to identify differentially expressed (DE) genes.
+- 'Differential Analysis: Performs DESeq2 analysis to identify differentially expressed (DE) genes.'
+derived_from:
+- doi: 10.1101/2025.11.24.690117
+  title: 'Eduomics: a Nextflow pipeline to simulate -omics data for education'
+source_repos:
+- https://github.com/lescai-teaching/eduomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lescai-teaching/eduomics

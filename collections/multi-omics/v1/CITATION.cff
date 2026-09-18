@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: Rehearsal candidate; cite the source papers when using these skills.
+title: ASB Multi-omics Skill Collection v1
+abstract: ASB Multi-omics. Rehearsal collection from the unfiltered provisional cut; 921 paper-derived skills with local retrieval.
+version: '1'
+license: CC-BY-4.0
+url: https://github.com/HolobiomicsLab/asb-skills-multi-omics
+type: dataset
+authors:
+- name: AgenticScienceBuilder Community
+- family-names: Nothias
+  given-names: Louis-Félix
+  orcid: https://orcid.org/0000-0001-6711-6719
+- name: HolobiomicsLab.cnrs.fr
+- name: MetaboLinkAI.net
+keywords:
+- multi-omics
+- scientific skills

@@ -1,0 +1,19 @@
+name: MUON
+slug: muon
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present a data standard and an analysis framework for multi-omics, MUON, designed to organise, analyse, visualise, and exchange multimodal data
+- pt.pp.dsb(adata_prot, adata_prot_raw, empty_counts_range=...)
+- import muon as mu
+derived_from:
+- doi: 10.1186/s13059-021-02577-8
+  title: 'MUON: multimodal omics analysis framework'
+source_repos:
+- https://github.com/scverse/muon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scverse/muon

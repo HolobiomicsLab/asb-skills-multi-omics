@@ -1,0 +1,16 @@
+{
+  "name": "multi-omics",
+  "description": "ASB Multi-omics. Rehearsal collection from the unfiltered provisional cut; 921 paper-derived skills with local retrieval.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Holobiomics Lab",
+    "url": "https://github.com/HolobiomicsLab"
+  },
+  "homepage": "https://github.com/HolobiomicsLab/asb-skills-multi-omics",
+  "repository": "https://github.com/HolobiomicsLab/asb-skills-multi-omics",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "multi-omics",
+    "scientific skills"
+  ]
+}

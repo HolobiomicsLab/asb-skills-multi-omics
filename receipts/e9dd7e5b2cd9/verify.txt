@@ -1,0 +1,7 @@
+REHEARSAL: unfiltered provisional cut.
+Filter: not applied (unfiltered provisional cut; D7 applies at the canonical cut)
+Environment: offline; OPENAI_API_KEY, OPENROUTER_API_KEY, ANTHROPIC_API_KEY unset.
+Command: /Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/coll-main/scripts/release_gate.py /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1 --verify --corpus /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/candidates/multi-omics/collections/multi-omics/v1/corpus.yaml --report /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9/gate_report.json
+Exit code: 0
+
+ASBB receipt verification: verified (exit 0) — Strict receipt and target re-verified

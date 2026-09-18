@@ -1,0 +1,9 @@
+REHEARSAL: unfiltered provisional cut.
+Filter: not applied (unfiltered provisional cut; D7 applies at the canonical cut)
+Command: /Users/nothiasl/miniforge3/envs/agentic-science-builder/bin/python /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/scripts/same_paper_pairs.py --view /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics --out /private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/rehearsal/receipts/multi-omics/e9dd7e5b2cd9/same_paper_pairs.json
+Exit code: 0
+
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8730.00it/s]
+{"components_ge_0_90": 74, "components_ge_0_95": 8, "model": "BAAI/bge-small-en-v1.5", "output_status": "identical", "pairs_0_90_to_0_95": 131, "pairs_ge_0_95": 8, "runs": 29, "seconds": 5.748, "skills": 921, "surplus_leaves": {"ge_0_90": 125, "ge_0_95": 8}}

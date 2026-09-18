@@ -1,0 +1,3721 @@
+{
+  "auto_merges_applied": false,
+  "component_details": {
+    "ge_0_90": {
+      "bundles_in_a_pair": 199,
+      "components": 74,
+      "largest_component": 8,
+      "pairs": 139,
+      "runs_with_a_pair": 27,
+      "surplus_leaves": 125
+    },
+    "ge_0_95": {
+      "bundles_in_a_pair": 16,
+      "components": 8,
+      "largest_component": 2,
+      "pairs": 8,
+      "runs_with_a_pair": 7,
+      "surplus_leaves": 8
+    }
+  },
+  "components_ge_0_90": 74,
+  "components_ge_0_95": 8,
+  "embedding_diagnostics": {
+    "attempts": [
+      {
+        "model": "BAAI/bge-small-en-v1.5",
+        "status": "ok",
+        "tier": "local"
+      }
+    ],
+    "local_fallback": "BAAI/bge-small-en-v1.5",
+    "model_used": "BAAI/bge-small-en-v1.5",
+    "requested_model": "bge-small-en-v1.5"
+  },
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "input_digests": {
+    "algorithm": "sha256",
+    "candidate_manifest_fields": [
+      "source_bundle",
+      "member_id",
+      "skill_md_sha256",
+      "tools_json_sha256"
+    ],
+    "candidate_manifest_rows": 921,
+    "candidate_manifest_sha256": "5ee51ea794c8532ecb82ad5a988006c0143ece63c970567325d144317cd2e6dd",
+    "consolidation_report_sha256": "648efc523410da3c9665c5532cf55f876d6c34a1ade7c5630f73436980a61001",
+    "coverage_summary_sha256": "e9dd7e5b2cd912d288d1c8a26636521fe7ad87a2a518b954c71a8718289c8aa8"
+  },
+  "layout": "multi_run",
+  "model": "BAAI/bge-small-en-v1.5",
+  "pairs_0_90_to_0_95": [
+    {
+      "member_ids": {
+        "a": "e4064e91d1032fde",
+        "b": "ec0e8b1d3d546aea"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mosim_cq",
+      "score": 0.94990972,
+      "slugs": {
+        "a": "regulator-gene-association-configuration",
+        "b": "regulator-gene-correlation-validation"
+      },
+      "tools": {
+        "a": [
+          "MOSim",
+          "R"
+        ],
+        "b": [
+          "MOSim",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "05c3457c82ada350",
+        "b": "f03fb6dd7575074f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.94900053,
+      "slugs": {
+        "a": "ec-to-kegg-reaction-id-mapping",
+        "b": "molecule-id-mapping-to-kegg-ids"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a5d9529261c5fbc1",
+        "b": "d086f301662428a6"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.94604684,
+      "slugs": {
+        "a": "fdr-power-evaluation-simulation",
+        "b": "semi-synthetic-benchmark-fdr-power-analysis"
+      },
+      "tools": {
+        "a": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ],
+        "b": [
+          "VI-VS",
+          "scVI",
+          "Jax",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "c8e4020676e8d5f7",
+        "b": "397e0018a5e09bc1"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.94567743,
+      "slugs": {
+        "a": "parameter-grid-benchmarking-against-gold-standard",
+        "b": "parameter-scan-gold-standard-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "SignalingProfiler 2.0",
+          "VIPER"
+        ],
+        "b": [
+          "SignalingProfiler 2.0"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d4e5f74b8b7c3598",
+        "b": "9d24b0bfa0ecfa7a"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ssgate_cq",
+      "score": 0.94357677,
+      "slugs": {
+        "a": "clustering-metric-benchmarking",
+        "b": "leiden-clustering-metric-evaluation"
+      },
+      "tools": {
+        "a": [
+          "SCANPY",
+          "SSGATE"
+        ],
+        "b": [
+          "SSGATE",
+          "SCANPY",
+          "Seurat v5"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "fb8ca1d7f1c995bd",
+        "b": "81445775566bcd2c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.94323889,
+      "slugs": {
+        "a": "inter-layer-edge-integration",
+        "b": "trans-omic-inter-layer-edge-construction"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "Cy3D",
+          "KEGGscape"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "KEGGscape",
+          "Cy3D"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a591b6c45228801c",
+        "b": "a786b5eae6833f7e"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_imlgam_cq",
+      "score": 0.94023927,
+      "slugs": {
+        "a": "risk-score-based-cohort-stratification",
+        "b": "risk-score-validation-across-cohorts"
+      },
+      "tools": {
+        "a": [
+          "R"
+        ],
+        "b": [
+          "R",
+          "qs"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "4ed6e3a41b230bbc",
+        "b": "a5078cc11de0e120"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.93964959,
+      "slugs": {
+        "a": "protein-complex-prior-harmonization",
+        "b": "protein-complex-prior-probability-computation"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "33be39124e0171da",
+        "b": "7ca67c92c4fe234d"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.93828013,
+      "slugs": {
+        "a": "held-out-prediction-error-evaluation",
+        "b": "prediction-error-importance-scoring"
+      },
+      "tools": {
+        "a": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ],
+        "b": [
+          "VI-VS",
+          "Jax",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "8c35c6ab8493daf7",
+        "b": "f2a4c0dab70cd2cd"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.93645561,
+      "slugs": {
+        "a": "benchmark-precision-recall-evaluation-against-gold-standard",
+        "b": "precision-recall-rmse-evaluation"
+      },
+      "tools": {
+        "a": [
+          "SignalingProfiler 2.0",
+          "VIPER",
+          "SIGNOR",
+          "PhosphoSitePlus"
+        ],
+        "b": [
+          "SignalingProfiler 2.0",
+          "VIPER"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "81445775566bcd2c",
+        "b": "404a155cb3eb536c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.93627689,
+      "slugs": {
+        "a": "trans-omic-inter-layer-edge-construction",
+        "b": "trans-omic-network-layer-stacking"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "KEGGscape",
+          "Cy3D"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "80e886e32a2f81df",
+        "b": "397e0018a5e09bc1"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.93379593,
+      "slugs": {
+        "a": "network-parameter-benchmarking",
+        "b": "parameter-scan-gold-standard-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "SignalingProfiler 2.0",
+          "cplex",
+          "Gurobi"
+        ],
+        "b": [
+          "SignalingProfiler 2.0"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "7e0bb5a2d1aaa3b8",
+        "b": "d12c9cfe7730ac57"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.93355916,
+      "slugs": {
+        "a": "confounder-adjusted-conditional-independence-testing",
+        "b": "multi-resolution-conditional-independence-testing"
+      },
+      "tools": {
+        "a": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ],
+        "b": [
+          "VI-VS",
+          "scVI",
+          "Jax",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3d1d94c705def095",
+        "b": "ec0e8b1d3d546aea"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mosim_cq",
+      "score": 0.93317669,
+      "slugs": {
+        "a": "gene-regulator-correlation-null-comparison",
+        "b": "regulator-gene-correlation-validation"
+      },
+      "tools": {
+        "a": [
+          "MOSim",
+          "R",
+          "NOISeq",
+          "MORE"
+        ],
+        "b": [
+          "MOSim",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3cba81264e4399a4",
+        "b": "058069659e4158d2"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.93121602,
+      "slugs": {
+        "a": "scrna-seq-annotation-error-detection",
+        "b": "scrna-seq-disease-condition-annotation-analysis"
+      },
+      "tools": {
+        "a": [
+          "Annotatability",
+          "PyTorch",
+          "numpy",
+          "scipy",
+          "pandas",
+          "Python"
+        ],
+        "b": [
+          "Annotatability",
+          "PyTorch",
+          "Python",
+          "numpy",
+          "pandas",
+          "scipy"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d8219d441111d23e",
+        "b": "f46fbbdf205ea294"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.93048447,
+      "slugs": {
+        "a": "nextflow-module-implementation",
+        "b": "nextflow-pipeline-execution-with-containers"
+      },
+      "tools": {
+        "a": [
+          "Nextflow",
+          "Docker",
+          "Singularity",
+          "Conda"
+        ],
+        "b": [
+          "Nextflow",
+          "Docker",
+          "Singularity",
+          "Conda",
+          "FastQC",
+          "MultiQC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "62bb656b15c762fd",
+        "b": "b887eb02b09fa035"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.93038012,
+      "slugs": {
+        "a": "em-imputation-of-missing-omics-values",
+        "b": "list-wise-missing-omics-imputation"
+      },
+      "tools": {
+        "a": [
+          "LUCIDus",
+          "R",
+          "mclust"
+        ],
+        "b": [
+          "R",
+          "LUCIDus",
+          "LUCIDus3",
+          "mclust"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d8219d441111d23e",
+        "b": "f86d7c947c43f0c0"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.93019504,
+      "slugs": {
+        "a": "nextflow-module-implementation",
+        "b": "nextflow-process-module-development"
+      },
+      "tools": {
+        "a": [
+          "Nextflow",
+          "Docker",
+          "Singularity",
+          "Conda"
+        ],
+        "b": [
+          "Nextflow",
+          "Docker"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b1304e5578fb1df5",
+        "b": "28810039aa9ec755"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.92928313,
+      "slugs": {
+        "a": "inter-layer-edge-construction-in-2-5d-networks",
+        "b": "multi-layer-2-5d-network-stacking"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "KEGGscape",
+          "Cy3D"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "398b8ef1231810ec",
+        "b": "a1f3590a495a7462"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.92906024,
+      "slugs": {
+        "a": "clinvar-pathogenic-variant-extraction",
+        "b": "pathogenic-variant-detection-verification"
+      },
+      "tools": {
+        "a": [
+          "Docker",
+          "Singularity",
+          "Conda",
+          "SimuSCoP",
+          "FastQC",
+          "MultiQC"
+        ],
+        "b": [
+          "Docker",
+          "Singularity",
+          "Conda",
+          "FastQC",
+          "MultiQC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a8c52b7185160ef8",
+        "b": "88b8c192944d2abd"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.92894062,
+      "slugs": {
+        "a": "average-similarity-matrix-aggregation",
+        "b": "binary-similarity-matrix-construction"
+      },
+      "tools": {
+        "a": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC"
+        ],
+        "b": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "SNFtool"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d7204343d70f1f2c",
+        "b": "9f20d1e5d3e026b6"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.9281592,
+      "slugs": {
+        "a": "multiplex-network-construction",
+        "b": "multiplex-network-cross-validation"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "RWRtoolkit",
+          "RandomWalkRestartMH"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "RandomWalkRestartMH",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d7204343d70f1f2c",
+        "b": "dbbaa5102e07016f"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.92770163,
+      "slugs": {
+        "a": "multiplex-network-construction",
+        "b": "multiplex-network-statistics-extraction"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "RWRtoolkit",
+          "RandomWalkRestartMH"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "fb64322da3a1c8b2",
+        "b": "29f2b83bd3267679"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.92642392,
+      "slugs": {
+        "a": "spatial-transcriptomics-clustering",
+        "b": "spatial-transcriptomics-data-simulation"
+      },
+      "tools": {
+        "a": [
+          "stImage",
+          "R",
+          "SpatialPCA",
+          "BayesSpace",
+          "tidyverse",
+          "patchwork"
+        ],
+        "b": [
+          "stImage",
+          "R",
+          "MUSE",
+          "tidyverse",
+          "SpatialPCA",
+          "BayesSpace"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "393220978f872149",
+        "b": "ceb064b861f0600c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.92609881,
+      "slugs": {
+        "a": "protein-missing-value-recovery",
+        "b": "protein-recovery-probability-estimation"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "abc8e3880ec59fe5",
+        "b": "cdc532416cd56305"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_sopa_cq",
+      "score": 0.92583839,
+      "slugs": {
+        "a": "memory-footprint-benchmarking",
+        "b": "memory-runtime-benchmark-profiling"
+      },
+      "tools": {
+        "a": [
+          "Sopa",
+          "dask"
+        ],
+        "b": [
+          "Sopa",
+          "MERSCOPE"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "5d4a7a0d4db481d8",
+        "b": "0da44bdc878b6257"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.925788,
+      "slugs": {
+        "a": "dna-variant-calling-from-simulated-reads",
+        "b": "simulated-read-variant-calling-validation"
+      },
+      "tools": {
+        "a": [
+          "Docker",
+          "Singularity",
+          "Conda",
+          "FastQC",
+          "MultiQC"
+        ],
+        "b": [
+          "Docker",
+          "Singularity",
+          "Conda",
+          "SimuSCoP",
+          "FastQC",
+          "MultiQC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b887eb02b09fa035",
+        "b": "824c32ce3187f216"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.92533944,
+      "slugs": {
+        "a": "list-wise-missing-omics-imputation",
+        "b": "omics-missingness-simulation"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "LUCIDus",
+          "LUCIDus3",
+          "mclust"
+        ],
+        "b": [
+          "R",
+          "LUCIDus",
+          "mclust"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "80e886e32a2f81df",
+        "b": "c8e4020676e8d5f7"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.92516944,
+      "slugs": {
+        "a": "network-parameter-benchmarking",
+        "b": "parameter-grid-benchmarking-against-gold-standard"
+      },
+      "tools": {
+        "a": [
+          "SignalingProfiler 2.0",
+          "cplex",
+          "Gurobi"
+        ],
+        "b": [
+          "SignalingProfiler 2.0",
+          "VIPER"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "0f31f72dc662110c",
+        "b": "493e137c466cfcba"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.92494311,
+      "slugs": {
+        "a": "recovery-rate-validation-against-reference-proteome",
+        "b": "upper-lower-bound-proteome-validation"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "cd256213604f9d36",
+        "b": "c9dcc3328291e6ee"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.92420329,
+      "slugs": {
+        "a": "adjusted-rand-index-clustering-evaluation",
+        "b": "clustering-ari-benchmark-evaluation"
+      },
+      "tools": {
+        "a": [
+          "stImage",
+          "R",
+          "SpatialPCA",
+          "BayesSpace",
+          "tidyverse"
+        ],
+        "b": [
+          "R",
+          "stImage",
+          "SpatialPCA",
+          "BayesSpace",
+          "tidyverse"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a8c52b7185160ef8",
+        "b": "74293aa9048f2daf"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.92399856,
+      "slugs": {
+        "a": "average-similarity-matrix-aggregation",
+        "b": "spectral-clustering-on-similarity-matrix"
+      },
+      "tools": {
+        "a": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC"
+        ],
+        "b": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "CHAI-SNF",
+          "SNFtool"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f52fa0ab4513b1c1",
+        "b": "83f299bfe4903485"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.92285193,
+      "slugs": {
+        "a": "em-based-integrated-imputation",
+        "b": "imputation-method-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "LUCIDus",
+          "mclust"
+        ],
+        "b": [
+          "R",
+          "LUCIDus",
+          "mclust"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3465315c37e88ab7",
+        "b": "c2930dfb8bf6a702"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.92254365,
+      "slugs": {
+        "a": "baseline-method-comparison-proteomics",
+        "b": "proteomics-recovery-rate-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ab42d57f1894d0e6",
+        "b": "17d698f663e9530e"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.92228284,
+      "slugs": {
+        "a": "multi-omics-integrative-clustering",
+        "b": "multi-omics-latent-cluster-estimation"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "LUCIDus",
+          "LUCIDus3",
+          "mclust"
+        ],
+        "b": [
+          "R",
+          "LUCIDus",
+          "mclust"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "734125403a97dbc9",
+        "b": "baec4151f62284a3"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.92212749,
+      "slugs": {
+        "a": "kegg-database-querying",
+        "b": "kegg-pathway-kgml-retrieval"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "KEGGscape",
+          "Cy3D"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "4e2ef53afccbb561",
+        "b": "79e1efeec527fd77"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.92188053,
+      "slugs": {
+        "a": "multi-modal-integration-analysis",
+        "b": "single-modality-vs-integration-performance-analysis"
+      },
+      "tools": {
+        "a": [
+          "stImage",
+          "R",
+          "SpatialPCA",
+          "BayesSpace",
+          "tidyverse"
+        ],
+        "b": [
+          "stImage",
+          "R",
+          "SpatialPCA",
+          "BayesSpace",
+          "tidyverse"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "69429192b29c8076",
+        "b": "56f8496e1142e2f9"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.92185984,
+      "slugs": {
+        "a": "consensus-clustering-baseline-comparison",
+        "b": "consensus-clustering-ensemble-execution"
+      },
+      "tools": {
+        "a": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "SAME-clustering",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "SNFtool"
+        ],
+        "b": [
+          "R",
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ca9f56739cfde462",
+        "b": "69429192b29c8076"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.92126892,
+      "slugs": {
+        "a": "ari-nmi-clustering-concordance-evaluation",
+        "b": "consensus-clustering-baseline-comparison"
+      },
+      "tools": {
+        "a": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "SAME-clustering",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "SNFtool"
+        ],
+        "b": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "SAME-clustering",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "SNFtool"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "04caf3a01d14c844",
+        "b": "c3954d0575b564b6"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ssgate_cq",
+      "score": 0.92106981,
+      "slugs": {
+        "a": "knn-neighborhood-graph-construction",
+        "b": "neighborhood-graph-construction-with-neighbor-pruning"
+      },
+      "tools": {
+        "a": [
+          "SCANPY",
+          "SSGATE",
+          "MOFA",
+          "anndata",
+          "Seurat",
+          "ClusterProfiler"
+        ],
+        "b": [
+          "SSGATE",
+          "SCANPY",
+          "Seurat v5"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "4be73d099935183a",
+        "b": "90d59e609d4a995c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_canseer_cq",
+      "score": 0.92062047,
+      "slugs": {
+        "a": "cell-fate-dynamical-analysis",
+        "b": "cell-fate-propensity-quantification"
+      },
+      "tools": {
+        "a": [
+          "CanSeer"
+        ],
+        "b": [
+          "CanSeer"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d7204343d70f1f2c",
+        "b": "79ae60a086304cb7"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.92033564,
+      "slugs": {
+        "a": "multiplex-network-construction",
+        "b": "multiplex-network-random-walk-scoring"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "RWRtoolkit",
+          "RandomWalkRestartMH"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH",
+          "KBase"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "7cb5fe1fc10f9f36",
+        "b": "d54bdbf52e4cd614"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.92022962,
+      "slugs": {
+        "a": "machine-learning-sample-size-estimation",
+        "b": "optimal-sample-size-estimation"
+      },
+      "tools": {
+        "a": [
+          "MultiPower",
+          "MultiML",
+          "R"
+        ],
+        "b": [
+          "MultiPower"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d202b71e989ddbee",
+        "b": "d3a0e2c9c2d751cc"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.9192127,
+      "slugs": {
+        "a": "semi-synthetic-single-cell-data-simulation",
+        "b": "synthetic-response-simulation-single-cell"
+      },
+      "tools": {
+        "a": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ],
+        "b": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "26e6ed427b28e999",
+        "b": "2fff9cb350eed6cc"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_sopa_cq",
+      "score": 0.91847196,
+      "slugs": {
+        "a": "niche-cell-colocalization-analysis",
+        "b": "niche-celltype-enrichment-analysis"
+      },
+      "tools": {
+        "a": [
+          "Sopa",
+          "MERSCOPE"
+        ],
+        "b": [
+          "Sopa",
+          "MERSCOPE"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1c0e069e7a6137ef",
+        "b": "adfcb12ea5018c09"
+      },
+      "run": "asbb_subwave1_2026-09__coll_muon_cq",
+      "score": 0.91838167,
+      "slugs": {
+        "a": "hdf5-multimodal-data-serialisation",
+        "b": "multimodal-container-serialization"
+      },
+      "tools": {
+        "a": [
+          "MUON",
+          "SCANPY",
+          "NumPy",
+          "pandas"
+        ],
+        "b": [
+          "MUON",
+          "SCANPY",
+          "NumPy",
+          "pandas"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b1316efdf1f55e0b",
+        "b": "12cdaf2a9d4b0c1d"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.91827777,
+      "slugs": {
+        "a": "annotation-confidence-score-computation",
+        "b": "neural-network-confidence-variability-scoring"
+      },
+      "tools": {
+        "a": [
+          "Annotatability",
+          "PyTorch",
+          "Python",
+          "numpy",
+          "pandas",
+          "scipy"
+        ],
+        "b": [
+          "Annotatability",
+          "PyTorch",
+          "numpy",
+          "scipy",
+          "pandas",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "78c969ae47e992f4",
+        "b": "30aa355467fc837e"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.91823778,
+      "slugs": {
+        "a": "beta-cell-marker-module-correlation-analysis",
+        "b": "disease-state-characterization-in-beta-cells"
+      },
+      "tools": {
+        "a": [
+          "Annotatability",
+          "PyTorch",
+          "Python",
+          "numpy",
+          "pandas",
+          "scipy"
+        ],
+        "b": [
+          "Annotatability",
+          "PyTorch",
+          "numpy",
+          "scipy",
+          "pandas",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "7daaed7a422bbdd3",
+        "b": "c6c66da5c132e378"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sci_l3pipe_cq",
+      "score": 0.91723751,
+      "slugs": {
+        "a": "single-cell-hic-data-aggregation",
+        "b": "single-cell-hic-median-computation"
+      },
+      "tools": {
+        "a": [
+          "Python"
+        ],
+        "b": [
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "45b629c416dd8158",
+        "b": "b2f58effafefce5d"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pyparagon_cq",
+      "score": 0.91715943,
+      "slugs": {
+        "a": "protein-interaction-network-scoring",
+        "b": "protein-network-community-annotation"
+      },
+      "tools": {
+        "a": [
+          "pyPARAGON",
+          "Python"
+        ],
+        "b": [
+          "pyPARAGON",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "62bb656b15c762fd",
+        "b": "824c32ce3187f216"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.91703175,
+      "slugs": {
+        "a": "em-imputation-of-missing-omics-values",
+        "b": "omics-missingness-simulation"
+      },
+      "tools": {
+        "a": [
+          "LUCIDus",
+          "R",
+          "mclust"
+        ],
+        "b": [
+          "R",
+          "LUCIDus",
+          "mclust"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b1a1ed4528e09b06",
+        "b": "f96ea1ec2c3e3ead"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.91648558,
+      "slugs": {
+        "a": "cohen-effect-size-feature-filtering",
+        "b": "effect-size-estimation-cohens-d"
+      },
+      "tools": {
+        "a": [
+          "MultiPower"
+        ],
+        "b": [
+          "MultiPower"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "77c62c8e6f2e86fc",
+        "b": "f03fb6dd7575074f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.9159499,
+      "slugs": {
+        "a": "enzyme-identifier-conversion",
+        "b": "molecule-id-mapping-to-kegg-ids"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e0e3930cc562e4ce",
+        "b": "331e5b92be05d715"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sgcrna_cq",
+      "score": 0.91585687,
+      "slugs": {
+        "a": "spectral-clustering-module-detection",
+        "b": "spectral-clustering-network-analysis"
+      },
+      "tools": {
+        "a": [
+          "QIIME 2",
+          "SGCRNAs"
+        ],
+        "b": [
+          "SGCRNAs"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "8c0a4e89e64e0371",
+        "b": "2995ce3833c6250b"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.91564559,
+      "slugs": {
+        "a": "multiplex-network-shortest-path-extraction",
+        "b": "network-topology-analysis"
+      },
+      "tools": {
+        "a": [
+          "RWRtoolkit",
+          "RWR_ShortestPaths",
+          "R"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "RWR_ShortestPaths",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9cd94c6b2b2960e7",
+        "b": "397e0018a5e09bc1"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.91544234,
+      "slugs": {
+        "a": "benchmark-output-verification",
+        "b": "parameter-scan-gold-standard-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "SignalingProfiler 2.0",
+          "VIPER"
+        ],
+        "b": [
+          "SignalingProfiler 2.0"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "56f8496e1142e2f9",
+        "b": "fa654b74ee0fa4e9"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.91533305,
+      "slugs": {
+        "a": "consensus-clustering-ensemble-execution",
+        "b": "spectral-clustering-consensus-assignment"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC"
+        ],
+        "b": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "adfd099772a18de3",
+        "b": "04a3c86a28ad726b"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.91521995,
+      "slugs": {
+        "a": "rna-seq-transcript-abundance-quantification",
+        "b": "transcript-expression-quantification"
+      },
+      "tools": {
+        "a": [
+          "Salmon",
+          "DESeq2",
+          "clusterProfiler"
+        ],
+        "b": [
+          "Docker",
+          "Polyester",
+          "Salmon",
+          "DESeq2",
+          "FastQC",
+          "MultiQC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "88b8c192944d2abd",
+        "b": "1f789667b52c8b2c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.91496883,
+      "slugs": {
+        "a": "binary-similarity-matrix-construction",
+        "b": "binary-similarity-matrix-generation-from-clustering-assignments"
+      },
+      "tools": {
+        "a": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "SNFtool"
+        ],
+        "b": [
+          "CHAI",
+          "CHAI-SNF",
+          "R",
+          "SNFtool",
+          "GraphST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "288fc8efe55a5b0e",
+        "b": "a85855954c29257c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.91472448,
+      "slugs": {
+        "a": "phosphoproteomic-activity-inference-method-taxonomy",
+        "b": "phosphoproteomics-data-preprocessing"
+      },
+      "tools": {
+        "a": [
+          "SignalingProfiler 2.0",
+          "VIPER",
+          "COSMOS",
+          "CausalPath",
+          "HiPathia"
+        ],
+        "b": [
+          "SignalingProfiler 2.0",
+          "VIPER"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "0b0f81fa47cf18a1",
+        "b": "adfd099772a18de3"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.91462835,
+      "slugs": {
+        "a": "gene-level-count-summarization-from-transcript-estimates",
+        "b": "rna-seq-transcript-abundance-quantification"
+      },
+      "tools": {
+        "a": [
+          "Salmon",
+          "DESeq2",
+          "clusterProfiler"
+        ],
+        "b": [
+          "Salmon",
+          "DESeq2",
+          "clusterProfiler"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b1304e5578fb1df5",
+        "b": "fb8ca1d7f1c995bd"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.9142016,
+      "slugs": {
+        "a": "inter-layer-edge-construction-in-2-5d-networks",
+        "b": "inter-layer-edge-integration"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "Cy3D",
+          "KEGGscape"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ceb064b861f0600c",
+        "b": "c2930dfb8bf6a702"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.91402769,
+      "slugs": {
+        "a": "protein-recovery-probability-estimation",
+        "b": "proteomics-recovery-rate-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3ded9c6646a10f13",
+        "b": "889c8096b88a2136"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sci_l3pipe_cq",
+      "score": 0.91400529,
+      "slugs": {
+        "a": "single-cell-atac-lsi-dimensionality-reduction",
+        "b": "single-cell-rna-pca-dimensionality-reduction"
+      },
+      "tools": {
+        "a": [
+          "Signac",
+          "Python"
+        ],
+        "b": [
+          "Signac",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e40a25e27e837bcf",
+        "b": "01de000c5e1a3ccc"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpipe_cq",
+      "score": 0.91391962,
+      "slugs": {
+        "a": "dockerized-r-benchmark-execution",
+        "b": "reference-dataset-benchmark-orchestration"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "devtools",
+          "simmethods",
+          "simpipe",
+          "tislingshot",
+          "simpipe2docker",
+          "Docker",
+          "SRTsim",
+          "scDesign3",
+          "ZINB-WaVE",
+          "scDesign2",
+          "Lun",
+          "SPARSim",
+          "scDesign3-tree",
+          "Phenopath",
+          "Simple",
+          "MFA"
+        ],
+        "b": [
+          "R",
+          "devtools",
+          "simmethods",
+          "simpipe",
+          "tislingshot",
+          "simpipe2docker",
+          "Docker",
+          "SRTsim",
+          "scDesign3",
+          "ZINB-WaVE",
+          "scDesign2",
+          "Lun",
+          "SPARSim",
+          "scDesign3-tree",
+          "Phenopath",
+          "Simple",
+          "MFA"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "79ae60a086304cb7",
+        "b": "f5ec4cf8823878b2"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.91389641,
+      "slugs": {
+        "a": "multiplex-network-random-walk-scoring",
+        "b": "random-walk-cross-validation-scoring"
+      },
+      "tools": {
+        "a": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH",
+          "KBase"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "374b4e7dae59c96f",
+        "b": "a94383b1b3956b16"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mcgae_cq",
+      "score": 0.91362818,
+      "slugs": {
+        "a": "spatial-domain-clustering",
+        "b": "spatial-domain-identification"
+      },
+      "tools": {
+        "a": [
+          "MCGAE",
+          "SpaGCN",
+          "STAGATE",
+          "ResNet50"
+        ],
+        "b": [
+          "MCGAE",
+          "STAGATE",
+          "BayesSpace",
+          "ResNet50"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "c1440ed3a8e79be3",
+        "b": "e69ac2379b0802ad"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ssgate_cq",
+      "score": 0.9134893,
+      "slugs": {
+        "a": "single-cell-multiomics-data-preprocessing",
+        "b": "single-cell-multiomics-integration-training"
+      },
+      "tools": {
+        "a": [
+          "SCANPY",
+          "SSGATE",
+          "MOFA",
+          "anndata"
+        ],
+        "b": [
+          "SSGATE",
+          "SCANPY",
+          "Seurat v5",
+          "MOFA",
+          "TotalVI",
+          "ScMM"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "7cb5fe1fc10f9f36",
+        "b": "278147027a28d794"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.91336769,
+      "slugs": {
+        "a": "machine-learning-sample-size-estimation",
+        "b": "multi-omics-sample-size-estimation"
+      },
+      "tools": {
+        "a": [
+          "MultiPower",
+          "MultiML",
+          "R"
+        ],
+        "b": [
+          "MultiPower",
+          "MultiML"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "6169abbb0d6932ca",
+        "b": "adae91dc0fcb1aa6"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_metacp_cq",
+      "score": 0.91315122,
+      "slugs": {
+        "a": "hybrid-minp-cct-pvalue-combination",
+        "b": "tippett-minp-pvalue-combination"
+      },
+      "tools": {
+        "a": [
+          "Python",
+          "metacp"
+        ],
+        "b": [
+          "Python",
+          "metacp"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "4cb3080bcdac46a9",
+        "b": "374b4e7dae59c96f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mcgae_cq",
+      "score": 0.913018,
+      "slugs": {
+        "a": "ari-spatial-clustering-benchmarking",
+        "b": "spatial-domain-clustering"
+      },
+      "tools": {
+        "a": [
+          "MCGAE",
+          "SpaGCN",
+          "STAGATE",
+          "ResNet50"
+        ],
+        "b": [
+          "MCGAE",
+          "SpaGCN",
+          "STAGATE",
+          "ResNet50"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "88b8c192944d2abd",
+        "b": "74293aa9048f2daf"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.91300992,
+      "slugs": {
+        "a": "binary-similarity-matrix-construction",
+        "b": "spectral-clustering-on-similarity-matrix"
+      },
+      "tools": {
+        "a": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "SNFtool"
+        ],
+        "b": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "CHAI-SNF",
+          "SNFtool"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "815023ec60cd863b",
+        "b": "989780d7bf01e0a6"
+      },
+      "run": "asbb_subwave1_2026-09__coll_muon_cq",
+      "score": 0.91249822,
+      "slugs": {
+        "a": "multimodal-factor-analysis",
+        "b": "multiomics-mofa-factor-analysis"
+      },
+      "tools": {
+        "a": [
+          "MUON",
+          "SCANPY"
+        ],
+        "b": [
+          "MUON",
+          "SCANPY",
+          "pandas",
+          "NumPy"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "2b952a30b3f8e5f2",
+        "b": "36d9930244f93936"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.91225899,
+      "slugs": {
+        "a": "parameter-estimate-bias-and-variance-assessment",
+        "b": "simulation-estimation-bias-assessment"
+      },
+      "tools": {
+        "a": [
+          "LUCIDus",
+          "R",
+          "mclust"
+        ],
+        "b": [
+          "R",
+          "LUCIDus",
+          "mclust"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e32135f682375980",
+        "b": "8a800aa321614323"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.91205468,
+      "slugs": {
+        "a": "importance-score-model-fitting",
+        "b": "ols-vs-vivs-importance-score-comparison"
+      },
+      "tools": {
+        "a": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ],
+        "b": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "fb8ca1d7f1c995bd",
+        "b": "28810039aa9ec755"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.91161405,
+      "slugs": {
+        "a": "inter-layer-edge-integration",
+        "b": "multi-layer-2-5d-network-stacking"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "Cy3D",
+          "KEGGscape"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "KEGGscape",
+          "Cy3D"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "8d30143bd1ee8c21",
+        "b": "83ee41bcf08d6bb4"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_metacp_cq",
+      "score": 0.91132679,
+      "slugs": {
+        "a": "correlation-matrix-pvalue-combination",
+        "b": "correlation-matrix-specified-meta-analysis"
+      },
+      "tools": {
+        "a": [
+          "Python",
+          "metacp"
+        ],
+        "b": [
+          "metacp",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "6ba61f9c44fb0f9b",
+        "b": "ed8dbf5891c2edff"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.91128801,
+      "slugs": {
+        "a": "cytoscape-network-automation-via-rcy3",
+        "b": "cytoscape-network-layout-comparison"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "RCy3",
+          "Cytoscape",
+          "KEGGREST",
+          "KEGGscape",
+          "Cy3D"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "Cytoscape",
+          "KEGGREST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f52fa0ab4513b1c1",
+        "b": "62bb656b15c762fd"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.91094233,
+      "slugs": {
+        "a": "em-based-integrated-imputation",
+        "b": "em-imputation-of-missing-omics-values"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "LUCIDus",
+          "mclust"
+        ],
+        "b": [
+          "LUCIDus",
+          "R",
+          "mclust"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "44ecf0eb15c1bee8",
+        "b": "76a87ddf4191b59c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.91060558,
+      "slugs": {
+        "a": "variant-output-format-harmonisation",
+        "b": "variant-record-harmonisation-to-reference-format"
+      },
+      "tools": {
+        "a": [
+          "Docker"
+        ],
+        "b": [
+          "Docker",
+          "Singularity",
+          "Conda"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "77861696c29d4fed",
+        "b": "4bfeb3c2472bbc07"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpipe_cq",
+      "score": 0.91051737,
+      "slugs": {
+        "a": "single-cell-rna-seq-data-simulation",
+        "b": "spatial-transcriptomics-data-simulation"
+      },
+      "tools": {
+        "a": [
+          "SRTsim",
+          "simmethods",
+          "simpipe",
+          "tislingshot",
+          "simpipe2docker",
+          "devtools",
+          "R",
+          "Docker",
+          "scDesign3",
+          "ZINB-WaVE",
+          "scDesign2",
+          "Lun",
+          "SPARSim",
+          "scDesign3-tree",
+          "Phenopath",
+          "Simple",
+          "MFA"
+        ],
+        "b": [
+          "SRTsim",
+          "simmethods",
+          "simpipe",
+          "tislingshot",
+          "simpipe2docker",
+          "devtools",
+          "R",
+          "Docker",
+          "scDesign3",
+          "ZINB-WaVE",
+          "scDesign2",
+          "Lun",
+          "SPARSim",
+          "scDesign3-tree",
+          "Phenopath",
+          "Simple",
+          "MFA"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "497cb5d266e33f9f",
+        "b": "d5afd175b7dd753d"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mosaicmpi_cq",
+      "score": 0.91033749,
+      "slugs": {
+        "a": "integrated-program-community-interpretation",
+        "b": "program-network-community-detection"
+      },
+      "tools": {
+        "a": [
+          "mosaicMPI",
+          "pandas",
+          "NumPy",
+          "AnnData"
+        ],
+        "b": [
+          "mosaicMPI",
+          "pandas",
+          "NumPy"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "86cf17d33d5ce673",
+        "b": "09f86e8f484cbf86"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pyparagon_cq",
+      "score": 0.91032923,
+      "slugs": {
+        "a": "interactome-dataset-integration",
+        "b": "reference-interactome-subnetwork-extraction"
+      },
+      "tools": {
+        "a": [
+          "pyPARAGON",
+          "PL",
+          "OI2",
+          "DOMINO",
+          "Python"
+        ],
+        "b": [
+          "pyPARAGON",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "010e949c7a2f9509",
+        "b": "56b060596ff46fae"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.91009131,
+      "slugs": {
+        "a": "fdr-tpr-benchmark-evaluation",
+        "b": "fdr-tpr-operating-point-analysis"
+      },
+      "tools": {
+        "a": [
+          "VI-VS",
+          "Jax",
+          "PyTorch",
+          "scVI",
+          "Python"
+        ],
+        "b": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e5c2d96cecd2d3df",
+        "b": "d54bdbf52e4cd614"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.91000359,
+      "slugs": {
+        "a": "cost-constrained-sample-size-optimization",
+        "b": "optimal-sample-size-estimation"
+      },
+      "tools": {
+        "a": [
+          "MultiPower",
+          "lpSolve"
+        ],
+        "b": [
+          "MultiPower"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "ceb064b861f0600c",
+        "b": "0f31f72dc662110c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.90941765,
+      "slugs": {
+        "a": "protein-recovery-probability-estimation",
+        "b": "recovery-rate-validation-against-reference-proteome"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "79ae60a086304cb7",
+        "b": "dbbaa5102e07016f"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.90915724,
+      "slugs": {
+        "a": "multiplex-network-random-walk-scoring",
+        "b": "multiplex-network-statistics-extraction"
+      },
+      "tools": {
+        "a": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH",
+          "KBase"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "df080d1e4d7899de",
+        "b": "6d15f1233e4a4e20"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_sopa_cq",
+      "score": 0.90906831,
+      "slugs": {
+        "a": "baysor-transcript-segmentation",
+        "b": "transcript-based-cell-segmentation"
+      },
+      "tools": {
+        "a": [
+          "Sopa",
+          "Baysor",
+          "MERSCOPE"
+        ],
+        "b": [
+          "Sopa",
+          "MERSCOPE"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "6948d93c1442cac5",
+        "b": "6e067b30b65c11b6"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_multimodalgraphics_cq",
+      "score": 0.90862675,
+      "slugs": {
+        "a": "multi-omics-annotated-heatmap-visualization",
+        "b": "r-bioconductor-heatmap-rendering"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "MultiModalGraphics",
+          "dplyr"
+        ],
+        "b": [
+          "R",
+          "MultiModalGraphics",
+          "dplyr",
+          "ggplot2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e32135f682375980",
+        "b": "50922ec06f962022"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.90860539,
+      "slugs": {
+        "a": "importance-score-model-fitting",
+        "b": "negative-log-likelihood-importance-scoring"
+      },
+      "tools": {
+        "a": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ],
+        "b": [
+          "VI-VS",
+          "Python",
+          "Jax",
+          "scVI"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "5fefedbd79813330",
+        "b": "cd618d71c2889058"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.90821449,
+      "slugs": {
+        "a": "spatial-neighbor-similarity-computation",
+        "b": "spot-neighbor-vs-nonneighbor-distance-analysis"
+      },
+      "tools": {
+        "a": [
+          "stImage",
+          "R",
+          "tidyverse"
+        ],
+        "b": [
+          "stImage",
+          "R",
+          "tidyverse"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "7d56f8c1568bb990",
+        "b": "493e137c466cfcba"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.90819507,
+      "slugs": {
+        "a": "cross-cohort-proteomics-validation",
+        "b": "upper-lower-bound-proteome-validation"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3ac927fe6e510411",
+        "b": "fb8ca1d7f1c995bd"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.90816429,
+      "slugs": {
+        "a": "edge-midpoint-node-insertion",
+        "b": "inter-layer-edge-integration"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "Cy3D",
+          "KEGGscape"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3465315c37e88ab7",
+        "b": "493e137c466cfcba"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.90816355,
+      "slugs": {
+        "a": "baseline-method-comparison-proteomics",
+        "b": "upper-lower-bound-proteome-validation"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "69429192b29c8076",
+        "b": "fa654b74ee0fa4e9"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.90720192,
+      "slugs": {
+        "a": "consensus-clustering-baseline-comparison",
+        "b": "spectral-clustering-consensus-assignment"
+      },
+      "tools": {
+        "a": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "SAME-clustering",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "SNFtool"
+        ],
+        "b": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "734125403a97dbc9",
+        "b": "f03fb6dd7575074f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.9070409,
+      "slugs": {
+        "a": "kegg-database-querying",
+        "b": "molecule-id-mapping-to-kegg-ids"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f395465e9b03296a",
+        "b": "911e8d659976d122"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_multimodalgraphics_cq",
+      "score": 0.90658398,
+      "slugs": {
+        "a": "differential-expression-significance-thresholding",
+        "b": "gene-count-significance-dot-encoding"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "MultiModalGraphics",
+          "dplyr",
+          "ggplot2"
+        ],
+        "b": [
+          "R",
+          "MultiModalGraphics",
+          "dplyr",
+          "ggplot2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9b32540fa081b955",
+        "b": "8210197585d20dab"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_sopa_cq",
+      "score": 0.90644216,
+      "slugs": {
+        "a": "cross-technology-segmentation-benchmarking",
+        "b": "segmentation-ratio-computation"
+      },
+      "tools": {
+        "a": [
+          "Sopa",
+          "MERSCOPE"
+        ],
+        "b": [
+          "Sopa",
+          "MERSCOPE"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3465315c37e88ab7",
+        "b": "7d56f8c1568bb990"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.90643273,
+      "slugs": {
+        "a": "baseline-method-comparison-proteomics",
+        "b": "cross-cohort-proteomics-validation"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "d64f37caf69383a2",
+        "b": "82700b6ba25d83bf"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.90611962,
+      "slugs": {
+        "a": "phenotype-activity-scoring-phenoscore",
+        "b": "phosphosite-regulatory-activity-scoring"
+      },
+      "tools": {
+        "a": [
+          "SignalingProfiler 2.0",
+          "VIPER",
+          "SIGNOR",
+          "PhosphoSitePlus"
+        ],
+        "b": [
+          "SignalingProfiler 2.0",
+          "VIPER"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "39d2b93c7b398b3c",
+        "b": "1b4959b1ecdd7cee"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.90603568,
+      "slugs": {
+        "a": "histology-image-feature-extraction",
+        "b": "spatial-cluster-annotation-to-histology"
+      },
+      "tools": {
+        "a": [
+          "stImage",
+          "R",
+          "SpatialPCA",
+          "BayesSpace",
+          "tidyverse",
+          "patchwork"
+        ],
+        "b": [
+          "stImage",
+          "R",
+          "SpatialPCA",
+          "tidyverse"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "e7bad92a32d89be9",
+        "b": "7b0c5fcc75087361"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_smopca_cq",
+      "score": 0.90562108,
+      "slugs": {
+        "a": "clustering-benchmark-evaluation",
+        "b": "spatial-domain-clustering-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "scMDC",
+          "SpatialPCA",
+          "scikit-learn"
+        ],
+        "b": [
+          "SMOPCA",
+          "SpatialPCA",
+          "scMDC",
+          "scikit-learn",
+          "SRTsim",
+          "SpatialGlue_3M",
+          "SpaVAE",
+          "scikit-learn KMeans",
+          "SPARK",
+          "MEFISTO",
+          "SpatialGlue",
+          "TotalVI"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "bfdc36a48c12d180",
+        "b": "d7bf918e423410b8"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.90496108,
+      "slugs": {
+        "a": "gene-rank-interpretation",
+        "b": "random-walk-restart-gene-ranking"
+      },
+      "tools": {
+        "a": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH",
+          "KBase"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "RandomWalkRestartMH",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9f20d1e5d3e026b6",
+        "b": "79ae60a086304cb7"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.9049115,
+      "slugs": {
+        "a": "multiplex-network-cross-validation",
+        "b": "multiplex-network-random-walk-scoring"
+      },
+      "tools": {
+        "a": [
+          "RWRtoolkit",
+          "RandomWalkRestartMH",
+          "R"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH",
+          "KBase"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "94925d46c63fb8bb",
+        "b": "3a07f232b7e0069c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.90446594,
+      "slugs": {
+        "a": "spatially-aware-clustering-pipeline-execution",
+        "b": "spatially-aware-domain-clustering"
+      },
+      "tools": {
+        "a": [
+          "stImage",
+          "R",
+          "SpatialPCA",
+          "BayesSpace",
+          "tidyverse"
+        ],
+        "b": [
+          "stImage",
+          "R",
+          "SpatialPCA",
+          "tidyverse"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "83b8f374630b2ca1",
+        "b": "ab42d57f1894d0e6"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.90405711,
+      "slugs": {
+        "a": "lucid-integrative-clustering-model-fitting",
+        "b": "multi-omics-integrative-clustering"
+      },
+      "tools": {
+        "a": [
+          "LUCIDus",
+          "R",
+          "mclust"
+        ],
+        "b": [
+          "R",
+          "LUCIDus",
+          "LUCIDus3",
+          "mclust"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9f20d1e5d3e026b6",
+        "b": "dbbaa5102e07016f"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.9040452,
+      "slugs": {
+        "a": "multiplex-network-cross-validation",
+        "b": "multiplex-network-statistics-extraction"
+      },
+      "tools": {
+        "a": [
+          "RWRtoolkit",
+          "RandomWalkRestartMH",
+          "R"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "393220978f872149",
+        "b": "c2930dfb8bf6a702"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.90374085,
+      "slugs": {
+        "a": "protein-missing-value-recovery",
+        "b": "proteomics-recovery-rate-benchmarking"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "7cb5fe1fc10f9f36",
+        "b": "d1e74286c97e740e"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.90362709,
+      "slugs": {
+        "a": "machine-learning-sample-size-estimation",
+        "b": "sample-size-curve-interpretation"
+      },
+      "tools": {
+        "a": [
+          "MultiPower",
+          "MultiML",
+          "R"
+        ],
+        "b": [
+          "MultiPower",
+          "MultiML"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "911e8d659976d122",
+        "b": "cba0c97bf60e04ff"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_multimodalgraphics_cq",
+      "score": 0.90337883,
+      "slugs": {
+        "a": "gene-count-significance-dot-encoding",
+        "b": "gene-regulation-count-annotation"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "MultiModalGraphics",
+          "dplyr",
+          "ggplot2"
+        ],
+        "b": [
+          "R",
+          "MultiModalGraphics",
+          "dplyr",
+          "ggplot2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "f18f1e8126c6da4a",
+        "b": "8fa801d7f8dac651"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.90331613,
+      "slugs": {
+        "a": "r-package-statistical-workflow",
+        "b": "r-statistical-programming"
+      },
+      "tools": {
+        "a": [
+          "MultiPower"
+        ],
+        "b": [
+          "MultiPower"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b1316efdf1f55e0b",
+        "b": "c9667a38b964c498"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.90303953,
+      "slugs": {
+        "a": "annotation-confidence-score-computation",
+        "b": "spearman-correlation-of-marker-expression-with-confidence"
+      },
+      "tools": {
+        "a": [
+          "Annotatability",
+          "PyTorch",
+          "Python",
+          "numpy",
+          "pandas",
+          "scipy"
+        ],
+        "b": [
+          "Annotatability",
+          "PyTorch",
+          "Python",
+          "numpy",
+          "pandas",
+          "scipy"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "fb8ca1d7f1c995bd",
+        "b": "b7b682e5759f46b4"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.90288491,
+      "slugs": {
+        "a": "inter-layer-edge-integration",
+        "b": "z-coordinate-layer-placement"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "Cy3D",
+          "KEGGscape"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "KEGGscape",
+          "Cy3D"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9f20d1e5d3e026b6",
+        "b": "f5ec4cf8823878b2"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.90270795,
+      "slugs": {
+        "a": "multiplex-network-cross-validation",
+        "b": "random-walk-cross-validation-scoring"
+      },
+      "tools": {
+        "a": [
+          "RWRtoolkit",
+          "RandomWalkRestartMH",
+          "R"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "R",
+          "RandomWalkRestartMH"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "c9667a38b964c498",
+        "b": "0bf14a2f823f9960"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.90261857,
+      "slugs": {
+        "a": "spearman-correlation-of-marker-expression-with-confidence",
+        "b": "spearman-rank-correlation-statistics"
+      },
+      "tools": {
+        "a": [
+          "Annotatability",
+          "PyTorch",
+          "Python",
+          "numpy",
+          "pandas",
+          "scipy"
+        ],
+        "b": [
+          "Annotatability",
+          "PyTorch",
+          "Python",
+          "numpy",
+          "pandas",
+          "scipy"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "050e8946f6c72c4a",
+        "b": "b28cf3a8138d4153"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mosaicmpi_cq",
+      "score": 0.90258219,
+      "slugs": {
+        "a": "dataset-pair-correlation-thresholding",
+        "b": "shared-feature-subset-correlation-computation"
+      },
+      "tools": {
+        "a": [
+          "NumPy",
+          "pandas",
+          "AnnData"
+        ],
+        "b": [
+          "NumPy",
+          "pandas",
+          "AnnData"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3045b04e37c90efe",
+        "b": "4ed6e3a41b230bbc"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.90190436,
+      "slugs": {
+        "a": "protein-complex-curation",
+        "b": "protein-complex-prior-harmonization"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "Python"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "9d24b0bfa0ecfa7a",
+        "b": "d8c19df65044d631"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ssgate_cq",
+      "score": 0.9017415,
+      "slugs": {
+        "a": "leiden-clustering-metric-evaluation",
+        "b": "leiden-clustering-resolution-sweep"
+      },
+      "tools": {
+        "a": [
+          "SSGATE",
+          "SCANPY",
+          "Seurat v5"
+        ],
+        "b": [
+          "MOFA",
+          "SSGATE",
+          "Seurat v5",
+          "TotalVI",
+          "ScMM",
+          "SCANPY",
+          "Leiden",
+          "Leiden algorithm"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "260cde4f6c70f3ad",
+        "b": "ef54f84e9d014d2c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.90168006,
+      "slugs": {
+        "a": "structured-table-data-extraction",
+        "b": "transomic-interaction-table-parsing"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "VANTED",
+          "R"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "0433912886466292",
+        "b": "9bf920595d404a6a"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpipe_cq",
+      "score": 0.90096835,
+      "slugs": {
+        "a": "benchmark-accuracy-scoring",
+        "b": "hierarchical-accuracy-score-aggregation"
+      },
+      "tools": {
+        "a": [
+          "SRTsim",
+          "simmethods",
+          "simpipe",
+          "tislingshot",
+          "simpipe2docker",
+          "devtools"
+        ],
+        "b": [
+          "simpipe"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1d82b9d4bee6293e",
+        "b": "288fc8efe55a5b0e"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.9008363,
+      "slugs": {
+        "a": "multi-omics-protein-activity-inference",
+        "b": "phosphoproteomic-activity-inference-method-taxonomy"
+      },
+      "tools": {
+        "a": [
+          "SignalingProfiler 2.0",
+          "VIPER",
+          "SIGNOR",
+          "PhosphoSitePlus"
+        ],
+        "b": [
+          "SignalingProfiler 2.0",
+          "VIPER",
+          "COSMOS",
+          "CausalPath",
+          "HiPathia"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "7013744c4ab92831",
+        "b": "497cb5d266e33f9f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mosaicmpi_cq",
+      "score": 0.900736,
+      "slugs": {
+        "a": "community-usage-annotation-propagation",
+        "b": "integrated-program-community-interpretation"
+      },
+      "tools": {
+        "a": [
+          "mosaicMPI",
+          "pandas",
+          "NumPy",
+          "AnnData"
+        ],
+        "b": [
+          "mosaicMPI",
+          "pandas",
+          "NumPy",
+          "AnnData"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "dfa7fcce0763a9a1",
+        "b": "b967659c35f4f46b"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.90071524,
+      "slugs": {
+        "a": "erdos-renyi-random-network-generation",
+        "b": "igraph-toy-network-generation"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "RWRtoolkit",
+          "RandomWalkRestartMH"
+        ],
+        "b": [
+          "RWRtoolkit",
+          "RandomWalkRestartMH",
+          "R",
+          "igraph"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "74293aa9048f2daf",
+        "b": "e4d2719459ce422f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.90066411,
+      "slugs": {
+        "a": "spectral-clustering-on-similarity-matrix",
+        "b": "spectral-clustering-with-silhouette-k-selection"
+      },
+      "tools": {
+        "a": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "CHAI-SNF",
+          "SNFtool"
+        ],
+        "b": [
+          "CHAI",
+          "CHAI-SNF",
+          "R",
+          "SNFtool",
+          "GraphST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "11073d08aa1dc9c5",
+        "b": "e7bad92a32d89be9"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_smopca_cq",
+      "score": 0.90054164,
+      "slugs": {
+        "a": "clustering-agreement-metric-computation",
+        "b": "clustering-benchmark-evaluation"
+      },
+      "tools": {
+        "a": [
+          "SMOPCA",
+          "SpatialPCA",
+          "scMDC",
+          "scikit-learn"
+        ],
+        "b": [
+          "scMDC",
+          "SpatialPCA",
+          "scikit-learn"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "28810039aa9ec755",
+        "b": "83cb11b9d0a1fc4f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.90050947,
+      "slugs": {
+        "a": "multi-layer-2-5d-network-stacking",
+        "b": "transomic-network-2-5d-visualization"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "KEGGscape",
+          "Cy3D"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST",
+          "Cy3D",
+          "KEGGscape"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "de64b989aa289ba1",
+        "b": "0761411484ea97df"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpipe_cq",
+      "score": 0.90050189,
+      "slugs": {
+        "a": "correlation-significance-testing",
+        "b": "pearson-correlation-across-benchmark-modalities"
+      },
+      "tools": {
+        "a": [
+          "SRTsim",
+          "scDesign3",
+          "ZINB-WaVE",
+          "scDesign2"
+        ],
+        "b": [
+          "SRTsim",
+          "scDesign3",
+          "ZINB-WaVE",
+          "scDesign2"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "a36a884be2f81bfa",
+        "b": "4ed6e3a41b230bbc"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.90040269,
+      "slugs": {
+        "a": "protein-complex-network-inference",
+        "b": "protein-complex-prior-harmonization"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b1316efdf1f55e0b",
+        "b": "3afd6ede4dc5fd95"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.90039194,
+      "slugs": {
+        "a": "annotation-confidence-score-computation",
+        "b": "gene-annotation-trainability-scoring"
+      },
+      "tools": {
+        "a": [
+          "Annotatability",
+          "PyTorch",
+          "Python",
+          "numpy",
+          "pandas",
+          "scipy"
+        ],
+        "b": [
+          "Annotatability",
+          "numpy",
+          "pandas",
+          "scipy",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "830f3a5303dbeb27",
+        "b": "e4d2719459ce422f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.90038265,
+      "slugs": {
+        "a": "silhouette-based-cluster-number-selection",
+        "b": "spectral-clustering-with-silhouette-k-selection"
+      },
+      "tools": {
+        "a": [
+          "CHAI",
+          "CHAI-AvgSim",
+          "CHAI-SNF",
+          "R",
+          "Seurat",
+          "SC3",
+          "Spectrum",
+          "scSHC",
+          "SNFtool"
+        ],
+        "b": [
+          "CHAI",
+          "CHAI-SNF",
+          "R",
+          "SNFtool",
+          "GraphST"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "05c3457c82ada350",
+        "b": "77c62c8e6f2e86fc"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.90030563,
+      "slugs": {
+        "a": "ec-to-kegg-reaction-id-mapping",
+        "b": "enzyme-identifier-conversion"
+      },
+      "tools": {
+        "a": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ],
+        "b": [
+          "transomics2cytoscape",
+          "R",
+          "KEGGREST"
+        ]
+      }
+    }
+  ],
+  "pairs_ge_0_95": [
+    {
+      "member_ids": {
+        "a": "9b021fc3c7c21c55",
+        "b": "c9dcc3328291e6ee"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.97272185,
+      "slugs": {
+        "a": "ari-clustering-benchmark-against-annotations",
+        "b": "clustering-ari-benchmark-evaluation"
+      },
+      "tools": {
+        "a": [
+          "stImage",
+          "R",
+          "SpatialPCA",
+          "BayesSpace",
+          "tidyverse"
+        ],
+        "b": [
+          "R",
+          "stImage",
+          "SpatialPCA",
+          "BayesSpace",
+          "tidyverse"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "7f5046b5b079d207",
+        "b": "a9640bb58ed3cd10"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.97081573,
+      "slugs": {
+        "a": "single-cell-training-dynamics-monitoring",
+        "b": "single-cell-training-dynamics-scoring"
+      },
+      "tools": {
+        "a": [
+          "Annotatability",
+          "PyTorch",
+          "numpy",
+          "scipy",
+          "pandas",
+          "Python"
+        ],
+        "b": [
+          "Annotatability",
+          "PyTorch",
+          "numpy",
+          "pandas",
+          "scReClassify",
+          "scipy",
+          "Python"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "c65201c9d9422164",
+        "b": "152adf6baa3a40c7"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_multimodalgraphics_cq",
+      "score": 0.96131636,
+      "slugs": {
+        "a": "thresholded-volcano-plot-generation",
+        "b": "volcano-plot-threshold-annotation"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "MultiModalGraphics",
+          "dplyr",
+          "ggplot2"
+        ],
+        "b": [
+          "R",
+          "MultiModalGraphics",
+          "MultiAssayExperiment",
+          "ggplot2",
+          "knitr"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "1a9a063d0c20125a",
+        "b": "69acf898b0f661b7"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sparrow_cq",
+      "score": 0.96052941,
+      "slugs": {
+        "a": "kmeans-clustering-of-spatial-transcriptomics-cells",
+        "b": "single-cell-spatial-transcriptomics-clustering"
+      },
+      "tools": {
+        "a": [
+          "SPArrOW",
+          "Python",
+          "napari-sparrow"
+        ],
+        "b": [
+          "SPArrOW",
+          "Python",
+          "napari-sparrow"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "83f299bfe4903485",
+        "b": "0d7ad500831d8ccf"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.9575501,
+      "slugs": {
+        "a": "imputation-method-benchmarking",
+        "b": "sensitivity-analysis-vs-imputation-benchmark"
+      },
+      "tools": {
+        "a": [
+          "R",
+          "LUCIDus",
+          "mclust"
+        ],
+        "b": [
+          "R",
+          "LUCIDus",
+          "mclust"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "c2930dfb8bf6a702",
+        "b": "0f31f72dc662110c"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.95627377,
+      "slugs": {
+        "a": "proteomics-recovery-rate-benchmarking",
+        "b": "recovery-rate-validation-against-reference-proteome"
+      },
+      "tools": {
+        "a": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ],
+        "b": [
+          "Protrec2",
+          "PROTREC",
+          "Python",
+          "pip"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "b79fa35faae667e8",
+        "b": "5d4a7a0d4db481d8"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.95611626,
+      "slugs": {
+        "a": "dna-read-simulation-with-variant-injection",
+        "b": "dna-variant-calling-from-simulated-reads"
+      },
+      "tools": {
+        "a": [
+          "Docker",
+          "Singularity",
+          "Conda",
+          "SimuSCoP",
+          "FastQC",
+          "MultiQC"
+        ],
+        "b": [
+          "Docker",
+          "Singularity",
+          "Conda",
+          "FastQC",
+          "MultiQC"
+        ]
+      }
+    },
+    {
+      "member_ids": {
+        "a": "3afd6ede4dc5fd95",
+        "b": "55902bed98da6508"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.95095744,
+      "slugs": {
+        "a": "gene-annotation-trainability-scoring",
+        "b": "marker-gene-trainability-ranking"
+      },
+      "tools": {
+        "a": [
+          "Annotatability",
+          "numpy",
+          "pandas",
+          "scipy",
+          "Python"
+        ],
+        "b": [
+          "Annotatability",
+          "PyTorch",
+          "numpy",
+          "scipy",
+          "pandas",
+          "Python"
+        ]
+      }
+    }
+  ],
+  "rehearsal": true,
+  "runs": 29,
+  "seconds": 9.611,
+  "skills": 921,
+  "source_provenance": {
+    "asb_commit": "379a3c688706a4e83edd23cc4b268ebf0e46ce80",
+    "pinned_worktree": "/Users/nothiasl/git/asb-wt-second-cut",
+    "source_files": {
+      "consolidate_skills": {
+        "path": "/Users/nothiasl/git/asb-wt-second-cut/src/agentic_science_builder/consolidate_skills.py",
+        "sha256": "6019f5a43333b55ae6292727dfd98153d8ec6c315b46204d561c13fbf5120cb6"
+      },
+      "embeddings": {
+        "path": "/Users/nothiasl/git/asb-wt-second-cut/src/agentic_science_builder/embeddings.py",
+        "sha256": "e7fd71800db85ac780332dc583330469a540654af172fa2157dd28743d94bbca"
+      }
+    }
+  },
+  "surplus_leaves": {
+    "ge_0_90": 125,
+    "ge_0_95": 8
+  },
+  "thresholds": {
+    "auto_merge": 0.95,
+    "embed_view": "name_tools",
+    "pair_scope": "same_run_full_pairwise",
+    "suggest": 0.9
+  },
+  "view": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/papers_view_provisional/multi-omics"
+}

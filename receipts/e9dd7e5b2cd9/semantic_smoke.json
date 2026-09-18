@@ -1,0 +1,22 @@
+{
+  "rehearsal": true,
+  "filter": "not applied (unfiltered provisional cut; D7 applies at the canonical cut)",
+  "policy_register": "docs/asbb/DECISIONS.md Decision 7 (2026-09-18)",
+  "status": "passed",
+  "exit_code": 0,
+  "description_domains": [
+    "an LC-MS feature matrix",
+    "a genome assembly graph",
+    "stellar flux measurements",
+    "electrophysiology recordings"
+  ],
+  "checks": [
+    "use-prefix normalization",
+    "unchanged compliant description",
+    "P2 NC/ND cap even when OA",
+    "P3 ordered-prefix exhaustion",
+    "permissive quote uncapped",
+    "colon-label regex",
+    "independent EDAM mirror serialization"
+  ]
+}
