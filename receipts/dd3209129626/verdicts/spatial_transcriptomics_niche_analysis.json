@@ -1,0 +1,21 @@
+{
+  "workflow": "spatial_transcriptomics_niche_analysis",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Segments an existing SpatialData image layer with SPArrOW and Cellpose into cell masks, rather than loading transcript and image layers into the stage's persistent store.",
+      "severity": "advisory",
+      "slug": "spatial-transcriptomics-image-segmentation",
+      "stage": "load"
+    }
+  ],
+  "verdict": "pass"
+}

@@ -1,8 +1,8 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-09-20T00:48:03.247213+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/multi-omics",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/multi-omics/corpus.yaml",
+  "generated_at": "2026-09-20T13:26:00.304562+00:00",
+  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/multi-omics/candidate",
+  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/multi-omics/candidate/corpus.yaml",
   "mode": "strict",
   "strict": true,
   "promote_logic_source": "agentic_science_builder.release.promote",
@@ -41,7 +41,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "e48b196d2f371111008dc1cdd256eda866c3dfa6047ecbd287a4d18b41e8d221",
+      "sha256": "3e9e2ee72c14b40683385e64ec689183e659fc2d3e84880c4e981461efc8a842",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -51,6 +51,11 @@
           "path": ".claude-plugin/plugin.json",
           "bytes": 520,
           "sha256": "e61790818a0b318e546ad34f9503ba3b152c61525bf72ee1a597fbb17d668de2"
+        },
+        {
+          "path": ".zenodo.json",
+          "bytes": 2770,
+          "sha256": "3a7ae59fa637404e2137c352bb2a8a15b90613d800471fd1817b48fd695651d8"
         },
         {
           "path": "CITATION.cff",
@@ -69,7 +74,7 @@
         {
           "path": "collection.yaml",
           "bytes": 39112,
-          "sha256": "e9adae82c14c6781b648f94e5cca5f70271de3867f4ecfd486dc4dc96be7c68e"
+          "sha256": "4d6a5f62dbaa717f4f795e490deb1d2e66e96d04ad1d646c1103412d06545c18"
         },
         {
           "path": "corpus.yaml",
@@ -8254,6 +8259,62 @@
           "path": "tools_index.json",
           "bytes": 218873,
           "sha256": "26031d24df9d4f031b130672c2e75f71a915df64c8c5a29b3a22043bb579aebf"
+        },
+        {
+          "path": "workflows",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router/SKILL.md",
+          "bytes": 3283,
+          "sha256": "bb008718fa6d80525eb500c0c86c8cef704b54bf6f12cccda173cc7406ff5ccb"
+        },
+        {
+          "path": "workflows/single-cell-transcriptome-proteome-integration",
+          "directory": true
+        },
+        {
+          "path": "workflows/single-cell-transcriptome-proteome-integration/README.md",
+          "bytes": 1977,
+          "sha256": "32187c94008164b87537fdb352e2fe807d6f7196624d023b7ee7263ed0f224ce"
+        },
+        {
+          "path": "workflows/single-cell-transcriptome-proteome-integration/SKILL.md",
+          "bytes": 6678,
+          "sha256": "b8cc06cdbdc07a1a860f30858218fe39bc4d7b79fe1483d53115969f83b4edec"
+        },
+        {
+          "path": "workflows/single-cell-transcriptome-proteome-integration/workflow.yaml",
+          "bytes": 4775,
+          "sha256": "875190eb965648140f7bc41ac6c538e61eeb197bcd6a35c5e677e098417a52cb"
+        },
+        {
+          "path": "workflows/spatial-transcriptomics-niche-analysis",
+          "directory": true
+        },
+        {
+          "path": "workflows/spatial-transcriptomics-niche-analysis/README.md",
+          "bytes": 2173,
+          "sha256": "e6a9c3b41a01d23c43273c8be4aa98d3f9618d0f617451a142ad5003ed723933"
+        },
+        {
+          "path": "workflows/spatial-transcriptomics-niche-analysis/SKILL.md",
+          "bytes": 7019,
+          "sha256": "c181db08f4798160799be8df555fd3851c254c41950dbc1d6f58024047539b7a"
+        },
+        {
+          "path": "workflows/spatial-transcriptomics-niche-analysis/workflow.yaml",
+          "bytes": 4926,
+          "sha256": "1ad651d902907b7a3896aec325f31eb8dc9e8c016e7e763a1974fc49a34d1fef"
+        },
+        {
+          "path": "workflows/workflows_index.json",
+          "bytes": 1584,
+          "sha256": "0fac34dc199b8f87c53336fae94e4dc6c7b6098007eb33774d1bc834e00e6089"
         }
       ],
       "excluded_paths": [
@@ -8272,7 +8333,7 @@
   "inventory": {
     "skills": 787,
     "tools": 211,
-    "workflows": 0,
+    "workflows": 2,
     "papers": 29,
     "dois": 29
   },
@@ -8281,7 +8342,6 @@
   "verification_scope": "content-policy checks and bound artifact integrity",
   "release_verified": true,
   "zero_item_checks": [
-    "composite_workflows",
     "layout_packaging",
     "unit_closure",
     "catalogue_membership",
@@ -8291,11 +8351,11 @@
   "blocking": false,
   "exit_code": 0,
   "summary_counts": {
-    "pass": 11,
+    "pass": 12,
     "warn": 0,
     "fail": 0,
     "uncheckable": 0,
-    "not_applicable": 2
+    "not_applicable": 1
   },
   "hard_gate_ids": [
     2,
@@ -8409,21 +8469,16 @@
     },
     {
       "name": "composite_workflows",
-      "status": "not_applicable",
+      "status": "pass",
       "gates": [],
       "hard_gate": false,
-      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.",
-      "n_findings": 1,
-      "details": [
-        {
-          "status": "not_applicable",
-          "message": "No workflows/ subtree; no workflow validation performed."
-        }
-      ],
+      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.  (2 workflows checked)",
+      "n_findings": 0,
+      "details": [],
       "scope": "composite workflows",
-      "required": false,
+      "required": true,
       "counts": {
-        "checked": 0,
+        "checked": 2,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -8499,7 +8554,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 1008,
+        "checked": 1017,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -8586,5 +8641,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "4bfafb4d4e69403f3fa20ba08a6270b30e6ad6bd35fd2504f55ef25f5f003cde"
+  "receipt_sha256": "59355cd4ead8dfae900893fa3222be7f53cfb1035d65fb0caf9e7b47ec3b3a14"
 }

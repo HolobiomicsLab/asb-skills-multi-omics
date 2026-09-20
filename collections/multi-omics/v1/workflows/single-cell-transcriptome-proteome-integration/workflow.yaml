@@ -1,0 +1,223 @@
+schema_version: 0.3.0
+workflow_id: single_cell_transcriptome_proteome_integration
+kind: composite-workflow
+techniques: []
+steps:
+- id: preprocess
+  goal: paired RNA and protein counts to normalized modality matrices
+  edam_operation: http://edamontology.org/operation_2935
+  skills:
+  - single-cell-multiomics-data-preprocessing
+  - single-cell-count-matrix-ingestion
+  - anndata-object-construction
+  tools:
+  - MOFA
+  - SCANPY
+  - SSGATE
+  - anndata
+  inputs:
+  - type: h5ad
+    flavour: rna-counts
+  - type: h5ad
+    flavour: protein-counts
+  outputs:
+  - type: h5ad
+    flavour: paired-normalized
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bib-bbae450
+    - asb-paper-10-1186-s13059-021-02577-8
+    dois:
+    - 10.1093/bib/bbae450
+    - 10.1186/s13059-021-02577-8
+  after: []
+  candidate_tools:
+  - MUON
+  - NumPy
+  - SnapATAC
+  - pandas
+- id: neighbors
+  goal: normalized modality matrices to separate pruned cell-neighbor graphs
+  edam_operation: http://edamontology.org/operation_3432
+  skills:
+  - neighborhood-graph-construction-with-neighbor-pruning
+  - knn-neighborhood-graph-construction
+  - weighted-nearest-neighbour-graph-construction
+  tools:
+  - SCANPY
+  - SSGATE
+  - Seurat v5
+  inputs:
+  - type: h5ad
+    flavour: paired-normalized
+  outputs:
+  - type: h5ad
+    flavour: paired-graphs
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bib-bbae450
+    - asb-paper-10-1186-s13059-021-02577-8
+    dois:
+    - 10.1093/bib/bbae450
+    - 10.1186/s13059-021-02577-8
+  after:
+  - preprocess
+  candidate_tools:
+  - ClusterProfiler
+  - Leiden
+  - MOFA
+  - Seurat
+  - anndata
+  - MOFA+
+  - MUON
+  - NumPy
+  - pandas
+  inputs_from:
+    preprocess:
+    - h5ad:paired-normalized
+- id: integrate
+  goal: paired expression matrices and graphs to a joint cell embedding
+  edam_operation: http://edamontology.org/operation_3935
+  skills:
+  - single-cell-multiomics-integration-training
+  - triplet-loss-self-supervised-training
+  - multi-omics-embedding-fusion
+  - graph-attention-autoencoder-training
+  - leiden-clustering-metric-evaluation
+  tools:
+  - MOFA
+  - SCANPY
+  - SSGATE
+  - ScMM
+  - Seurat v5
+  - TotalVI
+  inputs:
+  - type: h5ad
+    flavour: paired-graphs
+  outputs:
+  - type: h5ad
+    flavour: joint-embedding
+  - type: model-state
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bib-bbae450
+    dois:
+    - 10.1093/bib/bbae450
+  after:
+  - neighbors
+  candidate_tools:
+  - anndata
+  - ClusterProfiler
+  - Seurat
+  inputs_from:
+    neighbors:
+    - h5ad:paired-graphs
+- id: cluster
+  goal: joint embedding to cell-cluster assignments across resolutions
+  edam_operation: http://edamontology.org/operation_3432
+  skills:
+  - leiden-clustering-resolution-sweep
+  - leiden-clustering-of-integrated-embeddings
+  - single-cell-rna-seq-consensus-clustering
+  tools:
+  - Leiden
+  - Leiden algorithm
+  - MOFA
+  - SCANPY
+  - SSGATE
+  - ScMM
+  - Seurat v5
+  - TotalVI
+  inputs:
+  - type: h5ad
+    flavour: joint-embedding
+  - type: tsv
+    flavour: reference-cell-labels
+  outputs:
+  - type: h5ad
+    flavour: clustered
+  - type: tsv
+    flavour: cluster-assignments
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bib-bbae411
+    - asb-paper-10-1093-bib-bbae450
+    dois:
+    - 10.1093/bib/bbae411
+    - 10.1093/bib/bbae450
+  after:
+  - integrate
+  candidate_tools:
+  - ClusterProfiler
+  - Seurat
+  - CHAI
+  - CHAI-SNF
+  - R
+  - SAME-clustering
+  - SC3
+  - SNFtool
+  - Spectrum
+  inputs_from:
+    integrate:
+    - h5ad:joint-embedding
+- id: assess
+  goal: cell clusters and reference labels to a clustering-concordance report
+  edam_operation: http://edamontology.org/operation_0337
+  skills:
+  - clustering-agreement-metric-computation--969d24d6c46ee9fc
+  - clustering-agreement-metric-computation--89a468bebe16f1ba
+  - adjusted-rand-index-evaluation
+  tools:
+  - MOFA
+  - MOFA+
+  - SCANPY
+  - SSGATE
+  - ScMM
+  - Seurat v5
+  - TotalVI
+  inputs:
+  - type: h5ad
+    flavour: clustered
+  - type: tsv
+    flavour: cluster-assignments
+  - type: tsv
+    flavour: reference-cell-labels
+  outputs:
+  - type: h5ad
+    flavour: assessed-integration
+  - type: tsv
+    flavour: clustering-concordance
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1093-bib-bbae450
+    - asb-paper-10-1101-421834
+    - asb-paper-10-1186-s13059-025-03576-9
+    dois:
+    - 10.1093/bib/bbae450
+    - 10.1101/421834
+    - 10.1186/s13059-025-03576-9
+  after:
+  - cluster
+  candidate_tools:
+  - SMOPCA
+  - SpatialPCA
+  - scMDC
+  - scikit-learn
+  - MOSim
+  - R
+  - SPARSim
+  - Seurat
+  inputs_from:
+    cluster:
+    - h5ad:clustered
+    - tsv:cluster-assignments
+verification:
+  final_outputs:
+  - path: integrated_cells.h5ad
+    type: file
+  - path: clustering_concordance.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

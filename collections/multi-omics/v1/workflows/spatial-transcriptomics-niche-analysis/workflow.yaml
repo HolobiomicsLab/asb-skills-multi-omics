@@ -1,0 +1,217 @@
+schema_version: 0.3.0
+workflow_id: spatial_transcriptomics_niche_analysis
+kind: composite-workflow
+techniques: []
+steps:
+- id: load
+  goal: spatial images and transcript coordinates to a unified persistent store
+  edam_operation: http://edamontology.org/operation_2409
+  skills:
+  - spatial-omics-data-loading
+  - spatial-omics-multilayer-image-alignment
+  - spatial-transcriptomics-image-segmentation
+  tools:
+  - MERSCOPE
+  - Sopa
+  - SpatialData
+  - uv
+  inputs:
+  - type: transcript-table
+  - type: image
+    flavour: staining
+  - type: image
+    flavour: aligned-histology
+  outputs:
+  - type: zarr
+    flavour: spatial-raw
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-48981-z
+    - asb-paper-10-1101-2024-07-04-601829
+    dois:
+    - 10.1038/s41467-024-48981-z
+    - 10.1101/2024.07.04.601829
+  after: []
+  candidate_tools:
+  - Xenium
+  - Hydra
+  - Napari
+  - Python
+  - SPArrOW
+- id: segment
+  goal: transcript coordinates to resolved cell boundary polygons
+  edam_operation: http://edamontology.org/operation_3799
+  skills:
+  - transcript-based-cell-segmentation
+  - overlapping-patch-tiling-strategy
+  - spatial-omics-patch-based-image-segmentation
+  - segmentation-conflict-resolution-across-patches
+  - cell-boundary-intersection-over-min-area-quantification
+  tools:
+  - Baysor
+  - Cellpose
+  - MERSCOPE
+  - Sopa
+  - SpatialData
+  inputs:
+  - type: zarr
+    flavour: spatial-raw
+  outputs:
+  - type: zarr
+    flavour: spatial-segmented
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-48981-z
+    dois:
+    - 10.1038/s41467-024-48981-z
+  after:
+  - load
+  candidate_tools:
+  - Xenium
+  inputs_from:
+    load:
+    - zarr:spatial-raw
+- id: count_transcripts
+  goal: cell polygons and transcripts to a filtered cell-by-gene matrix
+  edam_operation: http://edamontology.org/operation_3799
+  skills:
+  - spatial-transcriptomics-gene-count-aggregation
+  - baysor-transcript-segmentation
+  tools:
+  - MERSCOPE
+  - Sopa
+  - SpatialData
+  inputs:
+  - type: zarr
+    flavour: spatial-segmented
+  outputs:
+  - type: zarr
+    flavour: spatial-gene-counts
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-48981-z
+    dois:
+    - 10.1038/s41467-024-48981-z
+  after:
+  - segment
+  candidate_tools:
+  - Baysor
+  inputs_from:
+    segment:
+    - zarr:spatial-segmented
+- id: quantify_channels
+  goal: retained cells and staining images to per-cell channel intensities
+  edam_operation: http://edamontology.org/operation_3799
+  skills:
+  - channel-intensity-aggregation
+  - polygon-chunk-spatial-intersection
+  - per-cell-channel-intensity-quantification
+  - cell-polygon-rasterization
+  tools:
+  - Sopa
+  - SpatialData
+  - dask
+  - shapely
+  inputs:
+  - type: zarr
+    flavour: spatial-gene-counts
+  outputs:
+  - type: zarr
+    flavour: spatial-multimodal
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-48981-z
+    dois:
+    - 10.1038/s41467-024-48981-z
+  after:
+  - count_transcripts
+  candidate_tools:
+  - MERSCOPE
+  - Xenium
+  - sopa.io.toy_dataset
+  inputs_from:
+    count_transcripts:
+    - zarr:spatial-gene-counts
+- id: niches
+  goal: aligned cell-centered image patches to niche labels and geometry tables
+  edam_operation: http://edamontology.org/operation_3432
+  skills:
+  - spatial-niche-clustering-and-vectorization
+  - spatial-niche-geometry-statistics
+  - niche-cell-colocalization-analysis
+  - cell-to-niche-group-assignment
+  tools:
+  - MERSCOPE
+  - Sopa
+  - SpatialData
+  - Xenium
+  inputs:
+  - type: zarr
+    flavour: spatial-multimodal
+  outputs:
+  - type: zarr
+    flavour: spatial-niches
+  - type: tsv
+    flavour: niche-geometry
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-48981-z
+    dois:
+    - 10.1038/s41467-024-48981-z
+  after:
+  - quantify_channels
+  candidate_tools:
+  - STAGATE
+  - Shapely
+  inputs_from:
+    quantify_channels:
+    - zarr:spatial-multimodal
+- id: export
+  goal: analyzed spatial store to reusable cell data and visualization files
+  edam_operation: http://edamontology.org/operation_0337
+  skills:
+  - xenium-explorer-data-conversion
+  - cell-boundary-polygon-export
+  - pyramidal-ome-tif-image-export
+  tools:
+  - Sopa
+  - SpatialData
+  - Xenium
+  inputs:
+  - type: zarr
+    flavour: spatial-niches
+  - type: tsv
+    flavour: niche-geometry
+  outputs:
+  - type: zarr
+    flavour: spatial-niches
+  - type: h5ad
+  - type: directory
+    flavour: explorer
+  - type: tsv
+    flavour: niche-geometry
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-024-48981-z
+    dois:
+    - 10.1038/s41467-024-48981-z
+  after:
+  - niches
+  inputs_from:
+    niches:
+    - zarr:spatial-niches
+    - tsv:niche-geometry
+verification:
+  final_outputs:
+  - path: spatial_niches.zarr
+    type: directory
+  - path: niche_geometry.tsv
+    type: file
+  - path: cells.h5ad
+    type: file
+  - path: spatial.explorer
+    type: directory
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []
