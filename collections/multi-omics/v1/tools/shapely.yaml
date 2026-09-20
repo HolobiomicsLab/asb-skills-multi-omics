@@ -1,0 +1,17 @@
+name: Shapely
+slug: shapely
+version_used: null
+edam_topics: []
+evidence_spans:
+- Spatial operations are optimized and use `shapely` internally
+derived_from:
+- doi: 10.1038/s41467-024-48981-z
+  title: 'Sopa: a technology-invariant pipeline for analyses of image-based spatial omics'
+source_repos:
+- https://github.com/prism-oncology/sopa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/prism-oncology/sopa

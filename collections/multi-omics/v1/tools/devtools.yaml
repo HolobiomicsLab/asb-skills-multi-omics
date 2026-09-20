@@ -1,0 +1,22 @@
+name: devtools
+slug: devtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("Yelab1994/iMLGAM")
+- install.packages("devtools")
+- '# install.packages("devtools")'
+derived_from:
+- doi: 10.1002/imt2.70011
+  title: 'iMLGAM: Integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis for pan‐cancer immunotherapy response prediction'
+- doi: 10.1186/s13059-024-03290-y
+  title: Systematic evaluation with practical guidelines for single-cell and spatially resolved transcriptomics data simulation under multiple scenarios
+source_repos:
+- https://github.com/Yelab1994/iMLGAM
+- https://github.com/duohongrui/simpipe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Yelab1994/iMLGAM

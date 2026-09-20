@@ -1,0 +1,17 @@
+name: GATK HaplotypeCaller
+slug: gatk-haplotypecaller
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Variant Calling: GATK HaplotypeCaller workflow.'
+derived_from:
+- doi: 10.1101/2025.11.24.690117
+  title: 'Eduomics: a Nextflow pipeline to simulate -omics data for education'
+source_repos:
+- https://github.com/lescai-teaching/eduomics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lescai-teaching/eduomics

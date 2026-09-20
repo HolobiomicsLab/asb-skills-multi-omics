@@ -1,0 +1,23 @@
+name: RWRtoolkit
+slug: rwrtoolkit
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce RWRtoolkit, a multiplex generation, exploration, and statistical package built for R and command-line users.
+- Here we introduce RWRtoolkit [19], an R package that builds on RandomWalkRestartMH and fills these gaps through functionalities
+- Random.Walk.Restart.Multiplex function from RandomWalkRestartMH
+- we employed Random Walk with Restart Cross-Validation (RWR_CV) using a series of carefully curated gene sets
+- The analysis was run with a restart value of 0.7 and cyto as 50 using the RWRtoolkit software package.
+- all possible shortest paths between all seed and target genes were extracted using the RWRtoolkit application.
+- we used the RWR_netstats function to extract basic statistics using the option basic_statistics
+derived_from:
+- doi: 10.1093/gigascience/giaf028
+  title: 'RWRtoolkit: multi-omic network analysis using random walks on multiplex networks in any species'
+source_repos:
+- https://github.com/dkainer/RWRtoolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dkainer/RWRtoolkit

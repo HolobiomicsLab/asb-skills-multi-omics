@@ -1,0 +1,24 @@
+name: Snakemake
+slug: snakemake
+version_used: null
+edam_topics: []
+evidence_spans:
+- a flexible Snakemake workflow, enabling users with various levels of expertise to process spatial omics data seamlessly
+derived_from:
+- doi: 10.1038/s41592-025-02774-4
+  title: Co-profiling of in situ RNA-protein interactions and transcriptome in single cells and tissues
+- doi: 10.1038/s41467-024-48981-z
+  title: 'Sopa: a technology-invariant pipeline for analyses of image-based spatial omics'
+- doi: 10.1093/nar/gkaf101
+  title: Generalization of the sci-L3 method to achieve high-throughput linear amplification for replication template strand sequencing, genome conformation capture, and the joint profiling of RNA and chromatin accessibility
+source_repos:
+- https://github.com/WangLabPKU/MAPIT-seq
+- https://github.com/YeoLab/FLARE
+- https://github.com/prism-oncology/sopa
+- https://github.com/recombinationlab/sciL3Pipe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WangLabPKU/MAPIT-seq

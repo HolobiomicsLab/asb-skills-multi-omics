@@ -1,0 +1,17 @@
+name: Simple
+slug: simple
+version_used: null
+edam_topics: []
+evidence_spans:
+- Phenopath, Lun, Simple, and MFA yield high scalability scores but they cannot generate realistic simulated data
+derived_from:
+- doi: 10.1186/s13059-024-03290-y
+  title: Systematic evaluation with practical guidelines for single-cell and spatially resolved transcriptomics data simulation under multiple scenarios
+source_repos:
+- https://github.com/duohongrui/simpipe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/duohongrui/simpipe

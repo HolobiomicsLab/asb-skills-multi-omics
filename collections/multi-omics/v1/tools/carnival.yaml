@@ -1,0 +1,21 @@
+name: CARNIVAL
+slug: carnival
+version_used: null
+edam_topics: []
+evidence_spans:
+- CARNIVAL algorithm optimizes the naïve network in a context-specific model.
+- the CARNIVAL optimization strategy19 that retains only the sign-coherent interactions between proteins (context-specific network)
+- CARNIVAL algorithm optimizes the naïve network in a context-specific model
+- it is the activity computed by CARNIVAL algorithm ranging between -100 and +100
+derived_from:
+- doi: 10.1038/s41540-024-00417-6
+  title: SignalingProfiler 2.0 a network-based approach to bridge multi-omics data to phenotypic hallmarks
+source_repos:
+- https://github.com/saezlab.github.io/CARNIVAL
+- https://github.com/SaccoPerfettoLab/SignalingProfiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/saezlab.github.io/CARNIVAL

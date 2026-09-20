@@ -1,0 +1,20 @@
+name: SPARSim
+slug: sparsim
+version_used: null
+edam_topics: []
+evidence_spans:
+- Lun, SPARSim, and scDesign3-tree outperform other methods under corresponding simulation scenarios
+derived_from:
+- doi: 10.1101/421834
+  title: 'MOSim: bulk and single-cell multi-layer regulatory network simulator'
+- doi: 10.1186/s13059-024-03290-y
+  title: Systematic evaluation with practical guidelines for single-cell and spatially resolved transcriptomics data simulation under multiple scenarios
+source_repos:
+- https://github.com/ConesaLab/MOSim
+- https://github.com/duohongrui/simpipe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/MOSim

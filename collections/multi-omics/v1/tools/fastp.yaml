@@ -1,0 +1,16 @@
+name: Fastp
+slug: fastp
+version_used: 0.23.4
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1101/2025.04.27.650628
+  title: 'SGCRNA: Spectral Clustering-Guided Co-Expression Network Analysis Without Scale-Free Constraints for Multi-Omic Data'
+source_repos:
+- https://github.com/C37H41N2O6/SGCRNAs.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/C37H41N2O6/SGCRNAs.jl

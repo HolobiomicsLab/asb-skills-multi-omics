@@ -1,0 +1,24 @@
+name: AnnData
+slug: anndata
+version_used: null
+edam_topics: []
+evidence_spans:
+- Operations on table (`AnnData` object) layers.
+- SSGATE requires data in [anndata](https://anndata.readthedocs.io/en/latest/) format as inputs.
+derived_from:
+- doi: 10.1093/nar/gkae442
+  title: 'mosaicMPI: a framework for modular data integration across cohorts and -omics modalities'
+- doi: 10.1101/2024.07.04.601829
+  title: 'SPArrOW: a flexible, interactive and scalable pipeline for spatial transcriptomics analysis'
+- doi: 10.1093/bib/bbae450
+  title: Multi-omics integration for both single-cell and spatially resolved data based on dual-path graph attention auto-encoder
+source_repos:
+- https://github.com/MorrissyLab/mosaicMPI
+- https://github.com/saeyslab/napari-SPArrOW
+- https://github.com/Lv-BioInfo/SSGATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MorrissyLab/mosaicMPI

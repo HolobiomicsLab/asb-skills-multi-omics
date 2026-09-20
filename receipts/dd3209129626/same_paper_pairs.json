@@ -1,0 +1,1567 @@
+{
+  "auto_merges_applied": false,
+  "components_ge_0_90": 62,
+  "components_ge_0_95": 6,
+  "input_digests": {
+    "coverage_summary_sha256": "dd3209129626c8b2395a3999a087802a701c751792be629ce9c4134e1aedb11d",
+    "outputs": 787
+  },
+  "model": "BAAI/bge-small-en-v1.5",
+  "pairs_0_90_to_0_95": [
+    {
+      "left": {
+        "canonical_slug": "regulator-gene-association-configuration",
+        "merge_kind": "single",
+        "output_id": "regulator-gene-association-configuration"
+      },
+      "right": {
+        "canonical_slug": "regulator-gene-correlation-validation",
+        "merge_kind": "single",
+        "output_id": "regulator-gene-correlation-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mosim_cq",
+      "score": 0.94991
+    },
+    {
+      "left": {
+        "canonical_slug": "fdr-power-evaluation-simulation",
+        "merge_kind": "single",
+        "output_id": "fdr-power-evaluation-simulation"
+      },
+      "right": {
+        "canonical_slug": "semi-synthetic-benchmark-fdr-power-analysis",
+        "merge_kind": "single",
+        "output_id": "semi-synthetic-benchmark-fdr-power-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.948666
+    },
+    {
+      "left": {
+        "canonical_slug": "parameter-grid-benchmarking-against-gold-standard",
+        "merge_kind": "single",
+        "output_id": "parameter-grid-benchmarking-against-gold-standard"
+      },
+      "right": {
+        "canonical_slug": "parameter-scan-gold-standard-benchmarking",
+        "merge_kind": "single",
+        "output_id": "parameter-scan-gold-standard-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.945677
+    },
+    {
+      "left": {
+        "canonical_slug": "clustering-metric-benchmarking",
+        "merge_kind": "single",
+        "output_id": "clustering-metric-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "leiden-clustering-metric-evaluation",
+        "merge_kind": "single",
+        "output_id": "leiden-clustering-metric-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ssgate_cq",
+      "score": 0.942976
+    },
+    {
+      "left": {
+        "canonical_slug": "held-out-prediction-error-evaluation",
+        "merge_kind": "single",
+        "output_id": "held-out-prediction-error-evaluation"
+      },
+      "right": {
+        "canonical_slug": "prediction-error-importance-scoring",
+        "merge_kind": "single",
+        "output_id": "prediction-error-importance-scoring"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.942734
+    },
+    {
+      "left": {
+        "canonical_slug": "protein-complex-prior-harmonization",
+        "merge_kind": "single",
+        "output_id": "protein-complex-prior-harmonization"
+      },
+      "right": {
+        "canonical_slug": "protein-complex-prior-probability-computation",
+        "merge_kind": "single",
+        "output_id": "protein-complex-prior-probability-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.939874
+    },
+    {
+      "left": {
+        "canonical_slug": "confounder-adjusted-conditional-independence-testing",
+        "merge_kind": "single",
+        "output_id": "confounder-adjusted-conditional-independence-testing"
+      },
+      "right": {
+        "canonical_slug": "multi-resolution-conditional-independence-testing",
+        "merge_kind": "single",
+        "output_id": "multi-resolution-conditional-independence-testing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.936837
+    },
+    {
+      "left": {
+        "canonical_slug": "inter-layer-edge-integration",
+        "merge_kind": "single",
+        "output_id": "inter-layer-edge-integration"
+      },
+      "right": {
+        "canonical_slug": "trans-omic-inter-layer-edge-construction",
+        "merge_kind": "single",
+        "output_id": "trans-omic-inter-layer-edge-construction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.935617
+    },
+    {
+      "left": {
+        "canonical_slug": "em-imputation-of-missing-omics-values",
+        "merge_kind": "single",
+        "output_id": "em-imputation-of-missing-omics-values"
+      },
+      "right": {
+        "canonical_slug": "list-wise-missing-omics-imputation",
+        "merge_kind": "single",
+        "output_id": "list-wise-missing-omics-imputation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.933542
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-regulator-correlation-null-comparison",
+        "merge_kind": "single",
+        "output_id": "gene-regulator-correlation-null-comparison"
+      },
+      "right": {
+        "canonical_slug": "regulator-gene-correlation-validation",
+        "merge_kind": "single",
+        "output_id": "regulator-gene-correlation-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mosim_cq",
+      "score": 0.9316
+    },
+    {
+      "left": {
+        "canonical_slug": "nextflow-module-implementation",
+        "merge_kind": "single",
+        "output_id": "nextflow-module-implementation"
+      },
+      "right": {
+        "canonical_slug": "nextflow-pipeline-execution-with-containers",
+        "merge_kind": "single",
+        "output_id": "nextflow-pipeline-execution-with-containers"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.9307
+    },
+    {
+      "left": {
+        "canonical_slug": "scrna-seq-annotation-error-detection",
+        "merge_kind": "single",
+        "output_id": "scrna-seq-annotation-error-detection"
+      },
+      "right": {
+        "canonical_slug": "scrna-seq-disease-condition-annotation-analysis",
+        "merge_kind": "single",
+        "output_id": "scrna-seq-disease-condition-annotation-analysis"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.930528
+    },
+    {
+      "left": {
+        "canonical_slug": "clinvar-pathogenic-variant-extraction",
+        "merge_kind": "single",
+        "output_id": "clinvar-pathogenic-variant-extraction"
+      },
+      "right": {
+        "canonical_slug": "pathogenic-variant-detection-verification",
+        "merge_kind": "single",
+        "output_id": "pathogenic-variant-detection-verification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.929448
+    },
+    {
+      "left": {
+        "canonical_slug": "average-similarity-matrix-aggregation",
+        "merge_kind": "single",
+        "output_id": "average-similarity-matrix-aggregation"
+      },
+      "right": {
+        "canonical_slug": "binary-similarity-matrix-construction",
+        "merge_kind": "single",
+        "output_id": "binary-similarity-matrix-construction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.92905
+    },
+    {
+      "left": {
+        "canonical_slug": "spatial-transcriptomics-clustering",
+        "merge_kind": "single",
+        "output_id": "spatial-transcriptomics-clustering"
+      },
+      "right": {
+        "canonical_slug": "spatial-transcriptomics-data-simulation",
+        "merge_kind": "single",
+        "output_id": "spatial-transcriptomics-data-simulation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.927634
+    },
+    {
+      "left": {
+        "canonical_slug": "trans-omic-inter-layer-edge-construction",
+        "merge_kind": "single",
+        "output_id": "trans-omic-inter-layer-edge-construction"
+      },
+      "right": {
+        "canonical_slug": "trans-omic-network-layer-stacking",
+        "merge_kind": "single",
+        "output_id": "trans-omic-network-layer-stacking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.927428
+    },
+    {
+      "left": {
+        "canonical_slug": "network-parameter-benchmarking",
+        "merge_kind": "single",
+        "output_id": "network-parameter-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "parameter-scan-gold-standard-benchmarking",
+        "merge_kind": "single",
+        "output_id": "parameter-scan-gold-standard-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.92704
+    },
+    {
+      "left": {
+        "canonical_slug": "recovery-rate-validation-against-reference-proteome",
+        "merge_kind": "single",
+        "output_id": "recovery-rate-validation-against-reference-proteome"
+      },
+      "right": {
+        "canonical_slug": "upper-lower-bound-proteome-validation",
+        "merge_kind": "single",
+        "output_id": "upper-lower-bound-proteome-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.925861
+    },
+    {
+      "left": {
+        "canonical_slug": "benchmark-precision-recall-evaluation-against-gold-standard",
+        "merge_kind": "single",
+        "output_id": "benchmark-precision-recall-evaluation-against-gold-standard"
+      },
+      "right": {
+        "canonical_slug": "precision-recall-rmse-evaluation",
+        "merge_kind": "single",
+        "output_id": "precision-recall-rmse-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.925354
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-variant-calling-from-simulated-reads",
+        "merge_kind": "single",
+        "output_id": "dna-variant-calling-from-simulated-reads"
+      },
+      "right": {
+        "canonical_slug": "simulated-read-variant-calling-validation",
+        "merge_kind": "single",
+        "output_id": "simulated-read-variant-calling-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.925205
+    },
+    {
+      "left": {
+        "canonical_slug": "multiplex-network-construction",
+        "merge_kind": "single",
+        "output_id": "multiplex-network-construction"
+      },
+      "right": {
+        "canonical_slug": "multiplex-network-cross-validation",
+        "merge_kind": "single",
+        "output_id": "multiplex-network-cross-validation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.924661
+    },
+    {
+      "left": {
+        "canonical_slug": "multiplex-network-construction",
+        "merge_kind": "single",
+        "output_id": "multiplex-network-construction"
+      },
+      "right": {
+        "canonical_slug": "multiplex-network-statistics-extraction",
+        "merge_kind": "single",
+        "output_id": "multiplex-network-statistics-extraction"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.924599
+    },
+    {
+      "left": {
+        "canonical_slug": "list-wise-missing-omics-imputation",
+        "merge_kind": "single",
+        "output_id": "list-wise-missing-omics-imputation"
+      },
+      "right": {
+        "canonical_slug": "omics-missingness-simulation",
+        "merge_kind": "single",
+        "output_id": "omics-missingness-simulation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.923508
+    },
+    {
+      "left": {
+        "canonical_slug": "baseline-method-comparison-proteomics",
+        "merge_kind": "single",
+        "output_id": "baseline-method-comparison-proteomics"
+      },
+      "right": {
+        "canonical_slug": "proteomics-recovery-rate-benchmarking",
+        "merge_kind": "single",
+        "output_id": "proteomics-recovery-rate-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.922571
+    },
+    {
+      "left": {
+        "canonical_slug": "average-similarity-matrix-aggregation",
+        "merge_kind": "single",
+        "output_id": "average-similarity-matrix-aggregation"
+      },
+      "right": {
+        "canonical_slug": "spectral-clustering-on-similarity-matrix",
+        "merge_kind": "single",
+        "output_id": "spectral-clustering-on-similarity-matrix"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.922276
+    },
+    {
+      "left": {
+        "canonical_slug": "niche-cell-colocalization-analysis",
+        "merge_kind": "single",
+        "output_id": "niche-cell-colocalization-analysis"
+      },
+      "right": {
+        "canonical_slug": "niche-celltype-enrichment-analysis",
+        "merge_kind": "single",
+        "output_id": "niche-celltype-enrichment-analysis"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_sopa_cq",
+      "score": 0.922238
+    },
+    {
+      "left": {
+        "canonical_slug": "memory-footprint-benchmarking",
+        "merge_kind": "single",
+        "output_id": "memory-footprint-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "memory-runtime-benchmark-profiling",
+        "merge_kind": "single",
+        "output_id": "memory-runtime-benchmark-profiling"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_sopa_cq",
+      "score": 0.921659
+    },
+    {
+      "left": {
+        "canonical_slug": "ari-nmi-clustering-concordance-evaluation",
+        "merge_kind": "single",
+        "output_id": "ari-nmi-clustering-concordance-evaluation"
+      },
+      "right": {
+        "canonical_slug": "consensus-clustering-baseline-comparison",
+        "merge_kind": "single",
+        "output_id": "consensus-clustering-baseline-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.921424
+    },
+    {
+      "left": {
+        "canonical_slug": "consensus-clustering-baseline-comparison",
+        "merge_kind": "single",
+        "output_id": "consensus-clustering-baseline-comparison"
+      },
+      "right": {
+        "canonical_slug": "consensus-clustering-ensemble-execution",
+        "merge_kind": "single",
+        "output_id": "consensus-clustering-ensemble-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.921218
+    },
+    {
+      "left": {
+        "canonical_slug": "semi-synthetic-single-cell-data-simulation",
+        "merge_kind": "single",
+        "output_id": "semi-synthetic-single-cell-data-simulation"
+      },
+      "right": {
+        "canonical_slug": "synthetic-response-simulation-single-cell",
+        "merge_kind": "single",
+        "output_id": "synthetic-response-simulation-single-cell"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.920715
+    },
+    {
+      "left": {
+        "canonical_slug": "cell-fate-dynamical-analysis",
+        "merge_kind": "single",
+        "output_id": "cell-fate-dynamical-analysis"
+      },
+      "right": {
+        "canonical_slug": "cell-fate-propensity-quantification",
+        "merge_kind": "single",
+        "output_id": "cell-fate-propensity-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_canseer_cq",
+      "score": 0.92062
+    },
+    {
+      "left": {
+        "canonical_slug": "network-parameter-benchmarking",
+        "merge_kind": "single",
+        "output_id": "network-parameter-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "parameter-grid-benchmarking-against-gold-standard",
+        "merge_kind": "single",
+        "output_id": "parameter-grid-benchmarking-against-gold-standard"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.920576
+    },
+    {
+      "left": {
+        "canonical_slug": "rna-seq-transcript-abundance-quantification",
+        "merge_kind": "single",
+        "output_id": "rna-seq-transcript-abundance-quantification"
+      },
+      "right": {
+        "canonical_slug": "transcript-expression-quantification",
+        "merge_kind": "single",
+        "output_id": "transcript-expression-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.920199
+    },
+    {
+      "left": {
+        "canonical_slug": "multi-omics-integrative-clustering",
+        "merge_kind": "single",
+        "output_id": "multi-omics-integrative-clustering"
+      },
+      "right": {
+        "canonical_slug": "multi-omics-latent-cluster-estimation",
+        "merge_kind": "single",
+        "output_id": "multi-omics-latent-cluster-estimation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.919893
+    },
+    {
+      "left": {
+        "canonical_slug": "machine-learning-sample-size-estimation",
+        "merge_kind": "single",
+        "output_id": "machine-learning-sample-size-estimation"
+      },
+      "right": {
+        "canonical_slug": "optimal-sample-size-estimation",
+        "merge_kind": "single",
+        "output_id": "optimal-sample-size-estimation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.919621
+    },
+    {
+      "left": {
+        "canonical_slug": "knn-neighborhood-graph-construction",
+        "merge_kind": "single",
+        "output_id": "knn-neighborhood-graph-construction"
+      },
+      "right": {
+        "canonical_slug": "neighborhood-graph-construction-with-neighbor-pruning",
+        "merge_kind": "single",
+        "output_id": "neighborhood-graph-construction-with-neighbor-pruning"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ssgate_cq",
+      "score": 0.918626
+    },
+    {
+      "left": {
+        "canonical_slug": "beta-cell-marker-module-correlation-analysis",
+        "merge_kind": "single",
+        "output_id": "beta-cell-marker-module-correlation-analysis"
+      },
+      "right": {
+        "canonical_slug": "disease-state-characterization-in-beta-cells",
+        "merge_kind": "single",
+        "output_id": "disease-state-characterization-in-beta-cells"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.918105
+    },
+    {
+      "left": {
+        "canonical_slug": "single-cell-hic-data-aggregation",
+        "merge_kind": "single",
+        "output_id": "single-cell-hic-data-aggregation"
+      },
+      "right": {
+        "canonical_slug": "single-cell-hic-median-computation",
+        "merge_kind": "single",
+        "output_id": "single-cell-hic-median-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sci_l3pipe_cq",
+      "score": 0.917238
+    },
+    {
+      "left": {
+        "canonical_slug": "em-based-integrated-imputation",
+        "merge_kind": "single",
+        "output_id": "em-based-integrated-imputation"
+      },
+      "right": {
+        "canonical_slug": "imputation-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "imputation-method-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.916752
+    },
+    {
+      "left": {
+        "canonical_slug": "importance-score-model-fitting",
+        "merge_kind": "single",
+        "output_id": "importance-score-model-fitting"
+      },
+      "right": {
+        "canonical_slug": "ols-vs-vivs-importance-score-comparison",
+        "merge_kind": "single",
+        "output_id": "ols-vs-vivs-importance-score-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.916736
+    },
+    {
+      "left": {
+        "canonical_slug": "em-imputation-of-missing-omics-values",
+        "merge_kind": "single",
+        "output_id": "em-imputation-of-missing-omics-values"
+      },
+      "right": {
+        "canonical_slug": "omics-missingness-simulation",
+        "merge_kind": "single",
+        "output_id": "omics-missingness-simulation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.916578
+    },
+    {
+      "left": {
+        "canonical_slug": "cohen-effect-size-feature-filtering",
+        "merge_kind": "single",
+        "output_id": "cohen-effect-size-feature-filtering"
+      },
+      "right": {
+        "canonical_slug": "effect-size-estimation-cohens-d",
+        "merge_kind": "single",
+        "output_id": "effect-size-estimation-cohens-d"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.916486
+    },
+    {
+      "left": {
+        "canonical_slug": "enzyme-identifier-conversion",
+        "merge_kind": "single",
+        "output_id": "enzyme-identifier-conversion"
+      },
+      "right": {
+        "canonical_slug": "molecule-id-mapping-to-kegg-ids",
+        "merge_kind": "single",
+        "output_id": "molecule-id-mapping-to-kegg-ids"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.91637
+    },
+    {
+      "left": {
+        "canonical_slug": "single-cell-multiomics-data-preprocessing",
+        "merge_kind": "single",
+        "output_id": "single-cell-multiomics-data-preprocessing"
+      },
+      "right": {
+        "canonical_slug": "single-cell-multiomics-integration-training",
+        "merge_kind": "single",
+        "output_id": "single-cell-multiomics-integration-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ssgate_cq",
+      "score": 0.91609
+    },
+    {
+      "left": {
+        "canonical_slug": "spectral-clustering-module-detection",
+        "merge_kind": "single",
+        "output_id": "spectral-clustering-module-detection"
+      },
+      "right": {
+        "canonical_slug": "spectral-clustering-network-analysis",
+        "merge_kind": "single",
+        "output_id": "spectral-clustering-network-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sgcrna_cq",
+      "score": 0.915857
+    },
+    {
+      "left": {
+        "canonical_slug": "correlation-matrix-pvalue-combination",
+        "merge_kind": "single",
+        "output_id": "correlation-matrix-pvalue-combination"
+      },
+      "right": {
+        "canonical_slug": "correlation-matrix-specified-meta-analysis",
+        "merge_kind": "single",
+        "output_id": "correlation-matrix-specified-meta-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_metacp_cq",
+      "score": 0.915734
+    },
+    {
+      "left": {
+        "canonical_slug": "benchmark-output-verification",
+        "merge_kind": "single",
+        "output_id": "benchmark-output-verification"
+      },
+      "right": {
+        "canonical_slug": "parameter-scan-gold-standard-benchmarking",
+        "merge_kind": "single",
+        "output_id": "parameter-scan-gold-standard-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.915442
+    },
+    {
+      "left": {
+        "canonical_slug": "binary-similarity-matrix-construction",
+        "merge_kind": "single",
+        "output_id": "binary-similarity-matrix-construction"
+      },
+      "right": {
+        "canonical_slug": "binary-similarity-matrix-generation-from-clustering-assignments",
+        "merge_kind": "single",
+        "output_id": "binary-similarity-matrix-generation-from-clustering-assignments"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.915065
+    },
+    {
+      "left": {
+        "canonical_slug": "fdr-tpr-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "fdr-tpr-benchmark-evaluation"
+      },
+      "right": {
+        "canonical_slug": "fdr-tpr-operating-point-analysis",
+        "merge_kind": "single",
+        "output_id": "fdr-tpr-operating-point-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.914541
+    },
+    {
+      "left": {
+        "canonical_slug": "dockerized-r-benchmark-execution",
+        "merge_kind": "single",
+        "output_id": "dockerized-r-benchmark-execution"
+      },
+      "right": {
+        "canonical_slug": "reference-dataset-benchmark-orchestration",
+        "merge_kind": "single",
+        "output_id": "reference-dataset-benchmark-orchestration"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_simpipe_cq",
+      "score": 0.914348
+    },
+    {
+      "left": {
+        "canonical_slug": "binary-similarity-matrix-construction",
+        "merge_kind": "single",
+        "output_id": "binary-similarity-matrix-construction"
+      },
+      "right": {
+        "canonical_slug": "spectral-clustering-on-similarity-matrix",
+        "merge_kind": "single",
+        "output_id": "spectral-clustering-on-similarity-matrix"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.914306
+    },
+    {
+      "left": {
+        "canonical_slug": "protein-recovery-probability-estimation",
+        "merge_kind": "single",
+        "output_id": "protein-recovery-probability-estimation"
+      },
+      "right": {
+        "canonical_slug": "proteomics-recovery-rate-benchmarking",
+        "merge_kind": "single",
+        "output_id": "proteomics-recovery-rate-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.913776
+    },
+    {
+      "left": {
+        "canonical_slug": "ari-spatial-clustering-benchmarking",
+        "merge_kind": "single",
+        "output_id": "ari-spatial-clustering-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "spatial-domain-clustering",
+        "merge_kind": "single",
+        "output_id": "spatial-domain-clustering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mcgae_cq",
+      "score": 0.913376
+    },
+    {
+      "left": {
+        "canonical_slug": "hybrid-minp-cct-pvalue-combination",
+        "merge_kind": "single",
+        "output_id": "hybrid-minp-cct-pvalue-combination"
+      },
+      "right": {
+        "canonical_slug": "tippett-minp-pvalue-combination",
+        "merge_kind": "single",
+        "output_id": "tippett-minp-pvalue-combination"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_metacp_cq",
+      "score": 0.913151
+    },
+    {
+      "left": {
+        "canonical_slug": "importance-score-model-fitting",
+        "merge_kind": "single",
+        "output_id": "importance-score-model-fitting"
+      },
+      "right": {
+        "canonical_slug": "negative-log-likelihood-importance-scoring",
+        "merge_kind": "single",
+        "output_id": "negative-log-likelihood-importance-scoring"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.912147
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-level-count-summarization-from-transcript-estimates",
+        "merge_kind": "single",
+        "output_id": "gene-level-count-summarization-from-transcript-estimates"
+      },
+      "right": {
+        "canonical_slug": "rna-seq-transcript-abundance-quantification",
+        "merge_kind": "single",
+        "output_id": "rna-seq-transcript-abundance-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.911518
+    },
+    {
+      "left": {
+        "canonical_slug": "consensus-clustering-ensemble-execution",
+        "merge_kind": "single",
+        "output_id": "consensus-clustering-ensemble-execution"
+      },
+      "right": {
+        "canonical_slug": "spectral-clustering-consensus-assignment",
+        "merge_kind": "single",
+        "output_id": "spectral-clustering-consensus-assignment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.911444
+    },
+    {
+      "left": {
+        "canonical_slug": "machine-learning-sample-size-estimation",
+        "merge_kind": "single",
+        "output_id": "machine-learning-sample-size-estimation"
+      },
+      "right": {
+        "canonical_slug": "multi-omics-sample-size-estimation",
+        "merge_kind": "single",
+        "output_id": "multi-omics-sample-size-estimation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.911283
+    },
+    {
+      "left": {
+        "canonical_slug": "phosphoproteomic-activity-inference-method-taxonomy",
+        "merge_kind": "single",
+        "output_id": "phosphoproteomic-activity-inference-method-taxonomy"
+      },
+      "right": {
+        "canonical_slug": "phosphoproteomics-data-preprocessing",
+        "merge_kind": "single",
+        "output_id": "phosphoproteomics-data-preprocessing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.910873
+    },
+    {
+      "left": {
+        "canonical_slug": "multimodal-factor-analysis",
+        "merge_kind": "single",
+        "output_id": "multimodal-factor-analysis"
+      },
+      "right": {
+        "canonical_slug": "multiomics-mofa-factor-analysis",
+        "merge_kind": "single",
+        "output_id": "multiomics-mofa-factor-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_muon_cq",
+      "score": 0.910757
+    },
+    {
+      "left": {
+        "canonical_slug": "cost-constrained-sample-size-optimization",
+        "merge_kind": "single",
+        "output_id": "cost-constrained-sample-size-optimization"
+      },
+      "right": {
+        "canonical_slug": "optimal-sample-size-estimation",
+        "merge_kind": "single",
+        "output_id": "optimal-sample-size-estimation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.910004
+    },
+    {
+      "left": {
+        "canonical_slug": "multi-omics-annotated-heatmap-visualization",
+        "merge_kind": "single",
+        "output_id": "multi-omics-annotated-heatmap-visualization"
+      },
+      "right": {
+        "canonical_slug": "r-bioconductor-heatmap-rendering",
+        "merge_kind": "single",
+        "output_id": "r-bioconductor-heatmap-rendering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_multimodalgraphics_cq",
+      "score": 0.909898
+    },
+    {
+      "left": {
+        "canonical_slug": "phenotype-activity-scoring-phenoscore",
+        "merge_kind": "single",
+        "output_id": "phenotype-activity-scoring-phenoscore"
+      },
+      "right": {
+        "canonical_slug": "phosphosite-regulatory-activity-scoring",
+        "merge_kind": "single",
+        "output_id": "phosphosite-regulatory-activity-scoring"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.909305
+    },
+    {
+      "left": {
+        "canonical_slug": "protein-interaction-network-scoring",
+        "merge_kind": "single",
+        "output_id": "protein-interaction-network-scoring"
+      },
+      "right": {
+        "canonical_slug": "protein-network-community-annotation",
+        "merge_kind": "single",
+        "output_id": "protein-network-community-annotation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_pyparagon_cq",
+      "score": 0.909175
+    },
+    {
+      "left": {
+        "canonical_slug": "multiplex-network-shortest-path-extraction",
+        "merge_kind": "single",
+        "output_id": "multiplex-network-shortest-path-extraction"
+      },
+      "right": {
+        "canonical_slug": "network-topology-analysis",
+        "merge_kind": "single",
+        "output_id": "network-topology-analysis"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.908777
+    },
+    {
+      "left": {
+        "canonical_slug": "protein-recovery-probability-estimation",
+        "merge_kind": "single",
+        "output_id": "protein-recovery-probability-estimation"
+      },
+      "right": {
+        "canonical_slug": "recovery-rate-validation-against-reference-proteome",
+        "merge_kind": "single",
+        "output_id": "recovery-rate-validation-against-reference-proteome"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.908715
+    },
+    {
+      "left": {
+        "canonical_slug": "baysor-transcript-segmentation",
+        "merge_kind": "single",
+        "output_id": "baysor-transcript-segmentation"
+      },
+      "right": {
+        "canonical_slug": "transcript-based-cell-segmentation",
+        "merge_kind": "single",
+        "output_id": "transcript-based-cell-segmentation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_sopa_cq",
+      "score": 0.908591
+    },
+    {
+      "left": {
+        "canonical_slug": "baseline-method-comparison-proteomics",
+        "merge_kind": "single",
+        "output_id": "baseline-method-comparison-proteomics"
+      },
+      "right": {
+        "canonical_slug": "upper-lower-bound-proteome-validation",
+        "merge_kind": "single",
+        "output_id": "upper-lower-bound-proteome-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.908373
+    },
+    {
+      "left": {
+        "canonical_slug": "consensus-clustering-baseline-comparison",
+        "merge_kind": "single",
+        "output_id": "consensus-clustering-baseline-comparison"
+      },
+      "right": {
+        "canonical_slug": "spectral-clustering-consensus-assignment",
+        "merge_kind": "single",
+        "output_id": "spectral-clustering-consensus-assignment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.908234
+    },
+    {
+      "left": {
+        "canonical_slug": "parameter-estimate-bias-and-variance-assessment",
+        "merge_kind": "single",
+        "output_id": "parameter-estimate-bias-and-variance-assessment"
+      },
+      "right": {
+        "canonical_slug": "simulation-estimation-bias-assessment",
+        "merge_kind": "single",
+        "output_id": "simulation-estimation-bias-assessment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.907719
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-cohort-proteomics-validation",
+        "merge_kind": "single",
+        "output_id": "cross-cohort-proteomics-validation"
+      },
+      "right": {
+        "canonical_slug": "upper-lower-bound-proteome-validation",
+        "merge_kind": "single",
+        "output_id": "upper-lower-bound-proteome-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.907617
+    },
+    {
+      "left": {
+        "canonical_slug": "kegg-database-querying",
+        "merge_kind": "single",
+        "output_id": "kegg-database-querying"
+      },
+      "right": {
+        "canonical_slug": "kegg-pathway-kgml-retrieval",
+        "merge_kind": "single",
+        "output_id": "kegg-pathway-kgml-retrieval"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.907405
+    },
+    {
+      "left": {
+        "canonical_slug": "single-cell-atac-lsi-dimensionality-reduction",
+        "merge_kind": "single",
+        "output_id": "single-cell-atac-lsi-dimensionality-reduction"
+      },
+      "right": {
+        "canonical_slug": "single-cell-rna-pca-dimensionality-reduction",
+        "merge_kind": "single",
+        "output_id": "single-cell-rna-pca-dimensionality-reduction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_sci_l3pipe_cq",
+      "score": 0.907372
+    },
+    {
+      "left": {
+        "canonical_slug": "inter-layer-edge-construction-in-2-5d-networks",
+        "merge_kind": "single",
+        "output_id": "inter-layer-edge-construction-in-2-5d-networks"
+      },
+      "right": {
+        "canonical_slug": "multi-layer-2-5d-network-stacking",
+        "merge_kind": "single",
+        "output_id": "multi-layer-2-5d-network-stacking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.906909
+    },
+    {
+      "left": {
+        "canonical_slug": "inter-layer-edge-integration",
+        "merge_kind": "single",
+        "output_id": "inter-layer-edge-integration"
+      },
+      "right": {
+        "canonical_slug": "multi-layer-2-5d-network-stacking",
+        "merge_kind": "single",
+        "output_id": "multi-layer-2-5d-network-stacking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.90634
+    },
+    {
+      "left": {
+        "canonical_slug": "cytoscape-network-automation-via-rcy3",
+        "merge_kind": "single",
+        "output_id": "cytoscape-network-automation-via-rcy3"
+      },
+      "right": {
+        "canonical_slug": "cytoscape-network-layout-comparison",
+        "merge_kind": "single",
+        "output_id": "cytoscape-network-layout-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.906294
+    },
+    {
+      "left": {
+        "canonical_slug": "leiden-clustering-metric-evaluation",
+        "merge_kind": "single",
+        "output_id": "leiden-clustering-metric-evaluation"
+      },
+      "right": {
+        "canonical_slug": "leiden-clustering-resolution-sweep",
+        "merge_kind": "single",
+        "output_id": "leiden-clustering-resolution-sweep"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ssgate_cq",
+      "score": 0.906291
+    },
+    {
+      "left": {
+        "canonical_slug": "differential-expression-significance-thresholding",
+        "merge_kind": "single",
+        "output_id": "differential-expression-significance-thresholding"
+      },
+      "right": {
+        "canonical_slug": "gene-count-significance-dot-encoding",
+        "merge_kind": "single",
+        "output_id": "gene-count-significance-dot-encoding"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_multimodalgraphics_cq",
+      "score": 0.906142
+    },
+    {
+      "left": {
+        "canonical_slug": "baseline-method-comparison-proteomics",
+        "merge_kind": "single",
+        "output_id": "baseline-method-comparison-proteomics"
+      },
+      "right": {
+        "canonical_slug": "cross-cohort-proteomics-validation",
+        "merge_kind": "single",
+        "output_id": "cross-cohort-proteomics-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.905908
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-count-significance-dot-encoding",
+        "merge_kind": "single",
+        "output_id": "gene-count-significance-dot-encoding"
+      },
+      "right": {
+        "canonical_slug": "gene-regulation-count-annotation",
+        "merge_kind": "single",
+        "output_id": "gene-regulation-count-annotation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_multimodalgraphics_cq",
+      "score": 0.90589
+    },
+    {
+      "left": {
+        "canonical_slug": "em-based-integrated-imputation",
+        "merge_kind": "single",
+        "output_id": "em-based-integrated-imputation"
+      },
+      "right": {
+        "canonical_slug": "em-imputation-of-missing-omics-values",
+        "merge_kind": "single",
+        "output_id": "em-imputation-of-missing-omics-values"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.904975
+    },
+    {
+      "left": {
+        "canonical_slug": "dataset-pair-correlation-thresholding",
+        "merge_kind": "single",
+        "output_id": "dataset-pair-correlation-thresholding"
+      },
+      "right": {
+        "canonical_slug": "shared-feature-subset-correlation-computation",
+        "merge_kind": "single",
+        "output_id": "shared-feature-subset-correlation-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mosaicmpi_cq",
+      "score": 0.904901
+    },
+    {
+      "left": {
+        "canonical_slug": "differential-gene-expression-analysis",
+        "merge_kind": "single",
+        "output_id": "differential-gene-expression-analysis"
+      },
+      "right": {
+        "canonical_slug": "transcript-expression-quantification",
+        "merge_kind": "single",
+        "output_id": "transcript-expression-quantification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.904779
+    },
+    {
+      "left": {
+        "canonical_slug": "variant-output-format-harmonisation",
+        "merge_kind": "single",
+        "output_id": "variant-output-format-harmonisation"
+      },
+      "right": {
+        "canonical_slug": "variant-record-harmonisation-to-reference-format",
+        "merge_kind": "single",
+        "output_id": "variant-record-harmonisation-to-reference-format"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.904144
+    },
+    {
+      "left": {
+        "canonical_slug": "multiplex-network-construction",
+        "merge_kind": "single",
+        "output_id": "multiplex-network-construction"
+      },
+      "right": {
+        "canonical_slug": "multiplex-network-random-walk-scoring",
+        "merge_kind": "single",
+        "output_id": "multiplex-network-random-walk-scoring"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.903891
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-technology-segmentation-benchmarking",
+        "merge_kind": "single",
+        "output_id": "cross-technology-segmentation-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "segmentation-ratio-computation",
+        "merge_kind": "single",
+        "output_id": "segmentation-ratio-computation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_sopa_cq",
+      "score": 0.903867
+    },
+    {
+      "left": {
+        "canonical_slug": "erdos-renyi-random-network-generation",
+        "merge_kind": "single",
+        "output_id": "erdos-renyi-random-network-generation"
+      },
+      "right": {
+        "canonical_slug": "igraph-toy-network-generation",
+        "merge_kind": "single",
+        "output_id": "igraph-toy-network-generation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_rwrtoolkit_cq",
+      "score": 0.903477
+    },
+    {
+      "left": {
+        "canonical_slug": "r-package-statistical-workflow",
+        "merge_kind": "single",
+        "output_id": "r-package-statistical-workflow"
+      },
+      "right": {
+        "canonical_slug": "r-statistical-programming",
+        "merge_kind": "single",
+        "output_id": "r-statistical-programming"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.903316
+    },
+    {
+      "left": {
+        "canonical_slug": "annotation-confidence-score-computation",
+        "merge_kind": "single",
+        "output_id": "annotation-confidence-score-computation"
+      },
+      "right": {
+        "canonical_slug": "spearman-correlation-of-marker-expression-with-confidence",
+        "merge_kind": "single",
+        "output_id": "spearman-correlation-of-marker-expression-with-confidence"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.903039
+    },
+    {
+      "left": {
+        "canonical_slug": "machine-learning-sample-size-estimation",
+        "merge_kind": "single",
+        "output_id": "machine-learning-sample-size-estimation"
+      },
+      "right": {
+        "canonical_slug": "sample-size-curve-interpretation",
+        "merge_kind": "single",
+        "output_id": "sample-size-curve-interpretation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_multipower_cq",
+      "score": 0.903037
+    },
+    {
+      "left": {
+        "canonical_slug": "spearman-correlation-of-marker-expression-with-confidence",
+        "merge_kind": "single",
+        "output_id": "spearman-correlation-of-marker-expression-with-confidence"
+      },
+      "right": {
+        "canonical_slug": "spearman-rank-correlation-statistics",
+        "merge_kind": "single",
+        "output_id": "spearman-rank-correlation-statistics"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.902618
+    },
+    {
+      "left": {
+        "canonical_slug": "protein-complex-curation",
+        "merge_kind": "single",
+        "output_id": "protein-complex-curation"
+      },
+      "right": {
+        "canonical_slug": "protein-complex-prior-harmonization",
+        "merge_kind": "single",
+        "output_id": "protein-complex-prior-harmonization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.902453
+    },
+    {
+      "left": {
+        "canonical_slug": "clustering-ari-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "clustering-ari-benchmark-evaluation"
+      },
+      "right": {
+        "canonical_slug": "spatially-aware-clustering-pipeline-execution",
+        "merge_kind": "single",
+        "output_id": "spatially-aware-clustering-pipeline-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.902376
+    },
+    {
+      "left": {
+        "canonical_slug": "silhouette-based-cluster-number-selection",
+        "merge_kind": "single",
+        "output_id": "silhouette-based-cluster-number-selection"
+      },
+      "right": {
+        "canonical_slug": "spectral-clustering-with-silhouette-k-selection",
+        "merge_kind": "single",
+        "output_id": "spectral-clustering-with-silhouette-k-selection"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.902312
+    },
+    {
+      "left": {
+        "canonical_slug": "lucid-integrative-clustering-model-fitting",
+        "merge_kind": "single",
+        "output_id": "lucid-integrative-clustering-model-fitting"
+      },
+      "right": {
+        "canonical_slug": "multi-omics-integrative-clustering",
+        "merge_kind": "single",
+        "output_id": "multi-omics-integrative-clustering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.902101
+    },
+    {
+      "left": {
+        "canonical_slug": "annotation-confidence-score-computation",
+        "merge_kind": "single",
+        "output_id": "annotation-confidence-score-computation"
+      },
+      "right": {
+        "canonical_slug": "gene-annotation-trainability-scoring",
+        "merge_kind": "single",
+        "output_id": "gene-annotation-trainability-scoring"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.901235
+    },
+    {
+      "left": {
+        "canonical_slug": "spectral-clustering-on-similarity-matrix",
+        "merge_kind": "single",
+        "output_id": "spectral-clustering-on-similarity-matrix"
+      },
+      "right": {
+        "canonical_slug": "spectral-clustering-with-silhouette-k-selection",
+        "merge_kind": "single",
+        "output_id": "spectral-clustering-with-silhouette-k-selection"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.901109
+    },
+    {
+      "left": {
+        "canonical_slug": "scrna-seq-clustering-benchmarking",
+        "merge_kind": "single",
+        "output_id": "scrna-seq-clustering-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "single-cell-rna-seq-consensus-clustering",
+        "merge_kind": "single",
+        "output_id": "single-cell-rna-seq-consensus-clustering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_chai_cq",
+      "score": 0.900831
+    },
+    {
+      "left": {
+        "canonical_slug": "multi-omics-protein-activity-inference",
+        "merge_kind": "single",
+        "output_id": "multi-omics-protein-activity-inference"
+      },
+      "right": {
+        "canonical_slug": "phosphoproteomic-activity-inference-method-taxonomy",
+        "merge_kind": "single",
+        "output_id": "phosphoproteomic-activity-inference-method-taxonomy"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
+      "score": 0.900791
+    },
+    {
+      "left": {
+        "canonical_slug": "spatially-aware-clustering-pipeline-execution",
+        "merge_kind": "single",
+        "output_id": "spatially-aware-clustering-pipeline-execution"
+      },
+      "right": {
+        "canonical_slug": "spatially-aware-domain-clustering",
+        "merge_kind": "single",
+        "output_id": "spatially-aware-domain-clustering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.900723
+    },
+    {
+      "left": {
+        "canonical_slug": "integrated-program-community-interpretation",
+        "merge_kind": "single",
+        "output_id": "integrated-program-community-interpretation"
+      },
+      "right": {
+        "canonical_slug": "program-network-community-detection",
+        "merge_kind": "single",
+        "output_id": "program-network-community-detection"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_mosaicmpi_cq",
+      "score": 0.900599
+    },
+    {
+      "left": {
+        "canonical_slug": "synthetic-count-sampling-latent-variable-model",
+        "merge_kind": "single",
+        "output_id": "synthetic-count-sampling-latent-variable-model"
+      },
+      "right": {
+        "canonical_slug": "vae-generative-model-count-data",
+        "merge_kind": "single",
+        "output_id": "vae-generative-model-count-data"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vi_vs_cq",
+      "score": 0.900379
+    },
+    {
+      "left": {
+        "canonical_slug": "clustering-agreement-metric-computation",
+        "merge_kind": "single",
+        "output_id": "clustering-agreement-metric-computation--89a468bebe16f1ba"
+      },
+      "right": {
+        "canonical_slug": "clustering-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "clustering-benchmark-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_smopca_cq",
+      "score": 0.90014
+    },
+    {
+      "left": {
+        "canonical_slug": "kegg-database-querying",
+        "merge_kind": "single",
+        "output_id": "kegg-database-querying"
+      },
+      "right": {
+        "canonical_slug": "molecule-id-mapping-to-kegg-ids",
+        "merge_kind": "single",
+        "output_id": "molecule-id-mapping-to-kegg-ids"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_transomics2cytoscape_cq",
+      "score": 0.900031
+    }
+  ],
+  "pairs_ge_0_95": [
+    {
+      "left": {
+        "canonical_slug": "ari-clustering-benchmark-against-annotations",
+        "merge_kind": "single",
+        "output_id": "ari-clustering-benchmark-against-annotations"
+      },
+      "right": {
+        "canonical_slug": "clustering-ari-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "clustering-ari-benchmark-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
+      "score": 0.972581
+    },
+    {
+      "left": {
+        "canonical_slug": "single-cell-training-dynamics-monitoring",
+        "merge_kind": "single",
+        "output_id": "single-cell-training-dynamics-monitoring"
+      },
+      "right": {
+        "canonical_slug": "single-cell-training-dynamics-scoring",
+        "merge_kind": "single",
+        "output_id": "single-cell-training-dynamics-scoring"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.971302
+    },
+    {
+      "left": {
+        "canonical_slug": "dna-read-simulation-with-variant-injection",
+        "merge_kind": "single",
+        "output_id": "dna-read-simulation-with-variant-injection"
+      },
+      "right": {
+        "canonical_slug": "dna-variant-calling-from-simulated-reads",
+        "merge_kind": "single",
+        "output_id": "dna-variant-calling-from-simulated-reads"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_eduomics_cq",
+      "score": 0.957328
+    },
+    {
+      "left": {
+        "canonical_slug": "proteomics-recovery-rate-benchmarking",
+        "merge_kind": "single",
+        "output_id": "proteomics-recovery-rate-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "recovery-rate-validation-against-reference-proteome",
+        "merge_kind": "single",
+        "output_id": "recovery-rate-validation-against-reference-proteome"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_protrec2_cq",
+      "score": 0.956146
+    },
+    {
+      "left": {
+        "canonical_slug": "imputation-method-benchmarking",
+        "merge_kind": "single",
+        "output_id": "imputation-method-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "sensitivity-analysis-vs-imputation-benchmark",
+        "merge_kind": "single",
+        "output_id": "sensitivity-analysis-vs-imputation-benchmark"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_lucidus_cq",
+      "score": 0.955342
+    },
+    {
+      "left": {
+        "canonical_slug": "gene-annotation-trainability-scoring",
+        "merge_kind": "single",
+        "output_id": "gene-annotation-trainability-scoring"
+      },
+      "right": {
+        "canonical_slug": "marker-gene-trainability-ranking",
+        "merge_kind": "single",
+        "output_id": "marker-gene-trainability-ranking"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
+      "score": 0.952343
+    }
+  ],
+  "runs": 29,
+  "skills": 787,
+  "surplus_leaves": {
+    "ge_0_90": 103,
+    "ge_0_95": 6
+  },
+  "thresholds": {
+    "auto_merge": 0.95,
+    "embed_view": "name_tools",
+    "pair_scope": "same_run_full_pairwise",
+    "suggest": 0.9
+  },
+  "view": "/Users/nothiasl/git/asb-wt-filtered-view/outputs/asbb_classA_papers_2026-09-17_filtered/multi-omics/corpus"
+}

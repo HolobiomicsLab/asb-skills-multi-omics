@@ -1,0 +1,21 @@
+name: BayesSpace
+slug: bayesspace
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(BayesSpace)
+derived_from:
+- doi: 10.1093/bib/bbae608
+  title: 'MCGAE: unraveling tumor invasion through integrated multimodal spatial transcriptomics'
+- doi: 10.1093/bib/bbaf429
+  title: 'stImage: a versatile framework for optimizing spatial transcriptomic analysis through customizable deep histology and location informed integration'
+source_repos:
+- https://github.com/yiwen-yang/MCGAE
+- https://github.com/edward130603/BayesSpace
+- https://github.com/YuWang-VUMC/stImage
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yiwen-yang/MCGAE

@@ -1,0 +1,16 @@
+{
+  "author": {
+    "name": "Holobiomics Lab",
+    "url": "https://github.com/HolobiomicsLab"
+  },
+  "description": "ASB Multi Omics: 787 evidence-grounded skills collected from a consolidated literature cut with local retrieval.",
+  "homepage": "https://github.com/HolobiomicsLab/asb-skills-multi-omics",
+  "keywords": [
+    "multi-omics",
+    "scientific skills"
+  ],
+  "license": "CC-BY-4.0",
+  "name": "multi-omics",
+  "repository": "https://github.com/HolobiomicsLab/asb-skills-multi-omics",
+  "version": "0.1.0"
+}

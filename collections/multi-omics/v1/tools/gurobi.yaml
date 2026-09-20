@@ -1,0 +1,17 @@
+name: Gurobi
+slug: gurobi
+version_used: null
+edam_topics: []
+evidence_spans:
+- A similar performance is observed using the [Gurobi solver]
+derived_from:
+- doi: 10.1038/s41540-024-00417-6
+  title: SignalingProfiler 2.0 a network-based approach to bridge multi-omics data to phenotypic hallmarks
+source_repos:
+- https://github.com/SaccoPerfettoLab/SignalingProfiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SaccoPerfettoLab/SignalingProfiler

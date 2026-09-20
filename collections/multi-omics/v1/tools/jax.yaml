@@ -1,0 +1,21 @@
+name: Jax
+slug: jax
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our implementation first relies on parallel computing and just-in-time compilation components of Jax
+- relies on parallel computing and just-in-time compilation components of Jax
+- Our implementation first relies on parallel computing and just-in-time compilation components of Jax to speed up the inference
+- relies on parallel computing and just-in-time compilation components of Jax to speed up the inference
+- The algorithm is implemented in Jax and is available as a Python package at https://github.com/YosefLab/VIVS.
+derived_from:
+- doi: 10.1186/s13059-024-03419-z
+  title: 'VI-VS: calibrated identification of feature dependencies in single-cell multiomics'
+source_repos:
+- https://github.com/YosefLab/VIVS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YosefLab/VIVS

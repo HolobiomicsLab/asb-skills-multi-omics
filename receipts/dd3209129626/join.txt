@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/multi-omics-receipts/corpus.yaml": "create",
+    "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/multi-omics-receipts/corpus_join_receipt.json": "create"
+  },
+  "receipt": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/multi-omics-receipts/corpus_join_receipt.json",
+  "status": "ok",
+  "summary": {
+    "hold": 0,
+    "included": 29,
+    "total": 29
+  }
+}

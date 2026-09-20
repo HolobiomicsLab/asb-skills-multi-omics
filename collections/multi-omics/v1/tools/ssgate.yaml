@@ -1,0 +1,23 @@
+name: SSGATE
+slug: ssgate
+version_used: null
+edam_topics: []
+evidence_spans:
+- We propose a multi-omics integration method based on dual-path graph attention auto-encoder (SSGATE).
+- SSGATE is compared with four competitive single-cell multi-omics integration methods, including MOFA+ [15], Seurat v5 [16], totalVI [21], and scMM [22]
+- 'The main hyperparameters for SSGATE are set as: maximum epoch value at 300, embedding dimension at 30, number of neighbors at 15, balance parameter at 0.1'
+- python setup.py install
+derived_from:
+- doi: 10.1093/bib/bbae450
+  title: Multi-omics integration for both single-cell and spatially resolved data based on dual-path graph attention auto-encoder
+source_repos:
+- https://github.com/Linliu-Bioinf/SSGATE
+- https://github.com/Linliu-Bioinf/SSGATE.git
+- https://github.com/Linliu-Bioinfo/SSGATE.git
+- https://github.com/Lv-BioInfo/SSGATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Linliu-Bioinf/SSGATE

@@ -1,0 +1,17 @@
+name: RWR_ShortestPaths
+slug: rwr-shortestpaths
+version_used: null
+edam_topics: []
+evidence_spans:
+- We ran RWR_ShortestPaths with the source and target gene sets as parameters.
+derived_from:
+- doi: 10.1093/gigascience/giaf028
+  title: 'RWRtoolkit: multi-omic network analysis using random walks on multiplex networks in any species'
+source_repos:
+- https://github.com/dkainer/RWRtoolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dkainer/RWRtoolkit

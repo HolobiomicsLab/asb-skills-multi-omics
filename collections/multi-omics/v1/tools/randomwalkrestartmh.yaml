@@ -1,0 +1,20 @@
+name: RandomWalkRestartMH
+slug: randomwalkrestartmh
+version_used: null
+edam_topics: []
+evidence_spans:
+- The R package RandomWalkRestartMH provides the essential functionality for implementing RWR on multiplex networks
+- We ran 100 iterations of Random.Walk.Restart.Multiplex function from RandomWalkRestartMH
+- All RWRtoolkit and RandomWalkRestartMH R software was run on the Andes compute system
+derived_from:
+- doi: 10.1093/gigascience/giaf028
+  title: 'RWRtoolkit: multi-omic network analysis using random walks on multiplex networks in any species'
+source_repos:
+- https://github.com/alberto-valdeolivas/RandomWalkRestartMH
+- https://github.com/dkainer/RWRtoolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/alberto-valdeolivas/RandomWalkRestartMH

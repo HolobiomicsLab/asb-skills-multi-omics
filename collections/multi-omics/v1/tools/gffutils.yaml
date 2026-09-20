@@ -1,0 +1,16 @@
+name: gffutils
+slug: gffutils
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41592-025-02774-4
+  title: Co-profiling of in situ RNA-protein interactions and transcriptome in single cells and tissues
+source_repos:
+- https://github.com/WangLabPKU/MAPIT-seq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WangLabPKU/MAPIT-seq

@@ -1,0 +1,17 @@
+name: MUSE
+slug: muse
+version_used: null
+edam_topics: []
+evidence_spans:
+- MUSE [4], for example, learns joint latent features by integrating morphological image features and transcriptomic data using a self-supervised autoencoder
+derived_from:
+- doi: 10.1093/bib/bbaf429
+  title: 'stImage: a versatile framework for optimizing spatial transcriptomic analysis through customizable deep histology and location informed integration'
+source_repos:
+- https://github.com/YuWang-VUMC/stImage
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YuWang-VUMC/stImage
