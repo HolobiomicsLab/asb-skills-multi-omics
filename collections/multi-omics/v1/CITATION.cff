@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: If you use this collection, please cite it as below.
-title: ASB Multi Omics Skill Collection v1
-abstract: 'ASB Multi Omics: 787 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
+title: ASB Multi-Omics Skill Collection v1
+abstract: 'ASB Multi-Omics: 787 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
 version: '1'
 license: CC-BY-4.0
 url: https://github.com/HolobiomicsLab/asb-skills-multi-omics

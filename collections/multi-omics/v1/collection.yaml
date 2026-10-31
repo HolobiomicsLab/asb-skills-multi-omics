@@ -5,10 +5,10 @@
 '@type': asb:SkillCollection
 '@id': https://w3id.org/holobiomicslab/asb-skill/collection/multi-omics/v1
 iri: https://w3id.org/holobiomicslab/asb-skill/collection/multi-omics/v1
-title: ASB Multi Omics Skill Collection v1
+title: ASB Multi-Omics Skill Collection v1
 slug: multi-omics
 version: 1
-description: 'ASB Multi Omics: 787 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
+description: 'ASB Multi-Omics: 787 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
 license: CC-BY-4.0
 status: candidate
 roles:
