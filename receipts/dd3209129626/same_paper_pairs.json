@@ -272,7 +272,7 @@
         "output_id": "precision-recall-rmse-evaluation"
       },
       "run": "asbb_wave250_2026-09-01__coll_signalingprofiler_2_0_cq",
-      "score": 0.925354
+      "score": 0.925355
     },
     {
       "left": {
@@ -720,7 +720,7 @@
         "output_id": "spectral-clustering-on-similarity-matrix"
       },
       "run": "asbb_wave250_2026-09-01__coll_chai_cq",
-      "score": 0.914306
+      "score": 0.914307
     },
     {
       "left": {
@@ -1280,7 +1280,7 @@
         "output_id": "spearman-rank-correlation-statistics"
       },
       "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
-      "score": 0.902618
+      "score": 0.902619
     },
     {
       "left": {
@@ -1406,7 +1406,7 @@
         "output_id": "spatially-aware-domain-clustering"
       },
       "run": "asbb_wave250_2026-09-01__coll_stimage_cq",
-      "score": 0.900723
+      "score": 0.900724
     },
     {
       "left": {
@@ -1548,7 +1548,7 @@
         "output_id": "marker-gene-trainability-ranking"
       },
       "run": "asbb_subwave2_2026-08-31__coll_annotatability_cq",
-      "score": 0.952343
+      "score": 0.952344
     }
   ],
   "runs": 29,
@@ -1563,5 +1563,5 @@
     "pair_scope": "same_run_full_pairwise",
     "suggest": 0.9
   },
-  "view": "/Users/nothiasl/git/asb-wt-filtered-view/outputs/asbb_classA_papers_2026-09-17_filtered/multi-omics/corpus"
+  "view": "outputs/asbb_classA_papers_2026-09-17_filtered/multi-omics/corpus"
 }

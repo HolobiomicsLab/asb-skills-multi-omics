@@ -1,5 +1,5 @@
 {
-  "builds_root": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/task8/cut/multi-omics/builds",
+  "builds_root": "multi-omics",
   "counts": {
     "builds": 29,
     "input_files": 2451,
@@ -2463,7 +2463,7 @@
     "corpus/skills/zero-inflation-and-library-size-characterization/tools.json": "bacceeaf8ba094a13be9f332ae09cb4ae83a6eb8631dfb0ce8c121cd380e4223",
     "release_creators.yaml": "7ff7405a2af4aadf66a609161f381c90e236961a3a268e83a168b615f1009cb8"
   },
-  "output_tree_sha256": "87c798d3eef61056e250b391baefb3434d83eab0ab9aed35df64c3f367ead164",
+  "output_tree_sha256": "ffcd64a414e09e6134861fb43c49ca1ce18dd90dcba82f6b2c817cc391eb58a4",
   "router_index": "provisional skills_index.json derived from leaf frontmatter before router_shape.shape",
   "status": "collected",
   "version": "v1"

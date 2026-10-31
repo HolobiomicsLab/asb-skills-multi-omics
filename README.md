@@ -32,7 +32,7 @@ Candidate, not a release. Branch `candidate/dd3209129626` holds collection `v1`,
 
 | Item | State |
 |---|---|
-| Release gate | `receipts/dd3209129626/gate_report.json` reports `pass`: 12 of 13 checks pass and 1 is not applicable (`cut_manifest`). |
+| Release gate | `receipts/dd3209129626/gate_report.json` reports `pass`: 15 of 16 checks pass and 1 is not applicable (`cut_manifest`). [`receipts/dd3209129626/VERIFY.md`](receipts/dd3209129626/VERIFY.md) gives the command that re-verifies it. |
 | Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` (3 warnings on fields Claude Code ignores) and for `collections/multi-omics/v1` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/multi-omics/v1` |
 | IRI resolution (2026-10-30) | Registered at w3id.org. It redirects (HTTP 302) to a path in the asb-skill-collections registry that returns 404: the collection lives in this repository, not in the registry. |
@@ -118,7 +118,7 @@ Each result prints its rank and slug, then its description, tools, licence tier 
 
 ## How it was built
 
-The AgenticScienceBuilder pipeline read each paper and its code repository, wrote the skills, and passed the collection through a strict release gate. `receipts/dd3209129626/source.json` names the pipeline commit `da8abd15`, the collections-tooling commit `fab0cd4e3` and the corpus commit `afa4911`.
+The AgenticScienceBuilder pipeline read each paper and its code repository, wrote the skills, and passed the collection through a strict release gate. `receipts/dd3209129626/source.json` names the pipeline commit `da8abd15`, the collections-tooling commit `b8c22a6bc` and the corpus commit `afa4911`.
 
 The gate checks that every included paper has an allowed access type, caps the length and similarity of verbatim quotes, scans quote spans for personal data and dual-use content, requires provenance and a licence tag on every skill, resolves each composite workflow to real leaves, and binds the receipt to the hashes of the collection files.
 
