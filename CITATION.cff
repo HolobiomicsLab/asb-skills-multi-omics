@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: If you use this collection, cite it and the source paper of each skill you use (provenance.source_papers
   in every SKILL.md).
-title: ASB Multi-omics Skill Collection
+title: ASB Multi-Omics Skill Collection v1
 type: dataset
 license: CC-BY-4.0
 abstract: 'Curated, evidence-grounded skill and software-tool collection for multi-omics integration (joint
