@@ -11,8 +11,7 @@ when_to_use_negative:
 - A supervised or classification model is required rather than exploratory 2D embedding
   of metabolome profiles.
 edam_operation: http://edamontology.org/operation_2939
-edam_topics:
-- http://edamontology.org/topic_3364
+edam_topics: []
 tools:
 - name: umap-learn
   role: fit the 2-component UMAP embeddings of the LC-MS and GC-MS metabolite matrices
@@ -43,8 +42,7 @@ metadata:
   - pandas
   - umap-learn
   edam_operation: http://edamontology.org/operation_2939
-  edam_topics:
-  - http://edamontology.org/topic_3364
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

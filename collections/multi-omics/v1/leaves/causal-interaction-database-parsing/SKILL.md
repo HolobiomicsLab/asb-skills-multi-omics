@@ -10,7 +10,7 @@ when_to_use_negative:
   the source databases would be redundant
 - You need comprehensive proteome coverage — regulon and causal-interaction resources
   cover <50% (~9,000 proteins) of the UniProt-SwissProt proteome
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0128
@@ -47,7 +47,7 @@ metadata:
   - SIGNOR
   - Ser/Thr Kinome Atlas
   - SignalingProfiler 2.0
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0128

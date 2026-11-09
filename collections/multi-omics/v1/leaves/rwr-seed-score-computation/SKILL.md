@@ -11,8 +11,7 @@ when_to_use_negative:
 - When the multiplex needs downstream statistical validation (RWR_CV) or network statistics
   (RWR_netstats) rather than direct seed scoring
 edam_operation: http://edamontology.org/operation_3927
-edam_topics:
-- http://edamontology.org/topic_0722
+edam_topics: []
 tools:
 - name: RWRtoolkit
   role: Provides create.multiplex, compute.adjacency.matrix, compute.transition.matrix
@@ -46,8 +45,7 @@ metadata:
   - RandomWalkRestartMH
   - igraph
   edam_operation: http://edamontology.org/operation_3927
-  edam_topics:
-  - http://edamontology.org/topic_0722
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

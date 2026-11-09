@@ -10,7 +10,7 @@ when_to_use_negative:
   chr22) capture-based exome/targeted sequencing to stay computationally tractable
 - The biological ground truth of real patient data is the analysis target — this skill
   produces synthetic data, not clinical calls
-edam_operation: http://edamontology.org/operation_3580
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3673
@@ -57,7 +57,7 @@ metadata:
   - Nextflow
   - SimuSCoP
   - Singularity
-  edam_operation: http://edamontology.org/operation_3580
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3673

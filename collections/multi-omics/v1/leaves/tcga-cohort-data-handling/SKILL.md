@@ -12,7 +12,7 @@ when_to_use_negative:
 - The goal is sample size for machine-learning classification rather than differential
   feature analysis — use MultiML instead, since MultiPower's significance threshold
   and effect size parameters are not applicable to ML classifiers
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_0622
@@ -37,7 +37,7 @@ metadata:
   tools:
   - MultiPower
   - devtools
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_0622

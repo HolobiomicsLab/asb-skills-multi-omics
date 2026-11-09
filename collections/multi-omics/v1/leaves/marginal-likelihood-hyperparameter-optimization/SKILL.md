@@ -19,7 +19,6 @@ edam_operation: http://edamontology.org/operation_3659
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3474
-- http://edamontology.org/topic_3914
 tools:
 - name: SpatialPCA
   role: State-of-the-art GPPCA-based spatial PCA that uses a kernel matrix to explicitly
@@ -53,7 +52,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3474
-  - http://edamontology.org/topic_3914
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

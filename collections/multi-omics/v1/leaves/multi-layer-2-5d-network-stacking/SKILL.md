@@ -9,7 +9,7 @@ when_to_use_negative:
 - You expect automated retrieval of inter-layer edges from databases (BRENDA, OmniPath,
   SIGNOR, IntAct) or automated Z-coordinate estimation — these steps are not automated
   and must be supplied manually
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_0092
@@ -53,7 +53,7 @@ metadata:
   - R
   - RCy3
   - transomics2cytoscape
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_0092

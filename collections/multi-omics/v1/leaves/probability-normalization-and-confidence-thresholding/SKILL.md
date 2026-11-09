@@ -11,7 +11,7 @@ when_to_use_negative:
 - The analysis requires protein abundance, modification status, or subcellular localization
   — Protrec2 operates on a binary presence/absence basis and its probabilities do
   not encode these
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 tools:
@@ -42,7 +42,7 @@ metadata:
   - Protrec2
   - Python
   - pip
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   provenance_tier: literature

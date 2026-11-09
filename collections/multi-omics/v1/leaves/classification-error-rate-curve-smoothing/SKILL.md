@@ -12,7 +12,7 @@ when_to_use_negative:
   ER curve
 - The iterative tick procedure has not converged under the 12% stopping threshold,
   so the ER table is incomplete and the spline fit would be unreliable
-edam_operation: http://edamontology.org/operation_3726
+edam_operation: null
 tools:
 - name: MultiML
   role: Implements the iterative resampling and P-spline learning-curve fit used to
@@ -39,7 +39,7 @@ metadata:
   - MultiML
   - MultiPower
   - R
-  edam_operation: http://edamontology.org/operation_3726
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

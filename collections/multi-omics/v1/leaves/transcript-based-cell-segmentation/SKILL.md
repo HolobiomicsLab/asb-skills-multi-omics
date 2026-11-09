@@ -11,8 +11,7 @@ when_to_use_negative:
 - Data are already segmented and an aggregated cell-by-gene table is all that is needed
   — skip to annotation/aggregation steps
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_6398
+edam_topics: []
 tools:
 - name: Sopa
   role: Pipeline that patchifies transcripts, runs Baysor per patch, resolves merges,
@@ -49,8 +48,7 @@ metadata:
   - Sopa
   - SpatialData
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_6398
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

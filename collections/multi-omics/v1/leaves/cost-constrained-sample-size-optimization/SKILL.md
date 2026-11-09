@@ -11,7 +11,7 @@ when_to_use_negative:
   parameter estimates are optimally calculated from pilot data
 - Input data are not preprocessed or still contain batch effects — MultiPower provides
   no handling within the tool
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3520
@@ -36,7 +36,7 @@ metadata:
   tools:
   - MultiPower
   - lpSolve
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3520

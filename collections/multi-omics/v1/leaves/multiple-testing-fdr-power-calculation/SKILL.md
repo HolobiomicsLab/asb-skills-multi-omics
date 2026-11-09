@@ -12,7 +12,7 @@ when_to_use_negative:
   set manually
 - Input data have not been preprocessed or batch effects have not been removed — MultiPower
   does not handle these internally
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3518
@@ -39,7 +39,7 @@ metadata:
   - FDRsampsize
   - MultiPower
   - lpSolve
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3518

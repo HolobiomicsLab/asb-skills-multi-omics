@@ -11,7 +11,7 @@ when_to_use_negative:
   those
 - When working outside the 27 supported tissue types, since the priors and tissue-name
   sheet only cover the built-in tissue list
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0089
@@ -44,7 +44,7 @@ metadata:
   tools:
   - Protrec2
   - Python
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0089

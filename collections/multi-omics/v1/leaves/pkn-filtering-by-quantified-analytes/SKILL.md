@@ -12,7 +12,7 @@ when_to_use_negative:
   so filtering may drop biologically important, evidence-poor nodes'
 - Input is a single omics modality only — the two-layer receptor-to-TF construction
   expects matched transcriptomics, proteomics, and phosphoproteomics support
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_0203
@@ -42,7 +42,7 @@ metadata:
   - Gurobi
   - SignalingProfiler 2.0
   - cplex
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_0203

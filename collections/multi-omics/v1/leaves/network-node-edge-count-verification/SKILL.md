@@ -10,7 +10,7 @@ when_to_use_negative:
   which RWR_netstats provides directly
 - Layer edge-lists have changed intentionally and old count baselines no longer apply
   — recompute rather than verify against the 26,605/918,640 reference
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 tools:
@@ -37,7 +37,7 @@ metadata:
   tools:
   - R
   - RWRtoolkit
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   provenance_tier: literature

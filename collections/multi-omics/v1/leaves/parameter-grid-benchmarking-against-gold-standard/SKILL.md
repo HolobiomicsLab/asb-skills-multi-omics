@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3599
 tools:
 - name: SignalingProfiler 2.0
   role: Pipeline whose Step 1 (TFEA, KSEA, PhosphoScore) is swept across the parameter
@@ -40,7 +39,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3599
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

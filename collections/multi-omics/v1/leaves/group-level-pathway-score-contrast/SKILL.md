@@ -11,8 +11,7 @@ when_to_use_negative:
 - Only single-cancer-type data without the somatic mutation and copy-number layers
   needed for SBS signature exposure and 9p24.1 CNV detection
 edam_operation: http://edamontology.org/operation_2945
-edam_topics:
-- http://edamontology.org/topic_2648
+edam_topics: []
 tools:
 - name: iMLGAM
   role: R package providing the risk-score computation whose output stratifies samples
@@ -45,8 +44,7 @@ metadata:
   - iMLGAM
   - qs
   edam_operation: http://edamontology.org/operation_2945
-  edam_topics:
-  - http://edamontology.org/topic_2648
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

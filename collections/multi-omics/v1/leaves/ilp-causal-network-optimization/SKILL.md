@@ -12,7 +12,7 @@ when_to_use_negative:
 - You need to infer protein activities first rather than connect already-inferred
   proteins to a receptor — Step 1 footprint-based analysis (VIPER/PhosphoScore) must
   precede this skill
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_2259
@@ -51,7 +51,7 @@ metadata:
   - SignalingProfiler 2.0
   - VIPER
   - cplex
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_2259

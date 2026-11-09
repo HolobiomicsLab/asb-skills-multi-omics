@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0244
 edam_topics:
 - http://edamontology.org/topic_0602
-- http://edamontology.org/topic_3309
 tools:
 - name: CanSeer
   role: Executes deterministic/dynamical network analysis (DA) of the annotated biomolecular
@@ -44,7 +43,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0244
   edam_topics:
   - http://edamontology.org/topic_0602
-  - http://edamontology.org/topic_3309
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

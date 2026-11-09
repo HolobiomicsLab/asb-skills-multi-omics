@@ -11,7 +11,7 @@ when_to_use_negative:
 - You need to integrate omics types beyond transcriptome/proteome — the paper notes
   reasonable normalization and dimensionality-reduction methods for other single-omics
   data are not yet available
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_3308
@@ -43,7 +43,7 @@ metadata:
   - SCANPY
   - SSGATE
   - anndata
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_3308

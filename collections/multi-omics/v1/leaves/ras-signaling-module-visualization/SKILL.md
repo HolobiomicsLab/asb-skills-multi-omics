@@ -11,7 +11,7 @@ when_to_use_negative:
   (Fig. 4D table) rather than to extract/visualize the specific Ras-signaling module
 - No patient-cluster-specific pyPARAGON subnetworks exist yet — network inference
   (GGN construction, PageRank flux, subnetwork reconstruction) must be run first
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 tools:
@@ -41,7 +41,7 @@ metadata:
   - KEGG
   - Python
   - pyPARAGON
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   provenance_tier: literature

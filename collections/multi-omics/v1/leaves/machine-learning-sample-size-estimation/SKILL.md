@@ -10,7 +10,7 @@ when_to_use_negative:
 - No pilot data are available — MultiML cannot run without prior data
 - Input data are not preprocessed or still contain batch effects — MultiML does not
   handle preprocessing or batch-effect removal
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3577
 - http://edamontology.org/topic_2269
@@ -41,7 +41,7 @@ metadata:
   - MultiML
   - MultiPower
   - R
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3577
   - http://edamontology.org/topic_2269

@@ -11,7 +11,7 @@ when_to_use_negative:
   MultiML instead
 - No pilot data are available and parameters cannot be set manually — parameter estimates
   depend on pilot data availability
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_2269
@@ -33,7 +33,7 @@ metadata:
   license_tier: open
   tools:
   - MultiPower
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_2269

@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_3307
-- http://edamontology.org/topic_0401
 tools:
 - name: transomics2cytoscape
   role: R Bioconductor package that orchestrates the automated 2.5D network construction
@@ -64,7 +63,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_3307
-  - http://edamontology.org/topic_0401
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -12,7 +12,7 @@ when_to_use_negative:
   edges, automation) can be justified
 - A Yes/No/Partial encoding is insufficient because quantitative benchmark results
   (runtime, layout quality) are required rather than feature-support levels
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -55,7 +55,7 @@ metadata:
   - RCy3
   - VANTED
   - transomics2cytoscape
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

@@ -725,7 +725,7 @@
   "slug": "average-similarity-matrix-aggregation",
   "name": "average-similarity-matrix-aggregation",
   "description": "Use when you have multiple scRNAseq cluster assignment vectors for the same cells and need a single consensus clustering, or when no single clustering method performs consistently across your dataset conditions.",
-  "edam_operation": "http://edamontology.org/operation_3665",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091",
    "http://edamontology.org/topic_0203"
@@ -923,9 +923,7 @@
   "name": "baysor-patch-configuration-and-conflict-resolution",
   "description": "Use when segmenting imaging-based spatial transcriptomics data (e.g. MERSCOPE, Xenium) from transcript coordinates alone and the vendor segmentation is unsatisfactory or a refined, transcript-driven segmentation is desired.",
   "edam_operation": "http://edamontology.org/operation_3791",
-  "edam_topics": [
-   "http://edamontology.org/topic_6430"
-  ],
+  "edam_topics": [],
   "tools": [
    "Baysor",
    "Cellpose",
@@ -1254,7 +1252,7 @@
   "slug": "biomarker-predictive-performance-evaluation",
   "name": "biomarker-predictive-performance-evaluation",
   "description": "Use when you have continuous biomarker scores for multiple immunotherapy cohorts with a binary response column ('res') and need to compare predictive performance (ROC/AUC) of the new biomarker against existing markers like PD-L1 or TMB.",
-  "edam_operation": "http://edamontology.org/operation_1224",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3524",
    "http://edamontology.org/topic_0203"
@@ -1668,7 +1666,7 @@
   "slug": "causal-interaction-database-parsing",
   "name": "causal-interaction-database-parsing",
   "description": "Use when assembling a custom prior knowledge network for SignalingProfiler 2.0 (or a CARNIVAL-style optimizer) from SIGNOR, PhosphoSitePlus, or Ser/Thr Kinome Atlas causal-interaction records in human or mouse.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0602",
    "http://edamontology.org/topic_0128"
@@ -1844,10 +1842,7 @@
   "name": "cell-fate-propensity-quantification",
   "description": "Use when a validated biomolecular regulatory network (e.g., the 197-node/744-edge Cho et al. network) has been simulated with CanSeer's DA and stable-state probabilities must be converted into per-fate propensity values for validation or treatment comparison.",
   "edam_operation": "http://edamontology.org/operation_0244",
-  "edam_topics": [
-   "http://edamontology.org/topic_0602",
-   "http://edamontology.org/topic_3309"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0602"],
   "tools": [
    "CanSeer"
   ],
@@ -2304,7 +2299,7 @@
   "slug": "classification-error-rate-curve-smoothing",
   "name": "classification-error-rate-curve-smoothing",
   "description": "Use when pilot multi-omic data have been iteratively resampled (n1 to nt) with a ML classifier, average ER per tick is tabulated, and the goal is a smoothed ER-vs-sample-size learning curve to estimate the optimal sample size for a target ER.",
-  "edam_operation": "http://edamontology.org/operation_3726",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "MultiML",
@@ -3508,7 +3503,7 @@
   "slug": "conventional-pathway-layout-preservation",
   "name": "conventional-pathway-layout-preservation",
   "description": "Use when visualizing KEGG pathway networks (KGML) where biological interpretability of the conventional map layout matters, e.g. when comparing how automated layout algorithms obscure cyclic structures like the TCA cycle.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0092",
    "http://edamontology.org/topic_0602"
@@ -3738,7 +3733,7 @@
   "slug": "corum-complex-tissue-relevance-scoring",
   "name": "corum-complex-tissue-relevance-scoring",
   "description": "Use when building tissue-specific complex prior probabilities (P_complex_initial) for Protrec2 — e.g. when curated complex records in updated_tissue_complex_*.csv must be scored across the 27 supported tissues before Bayesian inference.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0128",
    "http://edamontology.org/topic_1775"
@@ -3795,7 +3790,7 @@
   "slug": "cost-constrained-sample-size-optimization",
   "name": "cost-constrained-sample-size-optimization",
   "description": "Decision support for selecting the optimal number of replicates per omic in a multi-omics experimental design when per-technology power targets, an average power threshold, an FDR level and platform costs must be balanced simultaneously.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2269",
    "http://edamontology.org/topic_3520"
@@ -4293,10 +4288,7 @@
   "name": "cross-validation-benchmark-of-network-methods",
   "description": "Use when comparing multiple network inference tools (e.g., pyPARAGON vs PL, OI2, DOMINO) on identical seed gene sets and a shared reference interactome, with known drivers as the validation ground truth.",
   "edam_operation": "http://edamontology.org/operation_0279",
-  "edam_topics": [
-   "http://edamontology.org/topic_3311",
-   "http://edamontology.org/topic_2640"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_2640"],
   "tools": [
    "DOMINO",
    "OI2",
@@ -4415,10 +4407,7 @@
   "name": "cytoscape-network-automation-via-rcy3",
   "description": "Use when the goal is to reproduce or redraw a multi-layered trans-omic network (e.g., KEGG rno04910 over two rno01100 layers, or the five-layer mmu04910/mmu01100 glucose-response network) automatically from tabular connectivity data rather than manual Cytoscape editing.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_3307",
-   "http://edamontology.org/topic_0401"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3307"],
   "tools": [
    "Cy3D",
    "Cytoscape",
@@ -4451,7 +4440,7 @@
   "slug": "cytoscape-network-layout-comparison",
   "name": "cytoscape-network-layout-comparison",
   "description": "Use when you need to verify that an algorithmically generated network layout (e.g. degree-sorted circle or CoSE) retains the conventional pathway-map layout biologists rely on to locate metabolites and enzymes.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0092",
    "http://edamontology.org/topic_3314"
@@ -5017,7 +5006,7 @@
   "slug": "dna-read-simulation-with-variant-injection",
   "name": "dna-read-simulation-with-variant-injection",
   "description": "Use when building educational genomic datasets where students must practice variant calling against data with known injected pathogenic variants, or when validating that simulated reads reproduce a specific ClinVar variant.",
-  "edam_operation": "http://edamontology.org/operation_3580",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3673",
@@ -5361,7 +5350,7 @@
   "slug": "edge-midpoint-node-insertion",
   "name": "edge-midpoint-node-insertion",
   "description": "Use when you have a trans-omic interaction TSV whose rows connect nodes in different stacked pathway layers of a Cytoscape 2.5D network and need those inter-layer edges drawn programmatically.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0092"
   ],
@@ -5391,7 +5380,7 @@
   "slug": "effect-size-estimation-cohens-d",
   "name": "effect-size-estimation-cohens-d",
   "description": "Use when a pilot multi-omic count matrix is available and MultiPower's optimalRep/MultiPower functions require input parameters (variability, effect size, dispersion percentiles) derived from per-feature effect sizes.",
-  "edam_operation": "http://edamontology.org/operation_3231",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2269",
    "http://edamontology.org/topic_3520"
@@ -5648,7 +5637,7 @@
   "slug": "enrichment-result-visualization-and-interpretation",
   "name": "enrichment-result-visualization-and-interpretation",
   "description": "Use when a differential expression step (e.g. DESeq2 on Salmon gene-level counts) has produced a DE gene list and you need GO over-representation results with dotplot/cnetplot figures and a coherence check.",
-  "edam_operation": "http://edamontology.org/operation_0033",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0605",
    "http://edamontology.org/topic_0085",
@@ -6024,7 +6013,7 @@
   "slug": "fastq-barcode-extraction-mismatch-tolerant",
   "name": "fastq-barcode-extraction-mismatch-tolerant",
   "description": "Use when sci-L3 combinatorial-indexing FASTQ reads must be demultiplexed into single-cell barcode identities: orienting reads on the RT primer GGGATGCAGCTCGCTCCTG and matching 8-nt Tn5 and 7-nt ligation barcodes with 1-mismatch tolerance.",
-  "edam_operation": "http://edamontology.org/operation_3238",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0080",
    "http://edamontology.org/topic_0160"
@@ -6825,7 +6814,7 @@
   "slug": "gene-ontology-overrepresentation-enrichment-analysis",
   "name": "gene-ontology-overrepresentation-enrichment-analysis",
   "description": "Use when you have a list of significant DE gene identifiers (e.g. deseq2_de_genes.txt) from simulated RNA-seq data and need GO Biological Process, Molecular Function and Cellular Component over-representation results.",
-  "edam_operation": "http://edamontology.org/operation_3941",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203",
    "http://edamontology.org/topic_0089"
@@ -7412,7 +7401,7 @@
   "slug": "go-shared-term-coherence-scoring",
   "name": "go-shared-term-coherence-scoring",
   "description": "Use when building tissue-specific complex priors (updated_tissue_complex_*.csv) for Protrec2 and a complex record has no explicit tissue annotation, so GO-based functional coherence must stand in for a direct 1/0/0.5 relevance score.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3520",
    "http://edamontology.org/topic_0089"
@@ -7555,7 +7544,7 @@
   "slug": "graphlet-guided-network-filtering",
   "name": "graphlet-guided-network-filtering",
   "description": "Use when integrating omic-hits (e.g., phosphoproteomic seed proteins) with a large reference interactome to infer a context-specific subnetwork, and nonspecific hub-dominated pairwise interactions must be filtered out.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0602",
    "http://edamontology.org/topic_0092"
@@ -7583,10 +7572,7 @@
   "name": "graphlet-guided-subnetwork-inference",
   "description": "Use when you have a set of omic-hits (e.g., mutated genes or significant phosphoproteins) plus a reference interactome and need a context-specific subnetwork that trims hub-dominated, nonspecific interactions.",
   "edam_operation": "http://edamontology.org/operation_3927",
-  "edam_topics": [
-   "http://edamontology.org/topic_0128",
-   "http://edamontology.org/topic_3557"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0128"],
   "tools": [
    "DOMINO",
    "Louvain",
@@ -7618,10 +7604,7 @@
   "name": "graphlet-motif-enumeration",
   "description": "Use when a seed node set of omic-hits must be expanded into a context-specific subnetwork from a large reference interactome, and nonspecific interactions/hub bias should be filtered topologically before propagation.",
   "edam_operation": "http://edamontology.org/operation_3925",
-  "edam_topics": [
-   "http://edamontology.org/topic_0128",
-   "http://edamontology.org/topic_3557"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0128"],
   "tools": [
    "Python",
    "pyPARAGON"
@@ -7706,9 +7689,7 @@
   "name": "group-level-pathway-score-contrast",
   "description": "Use when per-sample iMLGAM risk scores are available for a TCGA-style pan-cancer cohort with somatic mutation and copy-number data, and the goal is group-level contrasts of pathway scores or genomic alterations between score strata.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": [],
   "tools": [
    "R",
    "abess",
@@ -8434,7 +8415,7 @@
   "slug": "ilp-causal-network-optimization",
   "name": "ilp-causal-network-optimization",
   "description": "Use when multi-omics case-vs-control data (transcriptomics, proteomics, phosphoproteomics) yield inferred protein activities plus a user-defined set of perturbed molecules/receptors (e.g. EGF, MTOR/AMPK, Flt3) that must be connected through a prior knowledge causal network.",
-  "edam_operation": "http://edamontology.org/operation_0271",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0605",
    "http://edamontology.org/topic_2259"
@@ -8798,7 +8779,7 @@
   "slug": "inter-layer-edge-integration",
   "name": "inter-layer-edge-integration",
   "description": "Use when you have a layered KEGG-based pathway visualization (e.g., rno04910 over rno01100 layers, or the five-layer mouse liver glucose-response network) and tabular trans-omic connectivity data that must be joined across layers by KEGG-compatible molecule IDs.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0602",
    "http://edamontology.org/topic_2259",
@@ -8894,7 +8875,7 @@
   "slug": "interactome-edge-confidence-weighting",
   "name": "interactome-edge-confidence-weighting",
   "description": "Use when you have a reference interactome with edge confidence scores, a weighted omic-hits seed set, and a GGN, and you need to rank edges to reconstruct a context-specific subnetwork.",
-  "edam_operation": "http://edamontology.org/operation_0277",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0602"
   ],
@@ -10076,10 +10057,7 @@
   "name": "lung-tissue-specific-complex-annotation",
   "description": "Use when a proteomics recovery task needs tissue-aware complex priors — e.g., running Protrec2 with --tissue lung on an expression matrix and requiring per-complex confidence values across 27 tissue types.",
   "edam_operation": "http://edamontology.org/operation_3766",
-  "edam_topics": [
-   "http://edamontology.org/topic_3557",
-   "http://edamontology.org/topic_0128"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0128"],
   "tools": [
    "Protrec2",
    "Python",
@@ -10163,7 +10141,7 @@
   "slug": "machine-learning-sample-size-estimation",
   "name": "machine-learning-sample-size-estimation",
   "description": "Use when designing a multi-omic ML classification study and you need the number of samples required to control classification ER, given pilot multi-omic data with per-tick average classification error rates.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3577",
    "http://edamontology.org/topic_2269"
@@ -10366,11 +10344,7 @@
   "name": "marginal-likelihood-hyperparameter-optimization",
   "description": "Use when fitting a SMOPCA-style Gaussian spatial latent-factor model to multi-omics matrices with spot coordinates, and the Matérn kernel lengthscale gamma must be learned by maximizing the closed-form marginal likelihood rather than set by hand.",
   "edam_operation": "http://edamontology.org/operation_3659",
-  "edam_topics": [
-   "http://edamontology.org/topic_2269",
-   "http://edamontology.org/topic_3474",
-   "http://edamontology.org/topic_3914"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_2269", "http://edamontology.org/topic_3474"],
   "tools": [
    "MEFISTO",
    "SpatialPCA"
@@ -10662,7 +10636,7 @@
   "slug": "memory-runtime-benchmark-profiling",
   "name": "memory-runtime-benchmark-profiling",
   "description": "Use when evaluating whether segmentation of large image-based spatial omics data (e.g. Xenium, MERSCOPE) is memory/time-limited, or when validating that Sopa's patch-based strategy reduces peak RAM and runtime versus whole-image baselines.",
-  "edam_operation": "http://edamontology.org/operation_3875",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3382"
   ],
@@ -10844,9 +10818,7 @@
   "name": "metabolomics-dimensionality-reduction",
   "description": "Use when you have a metabolite-by-isolate abundance matrix (hundreds to thousands of features) and need to test whether samples cluster by a known categorical label, such as starter-culture taxonomy.",
   "edam_operation": "http://edamontology.org/operation_2939",
-  "edam_topics": [
-   "http://edamontology.org/topic_3364"
-  ],
+  "edam_topics": [],
   "tools": [
    "Scoary2",
    "matplotlib",
@@ -11453,7 +11425,7 @@
   "slug": "multi-layer-2-5d-network-stacking",
   "name": "multi-layer-2-5d-network-stacking",
   "description": "Use when multi-omics connectivity tables must be visualized as stacked pathway layers in 3D (2.5D) space with regulatory edges between omic layers, e.g., reproducing Yugi/Kokaji-style trans-omic network figures.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0605",
    "http://edamontology.org/topic_0092"
@@ -11885,7 +11857,7 @@
   "slug": "multi-omics-power-analysis",
   "name": "multi-omics-power-analysis",
   "description": "Use when designing a multi-omic experiment (e.g. RNA-seq, miRNA-seq, DNase-seq, metabolomics) and you need the optimal number of replicates per omic to reach target per-omic and average power at a given FDR and Cohen's d.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3517",
    "http://edamontology.org/topic_2269",
@@ -12222,10 +12194,7 @@
   "name": "multimodal-gene-expression-image-integration",
   "description": "Use when analyzing 10x Visium-style spatial transcriptomics data (count matrix + spatial coordinates + H&E image) and you want to test whether morphological image features improve spatial domain clustering (ARI) over expression-only baselines.",
   "edam_operation": "http://edamontology.org/operation_3432",
-  "edam_topics": [
-   "http://edamontology.org/topic_6398",
-   "http://edamontology.org/topic_3360"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3360"],
   "tools": [
    "MCGAE",
    "ResNet50",
@@ -12413,7 +12382,7 @@
   "slug": "multiple-testing-fdr-power-calculation",
   "name": "multiple-testing-fdr-power-calculation",
   "description": "Use when designing or evaluating a multi-omic differential-features study and you need a per-platform replicate number that meets target per-omic and average power under an FDR threshold, e.g. omicPower 0.6, averagePower 0.8, FDR 0.05.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2269",
    "http://edamontology.org/topic_3518"
@@ -12530,7 +12499,7 @@
   "slug": "multiplex-network-gene-set-evaluation",
   "name": "multiplex-network-gene-set-evaluation",
   "description": "Use when a curated gene set (e.g. shared MAPMAN or GO annotation) must be validated for functional/topological connectivity in a preassembled multiplex network before using it for ranking or discovery.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0128",
    "http://edamontology.org/topic_0605",
@@ -12908,7 +12877,7 @@
   "slug": "network-node-edge-count-verification",
   "name": "network-node-edge-count-verification",
   "description": "Use when a multiplex network RData object (e.g. from RWR_make_multiplex with delta=0.5) must be validated after construction or reload, by checking that Pool_of_Nodes and aggregated edge counts match expected totals.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0602"
   ],
@@ -12988,7 +12957,7 @@
   "slug": "network-permutation-significance-testing",
   "name": "network-permutation-significance-testing",
   "description": "Use when you must decide which subnetwork edges are statistically enriched around a seed node set — e.g., trimming a large reference interactome to significant graphlets before propagation or edge inference.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0128",
    "http://edamontology.org/topic_0602"
@@ -13526,9 +13495,7 @@
   "name": "numerical-reference-value-reproduction",
   "description": "Use when reimplementing a published scoring pipeline (CanSeer NDAS/drug scores) and reported reference values must be reproduced numerically as an output-matches-reference validation check.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0401"
-  ],
+  "edam_topics": [],
   "tools": [
    "CanSeer"
   ],
@@ -13688,7 +13655,7 @@
   "slug": "optimal-sample-size-estimation",
   "name": "optimal-sample-size-estimation",
   "description": "Use when designing a multi-omic study (or evaluating an existing one) and you need the number of samples required to reach a target power for differential feature detection across two or more omic platforms, given pilot data.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3517",
    "http://edamontology.org/topic_2269",
@@ -14271,10 +14238,7 @@
   "name": "parameter-grid-benchmarking-against-gold-standard",
   "description": "Use when tuning a multi-omics activity-inference pipeline (e.g., SignalingProfiler 2.0) against a curated gold-standard protein/TF activity list to pick default parameters before applying the tool to new datasets.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_0203",
-   "http://edamontology.org/topic_3599"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0203"],
   "tools": [
    "SignalingProfiler 2.0",
    "VIPER"
@@ -14833,10 +14797,7 @@
   "name": "personalized-pagerank-network-propagation",
   "description": "Use when a weighted set of omic hit proteins must be propagated over a reference interactome to re-score all proteins and prioritize edges by directional PageRank-flux before selecting a context-specific subnetwork.",
   "edam_operation": "http://edamontology.org/operation_3927",
-  "edam_topics": [
-   "http://edamontology.org/topic_0128",
-   "http://edamontology.org/topic_3557"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0128"],
   "tools": [
    "Python",
    "pyPARAGON"
@@ -14983,9 +14944,7 @@
   "name": "phosphoproteomics-data-preprocessing",
   "description": "Use when starting a SignalingProfiler 2.0 analysis from phosphoproteomic data and you need to verify or reformat the input table (one row per phosphosite, required identifier/differential columns) before footprint-based or PhosphoScore inference.",
   "edam_operation": "http://edamontology.org/operation_0306",
-  "edam_topics": [
-   "http://edamontology.org/topic_3543"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0157"],
   "tools": [
    "CARNIVAL",
    "PhosphoSitePlus",
@@ -15082,7 +15041,7 @@
   "slug": "pkn-filtering-by-quantified-analytes",
   "name": "pkn-filtering-by-quantified-analytes",
   "description": "Use when starting SignalingProfiler 2.0 Step 2 with multi-omics tables and a full prior knowledge network: the PKN must first be subset to analytes measured in transcriptomics, proteomics, and phosphoproteomics before receptor-to-TF path construction.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0121",
    "http://edamontology.org/topic_0203"
@@ -15531,7 +15490,7 @@
   "slug": "probability-normalization-and-confidence-thresholding",
   "name": "probability-normalization-and-confidence-thresholding",
   "description": "Use when a Bayesian protein-recovery run has produced raw presence probabilities for unobserved proteins and you must normalize scores across samples and apply a confidence cutoff (0.50–0.95, default 0.95) before reporting recovered proteins.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0121"
   ],
@@ -15679,10 +15638,7 @@
   "name": "protein-abundance-distribution-visualisation",
   "description": "Use when CITE-seq 'Antibody capture' counts have been dsb-normalised and you need to inspect per-epitope abundance distributions before defining cell types or integrating protein with gene expression.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_2229",
-   "http://edamontology.org/topic_4010"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_2229"],
   "tools": [
    "MUON",
    "NumPy",
@@ -16174,7 +16130,7 @@
   "slug": "r-implementation-of-mathematical-programming-models",
   "name": "r-implementation-of-mathematical-programming-models",
   "description": "Use when an R workflow must select integer decision variables (e.g., per-omic replicate counts) under linear constraints such as minimum power per technology, minimum average power, FDR, and a max.size bound.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2269",
    "http://edamontology.org/topic_3517"
@@ -16290,7 +16246,7 @@
   "slug": "r-package-statistical-workflow",
   "name": "r-package-statistical-workflow",
   "description": "Use when designing a multi-omics experiment and you need per-omic optimal sample sizes (optionally unconstrained, unequal sizes at equal cost) plus a sample-size vs detectable Cohen's d trade-off curve from pilot omics matrices in R.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3517",
    "http://edamontology.org/topic_2269"
@@ -16521,7 +16477,7 @@
   "slug": "ras-signaling-module-visualization",
   "name": "ras-signaling-module-visualization",
   "description": "Use when a pyPARAGON community analysis over patient-cluster-specific breast cancer networks (105 tumors) has identified modules, and you must extract the Ras-signaling module whose intermediate nodes are KRAS, NRAS, HRAS, RHOA, and RHOD for Figure 4E-style visualization.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0605"
   ],
@@ -17334,10 +17290,7 @@
   "name": "rna-seq-transcript-abundance-quantification",
   "description": "Use when starting from RNA-seq FASTQ files (e.g. Polyester-simulated paired-end reads) and transcript-level abundance estimates or a gene-level count matrix are needed for differential expression analysis.",
   "edam_operation": "http://edamontology.org/operation_3258",
-  "edam_topics": [
-   "http://edamontology.org/topic_3308",
-   "http://edamontology.org/topic_3522"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3308", "http://edamontology.org/topic_3520"],
   "tools": [
    "DESeq2",
    "Nextflow",
@@ -17537,9 +17490,7 @@
   "name": "rwr-seed-score-computation",
   "description": "Use when seed genes/nodes must be scored against a multiplex network and per-layer tau weighting should influence rankings — e.g. to verify that layer importance parameters actually change output scores.",
   "edam_operation": "http://edamontology.org/operation_3927",
-  "edam_topics": [
-   "http://edamontology.org/topic_0722"
-  ],
+  "edam_topics": [],
   "tools": [
    "R",
    "RWRtoolkit",
@@ -17625,9 +17576,7 @@
   "name": "scalability-benchmark-visualization",
   "description": "Use when selecting among simulation methods for scRNA-seq or spatially resolved transcriptomics data and you need to quantify how execution time and memory scale with the number of cells or genes before committing to a method.",
   "edam_operation": "http://edamontology.org/operation_0564",
-  "edam_topics": [
-   "http://edamontology.org/topic_3272"
-  ],
+  "edam_topics": [],
   "tools": [
    "SCAM",
    "SRTsim",
@@ -19339,9 +19288,7 @@
   "name": "single-cell-hic-pairtools-pair-filtering",
   "description": "Use when processing single-cell Hi-C (e.g. sci-L3-Hi-C) aligned pairs into valid interaction pairs, needing duplicate marking, UU/UR/RU pair selection, MboI fragment annotation, and valid-pair retention/duplicate-rate statistics.",
   "edam_operation": "http://edamontology.org/operation_3695",
-  "edam_topics": [
-   "http://edamontology.org/topic_0106"
-  ],
+  "edam_topics": [],
   "tools": [
    "4dn-dcic/docker-4dn-hic",
    "Apptainer",
@@ -20279,7 +20226,7 @@
   "slug": "spatial-coordinate-neighborhood-graph-construction",
   "name": "spatial-coordinate-neighborhood-graph-construction",
   "description": "Use when an AnnData object (expression in anndata.X, spatial coordinates in anndata.obsm['spatial']) must be converted into a masked-distance neighbor network stored in adata.uns['nbrs_net'] prior to SSGATE training.",
-  "edam_operation": "http://edamontology.org/operation_0271",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0092",
    "http://edamontology.org/topic_3308"
@@ -21810,7 +21757,7 @@
   "slug": "supra-adjacency-matrix-generation",
   "name": "supra-adjacency-matrix-generation",
   "description": "Use when the input is a set of layer edge-list files (an flist of {file_path, name, group} triples) that must be assembled into a multiplex object with a supra-adjacency matrix for downstream RWR analysis.",
-  "edam_operation": "http://edamontology.org/operation_0271",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091"
   ],
@@ -22084,7 +22031,7 @@
   "slug": "tcga-cohort-data-handling",
   "name": "tcga-cohort-data-handling",
   "description": "Use when pilot/cohort data come from TCGA or a similar multi-omic cohort and the goal is to estimate required sample size per omic platform (e.g., Methyl-seq limiting n=24) or to test whether filtering low-variance features reduces it.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3517",
    "http://edamontology.org/topic_0622"
@@ -22112,10 +22059,7 @@
   "name": "tcga-rnaseq-sample-cohort-selection",
   "description": "Use when building TCGA-LUSC expression matrices for paired (normal+cancer), unpaired, or cancer-only analyses, when outlier removal (IQR/3xMAD) and max-value 0-1 normalization are required before model annotation.",
   "edam_operation": "http://edamontology.org/operation_0314",
-  "edam_topics": [
-   "http://edamontology.org/topic_3308",
-   "http://edamontology.org/topic_2648"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3308"],
   "tools": [
    "CanSeer"
   ],
@@ -22467,7 +22411,7 @@
   "slug": "trans-omic-inter-layer-edge-construction",
   "name": "trans-omic-inter-layer-edge-construction",
   "description": "Use when a stacked 2.5D network of KEGG pathway layers has been imported into Cytoscape and connectivity data describing molecular interactions between omic layers must be added as inter-layer edges.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0602",
    "http://edamontology.org/topic_0092"
@@ -22504,7 +22448,7 @@
   "slug": "trans-omic-network-layer-stacking",
   "name": "trans-omic-network-layer-stacking",
   "description": "Use when tabular trans-omic connectivity data must be rendered as a stacked multi-layer network (e.g., insulin signaling over metabolic maps) in Cytoscape's 2.5D layout instead of manual VANTED-style assembly.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0605",
    "http://edamontology.org/topic_2259",
@@ -22542,7 +22486,7 @@
   "slug": "trans-omic-visualization-tool-comparison",
   "name": "trans-omic-visualization-tool-comparison",
   "description": "Use when comparing multi-layer/network visualization tools against a defined requirement set (pathway map import, layer stacking, inter-layer edges, workflow automation) to produce a reproducible Yes/No/Partial support matrix with maintenance status.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3315"
   ],
@@ -22577,9 +22521,7 @@
   "name": "transcript-based-cell-segmentation",
   "description": "Use when processing MERSCOPE or Xenium transcript data where vendor segmentation is unavailable, unsatisfying, or higher-resolution cell-type distinction is needed and cell boundaries must be inferred from transcript composition.",
   "edam_operation": "http://edamontology.org/operation_3799",
-  "edam_topics": [
-   "http://edamontology.org/topic_6398"
-  ],
+  "edam_topics": [],
   "tools": [
    "Baysor",
    "Cellpose",
@@ -22608,7 +22550,7 @@
   "slug": "transcript-expression-quantification",
   "name": "transcript-expression-quantification",
   "description": "Use when you have paired-end RNA-seq FASTQ files (e.g. Polyester-simulated reads with a known count-matrix ground truth) and need transcript-level abundance quantification prior to differential expression analysis.",
-  "edam_operation": "http://edamontology.org/operation_3768",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3308",
    "http://edamontology.org/topic_0203"
@@ -23108,7 +23050,7 @@
   "slug": "umi-extraction-into-read-names",
   "name": "umi-extraction-into-read-names",
   "description": "Use when processing sci-L3 FASTQ reads that must be labeled with their SSS barcode, IVT UMI, and three-level combinatorial barcode (Tn5/RT and ligation) before alignment or single-cell demultiplexing.",
-  "edam_operation": "http://edamontology.org/operation_3220",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0622",
    "http://edamontology.org/topic_3168"
