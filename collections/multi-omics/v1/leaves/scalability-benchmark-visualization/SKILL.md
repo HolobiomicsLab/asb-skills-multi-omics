@@ -10,8 +10,7 @@ when_to_use_negative:
 - When the input is already simulated data or a simulated count matrix; this skill
   benchmarks simulator execution, not downstream analysis of simulated outputs.
 edam_operation: http://edamontology.org/operation_0564
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: simmethods
   role: Provides the 49 collected simulation methods (including dyntoy, ZINB-WaVE)
@@ -56,8 +55,7 @@ metadata:
   - simpipe
   - simpipe2docker
   edam_operation: http://edamontology.org/operation_0564
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

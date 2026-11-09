@@ -11,7 +11,7 @@ when_to_use_negative:
   metabolic, etc.).
 - No curated gene set or annotation source (MAPMAN, GO) is available to define positives
   and non-member controls — cross-validation cannot be interpreted without them.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0128
 - http://edamontology.org/topic_0605
@@ -44,7 +44,7 @@ metadata:
   - R
   - RWRtoolkit
   - RandomWalkRestartMH
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_0605

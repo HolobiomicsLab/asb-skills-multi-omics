@@ -9,7 +9,7 @@ when_to_use_negative:
   protein isoforms or PTMs.
 - When the reference interactome has already been reduced to a small curated pathway
   and permutation testing would lack statistical power or be unnecessary.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0128
 - http://edamontology.org/topic_0602
@@ -37,7 +37,7 @@ metadata:
   tools:
   - Python
   - pyPARAGON
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_0602

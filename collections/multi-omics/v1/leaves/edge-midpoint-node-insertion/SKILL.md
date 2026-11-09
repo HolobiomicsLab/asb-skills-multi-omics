@@ -11,7 +11,7 @@ when_to_use_negative:
   edges; provide a pre-built interaction TSV
 - Your pathway data is not in KEGG ID / KGML format — 'Currently, transomics2cytoscape
   supports only the KEGG ID and pathway file format'
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -43,7 +43,7 @@ metadata:
   - R
   - RCy3
   - transomics2cytoscape
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

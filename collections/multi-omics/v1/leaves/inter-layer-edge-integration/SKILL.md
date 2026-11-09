@@ -12,7 +12,7 @@ when_to_use_negative:
   must be supplied as tabular input
 - You need automated estimation of layer Z-coordinates — Z-coordinate estimation in
   Case Study I and II is manual
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_2259
@@ -54,7 +54,7 @@ metadata:
   - R
   - RCy3
   - transomics2cytoscape
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_2259

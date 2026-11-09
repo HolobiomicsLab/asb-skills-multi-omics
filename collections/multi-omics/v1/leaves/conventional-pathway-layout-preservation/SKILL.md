@@ -10,7 +10,7 @@ when_to_use_negative:
   conventional published pathway map arrangement
 - Fully automated retrieval of inter-layer edges from BRENDA, OmniPath, SIGNOR, or
   IntAct is required — this step is not automated by the package
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_0602
@@ -46,7 +46,7 @@ metadata:
   - R
   - RCy3
   - transomics2cytoscape
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_0602

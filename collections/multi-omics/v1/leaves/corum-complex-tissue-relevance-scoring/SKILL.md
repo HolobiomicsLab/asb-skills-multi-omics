@@ -12,7 +12,7 @@ when_to_use_negative:
   rhabdoid_tumor, sarcoma, skin, testis, thyroid, uterine)
 - The goal is scoring individual proteins rather than protein complexes — this skill
   operates at the complex level
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0128
 - http://edamontology.org/topic_1775
@@ -47,7 +47,7 @@ metadata:
   - CORUM
   - Protrec2
   - Python
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_1775

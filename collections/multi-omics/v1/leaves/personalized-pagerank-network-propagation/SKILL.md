@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3927
 edam_topics:
 - http://edamontology.org/topic_0128
-- http://edamontology.org/topic_3557
 tools:
 - name: pyPARAGON
   role: Runs Personalized PageRank propagation from the omic-hits seed set and performs
@@ -39,7 +38,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3927
   edam_topics:
   - http://edamontology.org/topic_0128
-  - http://edamontology.org/topic_3557
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

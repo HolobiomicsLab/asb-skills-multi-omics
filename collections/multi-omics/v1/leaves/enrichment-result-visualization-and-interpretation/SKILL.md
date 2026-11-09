@@ -11,7 +11,7 @@ when_to_use_negative:
   SimuSCoP-based DNA branch of eduomics rather than the RNA enrichment branch
 - The gene list is too small or not derived from a differential expression contrast,
   so over-representation analysis would lack statistical power and biological meaning
-edam_operation: http://edamontology.org/operation_0033
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_0085
@@ -47,7 +47,7 @@ metadata:
   - Nextflow
   - Salmon
   - clusterProfiler
-  edam_operation: http://edamontology.org/operation_0033
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_0085

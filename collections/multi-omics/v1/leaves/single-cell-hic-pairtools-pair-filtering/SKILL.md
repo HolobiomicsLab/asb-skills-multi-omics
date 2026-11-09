@@ -12,8 +12,7 @@ when_to_use_negative:
 - Genome assembly is not hg38/GRCh38 and the hybrid_filter references (NC_007605,
   hs37d5) are not applicable
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_0106
+edam_topics: []
 tools:
 - name: Snakemake
   role: Orchestrates the pairtools-based pair filtering workflow via configs/config.yaml
@@ -56,8 +55,7 @@ metadata:
   - bwa
   - sss_bam2.py
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_0106
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

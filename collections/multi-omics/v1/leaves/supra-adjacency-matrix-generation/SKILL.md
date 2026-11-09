@@ -10,7 +10,7 @@ when_to_use_negative:
   information can be discarded
 - Layers are not expressible as edge-lists loadable as igraph objects per the flist
   triple format
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -47,7 +47,7 @@ metadata:
   - RWRtoolkit
   - RandomWalkRestartMH
   - igraph
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

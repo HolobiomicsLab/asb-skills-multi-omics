@@ -11,7 +11,7 @@ when_to_use_negative:
   not handle this internally and requires clean pilot data
 - No pilot data are available and parameters cannot be estimated — parameter estimates
   depend on pilot data, otherwise users must set them manually
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_2269
@@ -51,7 +51,7 @@ metadata:
   - MultiML
   - MultiPower
   - lpSolve
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_2269

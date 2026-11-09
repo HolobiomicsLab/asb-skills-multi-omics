@@ -15,7 +15,7 @@ when_to_use_negative:
   proteome.'
 edam_operation: http://edamontology.org/operation_0306
 edam_topics:
-- http://edamontology.org/topic_3543
+- http://edamontology.org/topic_0157
 tools:
 - name: SignalingProfiler 2.0
   role: Primary R pipeline whose first step (footprint-based activity estimation and
@@ -50,7 +50,7 @@ metadata:
   - VIPER
   edam_operation: http://edamontology.org/operation_0306
   edam_topics:
-  - http://edamontology.org/topic_3543
+  - http://edamontology.org/topic_0157
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

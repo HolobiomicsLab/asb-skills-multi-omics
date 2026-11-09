@@ -10,7 +10,7 @@ when_to_use_negative:
   RT primer, SSS barcode, or Tn5/ligation barcode structure)
 - Only adapter trimming is needed without barcode/UMI annotation — cutadapt alone
   suffices
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3168
@@ -52,7 +52,7 @@ metadata:
   - cutadapt
   - fastq2.py
   - trimmed2.py
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3168

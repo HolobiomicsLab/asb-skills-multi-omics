@@ -11,7 +11,7 @@ when_to_use_negative:
   single-cell FASTQs
 - The goal is downstream genome-scale analysis (bwa/bowtie2 alignment, Hi-C contact
   maps via docker-4dn-hic or juicer) rather than per-read barcode annotation
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_0160
@@ -56,7 +56,7 @@ metadata:
   - cutadapt
   - fastq2.py
   - trimmed2.py
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_0160

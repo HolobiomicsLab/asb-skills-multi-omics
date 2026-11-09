@@ -10,7 +10,7 @@ when_to_use_negative:
   this is not currently possible and recommends including as many algorithms as possible
 - Your input is a precomputed distance/network rather than discrete cluster assignments
   per algorithm — the binary-similarity construction assumes assignment labels
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0203
@@ -59,7 +59,7 @@ metadata:
   - Seurat
   - Spectrum
   - scSHC
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0203

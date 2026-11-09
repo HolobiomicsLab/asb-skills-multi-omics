@@ -11,8 +11,7 @@ when_to_use_negative:
 - The prior segmentation missed many cells and new cells must be introduced — prior-based
   refinement cannot recover cells that were never segmented.
 edam_operation: http://edamontology.org/operation_3791
-edam_topics:
-- http://edamontology.org/topic_6430
+edam_topics: []
 tools:
 - name: Sopa
   role: Orchestrates patchification, per-patch Baysor execution, polygon conversion,
@@ -49,8 +48,7 @@ metadata:
   - Sopa
   - SpatialData
   edam_operation: http://edamontology.org/operation_3791
-  edam_topics:
-  - http://edamontology.org/topic_6430
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

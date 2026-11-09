@@ -12,7 +12,7 @@ when_to_use_negative:
   and this information is generalized/lost in the network
 - Your data are single-cell omics — the released pyPARAGON integrates bulk omic data
   for static networks; single-cell support is only planned for a future version
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Python
   - pyPARAGON
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   provenance_tier: literature

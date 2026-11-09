@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3925
 edam_topics:
 - http://edamontology.org/topic_0128
-- http://edamontology.org/topic_3557
 tools:
 - name: pyPARAGON
   role: Provides the graphlet module that enumerates G0–G8 graphlets, counts motifs,
@@ -41,7 +40,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3925
   edam_topics:
   - http://edamontology.org/topic_0128
-  - http://edamontology.org/topic_3557
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

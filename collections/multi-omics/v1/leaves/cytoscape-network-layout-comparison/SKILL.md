@@ -11,7 +11,7 @@ when_to_use_negative:
   cannot follow this workflow.
 - The goal is to produce a novel 2.5D trans-omic visualization rather than evaluate
   layout fidelity against a conventional layout.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_3314
@@ -48,7 +48,7 @@ metadata:
   - R
   - RCy3
   - transomics2cytoscape
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_3314

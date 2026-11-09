@@ -10,7 +10,7 @@ when_to_use_negative:
   require cleaned pilot data or manual parameters
 - No pilot data and no manually specified parameters are available, so the power curves
   feeding the MILP objective and constraints cannot be estimated
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3517
@@ -37,7 +37,7 @@ metadata:
   tools:
   - MultiPower
   - lpSolve
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3517

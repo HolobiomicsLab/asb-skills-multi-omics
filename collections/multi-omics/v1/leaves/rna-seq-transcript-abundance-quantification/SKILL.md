@@ -11,7 +11,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3258
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: Salmon
   role: Performs quasi-mapping-based transcript expression quantification from the
@@ -47,7 +47,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3258
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

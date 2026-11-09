@@ -14,7 +14,6 @@ when_to_use_negative:
   — Protrec2 priors operate on a binary presence/absence basis only
 edam_operation: http://edamontology.org/operation_3766
 edam_topics:
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_0128
 tools:
 - name: Protrec2
@@ -50,7 +49,6 @@ metadata:
   - pip
   edam_operation: http://edamontology.org/operation_3766
   edam_topics:
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0

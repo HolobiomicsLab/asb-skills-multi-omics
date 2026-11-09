@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
 - http://edamontology.org/topic_2229
-- http://edamontology.org/topic_4010
 tools:
 - name: MUON
   role: Reads 10x HDF5 matrices (muon.read_10x_h5), hosts the protein modality in
@@ -54,7 +53,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
   - http://edamontology.org/topic_2229
-  - http://edamontology.org/topic_4010
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

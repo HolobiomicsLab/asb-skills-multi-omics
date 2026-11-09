@@ -10,7 +10,7 @@ when_to_use_negative:
   patching artefacts and ratio metrics do not measure segmentation accuracy.
 - Input is not image-based spatial omics (e.g. already-segmented cell tables or non-spatial
   single-cell data); Sopa's patchify/resolve workflow does not apply.
-edam_operation: http://edamontology.org/operation_3875
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3382
 tools:
@@ -52,7 +52,7 @@ metadata:
   - Sopa
   - SpatialData
   - uv
-  edam_operation: http://edamontology.org/operation_3875
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3382
   provenance_tier: literature

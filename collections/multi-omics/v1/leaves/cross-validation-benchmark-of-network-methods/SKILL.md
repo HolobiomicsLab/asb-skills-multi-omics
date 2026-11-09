@@ -14,7 +14,6 @@ when_to_use_negative:
   hits.
 edam_operation: http://edamontology.org/operation_0279
 edam_topics:
-- http://edamontology.org/topic_3311
 - http://edamontology.org/topic_2640
 tools:
 - name: pyPARAGON
@@ -55,7 +54,6 @@ metadata:
   - pyPARAGON
   edam_operation: http://edamontology.org/operation_0279
   edam_topics:
-  - http://edamontology.org/topic_3311
   - http://edamontology.org/topic_2640
   provenance_tier: literature
 license: CC-BY-4.0

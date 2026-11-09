@@ -10,7 +10,7 @@ when_to_use_negative:
   belongs only to the RNA differential expression branch
 - The gene list comes from real (non-simulated) data where no ground-truth DE pattern
   exists for validation against
-edam_operation: http://edamontology.org/operation_3941
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0089
@@ -47,7 +47,7 @@ metadata:
   - Nextflow
   - Salmon
   - clusterProfiler
-  edam_operation: http://edamontology.org/operation_3941
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0089

@@ -12,7 +12,7 @@ when_to_use_negative:
   version cannot represent
 - No omic-hits seed node set is available — graphlet significance testing and PPR
   flux scoring both require seed nodes
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0092
@@ -40,7 +40,7 @@ metadata:
   tools:
   - Python
   - pyPARAGON
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0092

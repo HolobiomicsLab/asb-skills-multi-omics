@@ -11,7 +11,7 @@ when_to_use_negative:
   SIGNOR, or IntAct — retrieval processes for inter-layer edges are not automated
 - You need automated Z-coordinate estimation — it is not automated in the Case Study
   I/II workflows
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0092
@@ -47,7 +47,7 @@ metadata:
   - R
   - RCy3
   - transomics2cytoscape
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0092

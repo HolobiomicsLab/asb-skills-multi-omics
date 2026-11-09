@@ -11,7 +11,7 @@ when_to_use_negative:
   parameter estimates are optimally calculated from pilot data
 - When input data are raw or contain batch effects — data must be properly preprocessed
   with batch effects removed before applying MultiPower
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_2269
@@ -44,7 +44,7 @@ metadata:
   - FDRsampsize
   - MultiPower
   - lpSolve
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_2269

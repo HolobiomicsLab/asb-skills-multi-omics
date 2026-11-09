@@ -13,7 +13,6 @@ when_to_use_negative:
   position information would exhaust computational resources
 edam_operation: http://edamontology.org/operation_3432
 edam_topics:
-- http://edamontology.org/topic_6398
 - http://edamontology.org/topic_3360
 tools:
 - name: MCGAE
@@ -52,7 +51,6 @@ metadata:
   - SpaGCN
   edam_operation: http://edamontology.org/operation_3432
   edam_topics:
-  - http://edamontology.org/topic_6398
   - http://edamontology.org/topic_3360
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,7 @@ when_to_use_negative:
   directly to DESeq2
 - The pipeline focuses on single chromosomes (typically chr22) with capture-based/targeted
   assumptions; whole-genome/whole-transome-scale studies need different scaling
-edam_operation: http://edamontology.org/operation_3768
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -55,7 +55,7 @@ metadata:
   - Nextflow
   - Polyester
   - Salmon
-  edam_operation: http://edamontology.org/operation_3768
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

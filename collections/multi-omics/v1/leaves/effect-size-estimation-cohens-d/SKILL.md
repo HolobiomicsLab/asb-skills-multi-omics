@@ -12,7 +12,7 @@ when_to_use_negative:
 - The goal is machine-learning sample classification — MultiPower's significance threshold
   and effect size parameters are not applicable there; MultiML is the appropriate
   method
-edam_operation: http://edamontology.org/operation_3231
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3520
@@ -34,7 +34,7 @@ metadata:
   license_tier: open
   tools:
   - MultiPower
-  edam_operation: http://edamontology.org/operation_3231
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3520

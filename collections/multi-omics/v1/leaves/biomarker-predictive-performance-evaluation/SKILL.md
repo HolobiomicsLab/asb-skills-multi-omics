@@ -11,7 +11,7 @@ when_to_use_negative:
   so no benchmarking table can be constructed
 - The iMLGAM riskscores have not yet been computed (Steps 1–4 of the iMLGAM pipeline
   must run first to produce riskscore values via predict(ga_fit, ...))
-edam_operation: http://edamontology.org/operation_1224
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3524
 - http://edamontology.org/topic_0203
@@ -41,7 +41,7 @@ metadata:
   - R
   - iMLGAM
   - qs
-  edam_operation: http://edamontology.org/operation_1224
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3524
   - http://edamontology.org/topic_0203
