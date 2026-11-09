@@ -1,0 +1,17 @@
+name: mclust
+slug: mclust
+version_used: null
+edam_topics: []
+evidence_spans:
+- The first method (also the default method) uses `mclust` and regression to initialize parameters.
+derived_from:
+- doi: 10.1093/bioadv/vbae123
+  title: An extension of latent unknown clustering integrating multi-omics data (LUCID) incorporating incomplete omics data
+source_repos:
+- https://github.com/USCbiostats/LUCIDus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/USCbiostats/LUCIDus

@@ -1,0 +1,27 @@
+name: PyTorch
+slug: pytorch
+version_used: null
+edam_topics: []
+evidence_spans:
+- Tests that exercise optional Cellpose, PyTorch, BaSiC, OpenCV, or Squidpy integrations are skipped
+- This practical choice offered a twofold speedup compared to a Pytorch backend
+derived_from:
+- doi: 10.1038/s43588-024-00721-5
+  title: Interpreting single-cell and spatial omics data using deep neural network training dynamics
+- doi: 10.1093/bib/bbae608
+  title: 'MCGAE: unraveling tumor invasion through integrated multimodal spatial transcriptomics'
+- doi: 10.1101/2024.07.04.601829
+  title: 'SPArrOW: a flexible, interactive and scalable pipeline for spatial transcriptomics analysis'
+- doi: 10.1186/s13059-024-03419-z
+  title: 'VI-VS: calibrated identification of feature dependencies in single-cell multiomics'
+source_repos:
+- https://github.com/nitzanlab/Annotatability
+- https://github.com/yiwen-yang/MCGAE
+- https://github.com/saeyslab/napari-SPArrOW
+- https://github.com/YosefLab/VIVS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nitzanlab/Annotatability

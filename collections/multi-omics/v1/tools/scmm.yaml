@@ -1,0 +1,18 @@
+name: ScMM
+slug: scmm
+version_used: null
+edam_topics: []
+evidence_spans:
+- including MOFA+ [15], Seurat v5 [16], totalVI [21], and scMM [22], to verify its performance
+- SSGATE is compared with four competitive single-cell multi-omics integration methods, including MOFA+ [15], Seurat v5 [16], totalVI [21], and scMM [22]
+derived_from:
+- doi: 10.1093/bib/bbae450
+  title: Multi-omics integration for both single-cell and spatially resolved data based on dual-path graph attention auto-encoder
+source_repos:
+- https://github.com/Lv-BioInfo/SSGATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Lv-BioInfo/SSGATE

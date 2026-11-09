@@ -1,0 +1,17 @@
+name: VANTED
+slug: vanted
+version_used: null
+edam_topics: []
+evidence_spans:
+- such as VANTED2 for metabolomic data in the context of metabolic pathways and Cytoscape3 for protein-protein interactions and other types of networks
+derived_from:
+- doi: 10.1038/s41540-024-00342-8
+  title: 'Transomics2cytoscape: an automated software for interpretable 2.5-dimensional visualization of trans-omic networks'
+source_repos:
+- https://github.com/ecell/transomics2cytoscape
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ecell/transomics2cytoscape

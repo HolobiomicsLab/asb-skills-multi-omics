@@ -1,0 +1,17 @@
+name: Cell Ranger
+slug: cell-ranger
+version_used: null
+edam_topics: []
+evidence_spans:
+- Read Cell Ranger HDF5 files, raw_feature_bc_matrix.h5 and filtered_feature_bc_matrix.h5, which contain counts for features across all modalities
+derived_from:
+- doi: 10.1186/s13059-021-02577-8
+  title: 'MUON: multimodal omics analysis framework'
+source_repos:
+- https://github.com/scverse/muon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scverse/muon

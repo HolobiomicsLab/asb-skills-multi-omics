@@ -1,0 +1,28 @@
+{
+  "workflow": "single_cell_transcriptome_proteome_integration",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Packages and synchronizes raw AnnData layers in a MuData container without performing the stage's RNA normalization, feature reduction or protein CLR transformation.",
+      "severity": "advisory",
+      "slug": "anndata-object-construction",
+      "stage": "preprocess"
+    },
+    {
+      "check": "V4",
+      "detail": "Ingests raw 10x or SnapATAC files into AnnData, rather than normalizing the already supplied RNA and protein AnnData count objects.",
+      "severity": "advisory",
+      "slug": "single-cell-count-matrix-ingestion",
+      "stage": "preprocess"
+    }
+  ],
+  "verdict": "pass"
+}

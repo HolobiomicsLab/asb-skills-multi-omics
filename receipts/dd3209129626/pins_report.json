@@ -1,0 +1,94 @@
+{
+  "workflows": {
+    "single_cell_transcriptome_proteome_integration": {
+      "workflow_id": "single_cell_transcriptome_proteome_integration",
+      "prefer": [
+        {
+          "stage": "preprocess",
+          "pin": "single-cell-multiomics-data-preprocessing",
+          "status": "resolved",
+          "resolved_slug": "single-cell-multiomics-data-preprocessing"
+        },
+        {
+          "stage": "neighbors",
+          "pin": "neighborhood-graph-construction-with-neighbor-pruning",
+          "status": "resolved",
+          "resolved_slug": "neighborhood-graph-construction-with-neighbor-pruning"
+        },
+        {
+          "stage": "integrate",
+          "pin": "single-cell-multiomics-integration-training",
+          "status": "resolved",
+          "resolved_slug": "single-cell-multiomics-integration-training"
+        },
+        {
+          "stage": "cluster",
+          "pin": "leiden-clustering-resolution-sweep",
+          "status": "resolved",
+          "resolved_slug": "leiden-clustering-resolution-sweep"
+        },
+        {
+          "stage": "assess",
+          "pin": "clustering-agreement-metric-computation--969d24d6c46ee9fc",
+          "status": "resolved",
+          "resolved_slug": "clustering-agreement-metric-computation--969d24d6c46ee9fc"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 5,
+        "prefer_resolved": 5,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "spatial_transcriptomics_niche_analysis": {
+      "workflow_id": "spatial_transcriptomics_niche_analysis",
+      "prefer": [
+        {
+          "stage": "load",
+          "pin": "spatial-omics-data-loading",
+          "status": "resolved",
+          "resolved_slug": "spatial-omics-data-loading"
+        },
+        {
+          "stage": "segment",
+          "pin": "transcript-based-cell-segmentation",
+          "status": "resolved",
+          "resolved_slug": "transcript-based-cell-segmentation"
+        },
+        {
+          "stage": "count_transcripts",
+          "pin": "spatial-transcriptomics-gene-count-aggregation",
+          "status": "resolved",
+          "resolved_slug": "spatial-transcriptomics-gene-count-aggregation"
+        },
+        {
+          "stage": "quantify_channels",
+          "pin": "channel-intensity-aggregation",
+          "status": "resolved",
+          "resolved_slug": "channel-intensity-aggregation"
+        },
+        {
+          "stage": "niches",
+          "pin": "spatial-niche-clustering-and-vectorization",
+          "status": "resolved",
+          "resolved_slug": "spatial-niche-clustering-and-vectorization"
+        },
+        {
+          "stage": "export",
+          "pin": "xenium-explorer-data-conversion",
+          "status": "resolved",
+          "resolved_slug": "xenium-explorer-data-conversion"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 6,
+        "prefer_resolved": 6,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    }
+  }
+}

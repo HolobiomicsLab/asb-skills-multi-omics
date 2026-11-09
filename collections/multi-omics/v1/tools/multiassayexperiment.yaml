@@ -1,0 +1,20 @@
+name: MultiAssayExperiment
+slug: multiassayexperiment
+version_used: null
+edam_topics: []
+evidence_spans:
+- These are HDF5 files with a standardised structure, which is similar to the one of `.h5ad` files where `AnnData` objects are stored.
+derived_from:
+- doi: 10.1186/s13059-021-02577-8
+  title: 'MUON: multimodal omics analysis framework'
+- doi: 10.1186/s12859-025-06265-3
+  title: 'MultiModalGraphics: an R package for graphical integration of multi-omics datasets'
+source_repos:
+- https://github.com/scverse/muon
+- https://github.com/famanalytics0/MultiModalGraphics
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scverse/muon

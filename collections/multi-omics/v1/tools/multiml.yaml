@@ -1,0 +1,18 @@
+name: MultiML
+slug: multiml
+version_used: null
+edam_topics: []
+evidence_spans:
+- The MultiML method is included as a complementary tool to MultiPower
+- MultiPower is complemented with MultiML, an algorithm to estimate sample size for machine learning classification problems based on multi-omic data
+derived_from:
+- doi: 10.1038/s41467-020-16937-8
+  title: Harmonization of quality metrics and power calculation in multi-omic studies
+source_repos:
+- https://github.com/ConesaLab/MultiPower
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/MultiPower

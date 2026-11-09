@@ -1,0 +1,20 @@
+name: Xenium
+slug: xenium
+version_used: null
+edam_topics: []
+evidence_spans:
+- diverse spatial omics technologies, such as Xenium, MERSCOPE, CosMX in spatial-transcriptomics
+- sopa.io.xenium
+- diverse spatial omics technologies, such as Xenium, MERSCOPE, CosMX in spatial-transcriptomics, and MACSima and PhenoCycler in multiplex imaging
+- The Xenium Explorer is a software developed by 10X Genomics for visualizing spatial data
+derived_from:
+- doi: 10.1038/s41467-024-48981-z
+  title: 'Sopa: a technology-invariant pipeline for analyses of image-based spatial omics'
+source_repos:
+- https://github.com/prism-oncology/sopa
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/prism-oncology/sopa

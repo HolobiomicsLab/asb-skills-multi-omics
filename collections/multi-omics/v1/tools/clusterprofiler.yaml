@@ -1,0 +1,25 @@
+name: clusterProfiler
+slug: clusterprofiler
+version_used: 4.8.1
+edam_topics: []
+evidence_spans:
+- Conducts GO enrichment analysis on DE genes.
+- clusterProfiler | 4.8.1       | 4.14.0
+- GO enrichment analysis is performed using ClusterProfiler4 (v4.0)
+derived_from:
+- doi: 10.1038/s41592-025-02774-4
+  title: Co-profiling of in situ RNA-protein interactions and transcriptome in single cells and tissues
+- doi: 10.1101/2025.11.24.690117
+  title: 'Eduomics: a Nextflow pipeline to simulate -omics data for education'
+- doi: 10.1093/bib/bbae450
+  title: Multi-omics integration for both single-cell and spatially resolved data based on dual-path graph attention auto-encoder
+source_repos:
+- https://github.com/WangLabPKU/MAPIT-seq
+- https://github.com/lescai-teaching/eduomics
+- https://github.com/Lv-BioInfo/SSGATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WangLabPKU/MAPIT-seq

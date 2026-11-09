@@ -1,0 +1,17 @@
+name: Leiden algorithm
+slug: leiden-algorithm
+version_used: '0.1'
+edam_topics: []
+evidence_spans:
+- the “resolution” parameter of the Leiden algorithm is set to 0.1, 0.2, …, 1.0, allowing us to obtain statistical results from 10 sets of independent experiments.
+derived_from:
+- doi: 10.1093/bib/bbae450
+  title: Multi-omics integration for both single-cell and spatially resolved data based on dual-path graph attention auto-encoder
+source_repos:
+- https://github.com/Lv-BioInfo/SSGATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Lv-BioInfo/SSGATE

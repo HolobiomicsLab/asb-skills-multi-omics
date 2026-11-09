@@ -1,0 +1,23 @@
+name: SignalingProfiler 2.0
+slug: signalingprofiler-2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- 'create_PKN(database = c(''SIGNOR'', ''PsP''), #''Omnipath is also supported'
+- SignalingProfiler 2.0 is a modelling pipeline described in [Venafra et al., 2024]
+- package provides a flexible way to create signaling networks
+- Here, we present a newly implemented version (2.0) of SignalingProfiler, a multi-step pipeline to draw mechanistic hypotheses on the signaling events impacting cellular phenotypes.
+- library(SignalingProfiler)
+- devtools::install_github('https://github.com/SaccoPerfettoLab/SignalingProfiler/')
+- SignalingProfiler 2.0 is a modelling pipeline described in
+derived_from:
+- doi: 10.1038/s41540-024-00417-6
+  title: SignalingProfiler 2.0 a network-based approach to bridge multi-omics data to phenotypic hallmarks
+source_repos:
+- https://github.com/SaccoPerfettoLab/SignalingProfiler
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SaccoPerfettoLab/SignalingProfiler

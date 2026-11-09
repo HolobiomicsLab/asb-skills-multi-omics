@@ -1,0 +1,17 @@
+name: umap-learn
+slug: umap-learn
+version_used: null
+edam_topics: []
+evidence_spans:
+- rapid association of phenotypic multi-omics data with microbial pan-genomes
+derived_from:
+- doi: 10.1186/s13059-024-03233-7
+  title: 'Scoary2: rapid association of phenotypic multi-omics data with microbial pan-genomes'
+source_repos:
+- https://github.com/MrTomRod/scoary-2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MrTomRod/scoary-2

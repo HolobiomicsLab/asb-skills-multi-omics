@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "single-cell-transcriptome-proteome-integration",
+    "name": "single-cell-transcriptome-proteome-integration-workflow",
+    "description": "Use when paired single-cell transcriptome and protein count matrices with reference cell labels need a joint embedding, a clustering resolution sweep, and a report of agreement with the supplied labels.\n",
+    "techniques": [],
+    "stage_count": 5,
+    "stages": [
+      "preprocess",
+      "neighbors",
+      "integrate",
+      "cluster",
+      "assess"
+    ],
+    "member_tools": [
+      "MOFA",
+      "SCANPY",
+      "SSGATE",
+      "anndata",
+      "Seurat v5",
+      "ScMM",
+      "TotalVI",
+      "Leiden",
+      "Leiden algorithm",
+      "MOFA+"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  },
+  {
+    "slug": "spatial-transcriptomics-niche-analysis",
+    "name": "spatial-transcriptomics-niche-analysis-workflow",
+    "description": "Use when image-based spatial transcriptomics includes transcript coordinates, staining channels and an aligned histology image, and needs resolved cell boundaries, per-cell measurements and image-derived spatial niches.\n",
+    "techniques": [],
+    "stage_count": 6,
+    "stages": [
+      "load",
+      "segment",
+      "count_transcripts",
+      "quantify_channels",
+      "niches",
+      "export"
+    ],
+    "member_tools": [
+      "MERSCOPE",
+      "Sopa",
+      "SpatialData",
+      "uv",
+      "Baysor",
+      "Cellpose",
+      "dask",
+      "shapely",
+      "Xenium"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  }
+]

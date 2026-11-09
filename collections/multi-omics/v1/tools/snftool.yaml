@@ -1,0 +1,17 @@
+name: SNFtool
+slug: snftool
+version_used: null
+edam_topics: []
+evidence_spans:
+- We implemented SNF using the SNFtool package in R, available on CRAN, using the default parameters.
+derived_from:
+- doi: 10.1093/bib/bbae411
+  title: 'CHAI: consensus clustering through similarity matrix integration for cell-type identification'
+source_repos:
+- https://github.com/musaddiq-k-lodi/chai
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/musaddiq-k-lodi/chai

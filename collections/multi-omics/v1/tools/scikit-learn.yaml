@@ -1,0 +1,23 @@
+name: scikit-learn
+slug: scikit-learn
+version_used: null
+edam_topics: []
+evidence_spans:
+- two Scikit-learn [24] methods, k-means and Gaussian mixture model, are available
+derived_from:
+- doi: 10.1093/bib/bbae608
+  title: 'MCGAE: unraveling tumor invasion through integrated multimodal spatial transcriptomics'
+- doi: 10.1186/s13059-024-03233-7
+  title: 'Scoary2: rapid association of phenotypic multi-omics data with microbial pan-genomes'
+- doi: 10.1186/s13059-025-03576-9
+  title: 'SMOPCA: spatially aware dimension reduction integrating multi-omics improves the efficiency of spatial domain detection'
+source_repos:
+- https://github.com/yiwen-yang/MCGAE
+- https://github.com/MrTomRod/scoary-2
+- https://github.com/hemberg-lab/SC3
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yiwen-yang/MCGAE

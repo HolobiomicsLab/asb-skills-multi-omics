@@ -1,0 +1,64 @@
+name: R
+slug: r
+version_used: 4.4.1
+edam_topics: []
+evidence_spans:
+- we present MultiML, an R method to obtain the optimal sample size required by ML approaches to achieve a target classification ER
+- We introduce RWRtoolkit, a multiplex generation, exploration, and statistical package built for R and command-line users.
+- RWRtoolkit, a multiplex generation, exploration, and statistical package built for R
+- All RWRtoolkit and RandomWalkRestartMH R software was run on the Andes compute system
+- 'Programming language:  R'
+- 'RWRtoolkit: multi-omic network analysis using random walks on multiplex networks in any species'
+- The package is written in R and is available for installation on GitHub at https://github.com/lodimk2/chai
+- We implemented SNF using the SNFtool package in R, available on CRAN, using the default parameters.
+- CHAI is available as an open source R package on GitHub
+- 'Make sure you have R and the following packages installed: iMLAGA.'
+- 'title: "LUCIDus: an R package to implement integrative clustering"'
+- The proposed methods have been implemented in the R package LUCIDus.
+- 'LUCIDus: an R package to implement integrative clustering'
+- library(LUCIDus)
+- package for linking R environmrnt and the Docker container
+- an open-source R package that provides a comprehensive and flexible solution for ST analysis
+- 'output: rmarkdown::html_vignette'
+- '**R version**: 4.4.1'
+- Here, we present an R package, transomics2cytoscape, that automates the visualization of trans-omic networks from tabular data describing network connectivity.
+- we present an R Bioconductor package ‘transomics2cytoscape’ for automated visualization of 2.5D trans-omics networks
+derived_from:
+- doi: 10.1038/s41467-020-16937-8
+  title: Harmonization of quality metrics and power calculation in multi-omic studies
+- doi: 10.1093/gigascience/giaf028
+  title: 'RWRtoolkit: multi-omic network analysis using random walks on multiplex networks in any species'
+- doi: 10.1093/bib/bbae411
+  title: 'CHAI: consensus clustering through similarity matrix integration for cell-type identification'
+- doi: 10.1002/imt2.70011
+  title: 'iMLGAM: Integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis for pan‐cancer immunotherapy response prediction'
+- doi: 10.1093/bioadv/vbae123
+  title: An extension of latent unknown clustering integrating multi-omics data (LUCID) incorporating incomplete omics data
+- doi: 10.1101/421834
+  title: 'MOSim: bulk and single-cell multi-layer regulatory network simulator'
+- doi: 10.1186/s12859-025-06265-3
+  title: 'MultiModalGraphics: an R package for graphical integration of multi-omics datasets'
+- doi: 10.1186/s13059-024-03290-y
+  title: Systematic evaluation with practical guidelines for single-cell and spatially resolved transcriptomics data simulation under multiple scenarios
+- doi: 10.1093/bib/bbaf429
+  title: 'stImage: a versatile framework for optimizing spatial transcriptomic analysis through customizable deep histology and location informed integration'
+- doi: 10.1038/s41540-024-00342-8
+  title: 'Transomics2cytoscape: an automated software for interpretable 2.5-dimensional visualization of trans-omic networks'
+source_repos:
+- https://github.com/ConesaLab/MultiPower
+- https://github.com/dkainer/RWRtoolkit
+- https://github.com/lodimk2/chai
+- https://github.com/musaddiq-k-lodi/chai
+- https://github.com/Yelab1994/iMLGAM
+- https://github.com/USCbiostats/LUCIDus
+- https://github.com/ConesaLab/MOSim
+- https://github.com/famanalytics0/MultiModalGraphics
+- https://github.com/duohongrui/simpipe
+- https://github.com/YuWang-VUMC/stImage
+- https://github.com/ecell/transomics2cytoscape
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/MultiPower

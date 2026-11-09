@@ -1,0 +1,17 @@
+name: DOMINO
+slug: domino
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'we compared our method with three popular tools: PL, OI2, and DOMINO'
+derived_from:
+- doi: 10.1093/bib/bbae399
+  title: "Unveiling hidden connections in omics data\n                    <i>via</i>\n                    pyPARAGON: an integrative hybrid approach for disease network construction"
+source_repos:
+- https://github.com/netlab-ku/pyPARAGON
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/netlab-ku/pyPARAGON
