@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T15:42:43.397288+00:00",
+  "generated_at": "2026-11-10T16:48:03.043334+00:00",
   "collection_dir": "collections/multi-omics/v1",
   "corpus_path": "collections/multi-omics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "2ece421088945d25f3f9edf600c3ec34951d3863298efe93fe183385d120364d",
+      "sha256": "8f3be00cc0e6ec989114f407dc1d351d7ac84271855162730732830498de45ec",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 25695,
-          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
+          "bytes": 24610,
+          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
         },
         {
           "path": "collection.yaml",
@@ -8716,5 +8716,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "fd4d3496264cea4daad6fde47c3a48339db68e9d637f8d7749fa7d4f06cef572"
+  "receipt_sha256": "31219ed83f13f0c8d1e0c3ba07f36c1843efc05a5145cba2fceddfa39acef392"
 }
