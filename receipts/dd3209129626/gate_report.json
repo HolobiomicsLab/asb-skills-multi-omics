@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T13:34:22.701397+00:00",
+  "generated_at": "2026-11-10T15:42:43.397288+00:00",
   "collection_dir": "collections/multi-omics/v1",
   "corpus_path": "collections/multi-omics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "84dca5b683d7b7f46f6e64e7e632c4e8dff0fb8f08cf4d8497aaa6039332c475",
+      "sha256": "2ece421088945d25f3f9edf600c3ec34951d3863298efe93fe183385d120364d",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 2535,
-          "sha256": "5b75d9d1be9b061751fe79df6242750fb297d391493cd4656810b4e79b788340"
+          "sha256": "847ae54731ba024208350d983b846f876390855466917cc3a56e2e575008dd2b"
         },
         {
           "path": "CITATION.cff",
@@ -81,13 +81,13 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 23077,
-          "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+          "bytes": 25695,
+          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
         },
         {
           "path": "collection.yaml",
-          "bytes": 38557,
-          "sha256": "d0398be961f3856c413872e33093deb4e6ef08c4bd469665b56a3f4454a37b3f"
+          "bytes": 38556,
+          "sha256": "ebd2466fac1230bc645a815ac5059a96891e8fd9d32e5ce792bdccd79eadf3d5"
         },
         {
           "path": "corpus.yaml",
@@ -7201,8 +7201,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2251,
-          "sha256": "7ae2cef17d7681b0c9dada932286611298f146d08bd933a72789ad1c75fed0e1"
+          "bytes": 3044,
+          "sha256": "51bfa33586703d9ac38058eafabff8993b13922111981e34797e0e3fdce58016"
         },
         {
           "path": "skills_index.json",
@@ -8283,8 +8283,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3283,
-          "sha256": "bb008718fa6d80525eb500c0c86c8cef704b54bf6f12cccda173cc7406ff5ccb"
+          "bytes": 3535,
+          "sha256": "75fe72d735516f16743dc2dd95581e8a3c3f2e614b0d9f958cdac410d5ffc8d9"
         },
         {
           "path": "workflows/single-cell-transcriptome-proteome-integration",
@@ -8716,5 +8716,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "a6f8603a8a982cf89224fa9897494dcaccd820d4034ae5cfb113d00e44736b39"
+  "receipt_sha256": "fd4d3496264cea4daad6fde47c3a48339db68e9d637f8d7749fa7d4f06cef572"
 }
