@@ -19,8 +19,10 @@ source_repos:
 - https://github.com/cytoscape/cytoscape
 - https://github.com/ecell/transomics2cytoscape
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/dkainer/RWRtoolkit
+entry_kind: software
+license_tier: open
+license: LGPL-2.1
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://cytoscape.org/download.html
+repo_url: https://github.com/cytoscape/cytoscape-impl

@@ -9,8 +9,10 @@ derived_from:
 source_repos:
 - https://github.com/C37H41N2O6/SGCRNAs.jl
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/C37H41N2O6/SGCRNAs.jl
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/OpenGene/fastp/HEAD/LICENSE
+repo_url: https://github.com/OpenGene/fastp
