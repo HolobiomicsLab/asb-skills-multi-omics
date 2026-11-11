@@ -2,19 +2,12 @@
 
 | Stage | Done at | Repository commit | Digests |
 |---|---|---|---|
-| gate | 2026-11-09T14:24:15Z | dc62f362fa92ca1879d396123117088f12e7c0b5 | `{"candidate_tree": "sha256:a777e74b9601194290b9ce44d11d2427083569051813e2b0bada950dd8ae459f", "gate_report": "66c579a11da3846f1138105d671bfd14aae12aee5c05592c72756d417541cf58"}` |
-| deposit-plan | 2026-11-09T14:24:15Z | dc62f362fa92ca1879d396123117088f12e7c0b5 | `{"archive_sha256": "256794fb9d3d6b5ed0a4458a53053b5cc22d3b7b0642956137413a3de5c02c45"}` |
-| deposit-draft | 2026-11-09T21:05:50Z | dc62f362fa92ca1879d396123117088f12e7c0b5 | `{"archive_sha256": "256794fb9d3d6b5ed0a4458a53053b5cc22d3b7b0642956137413a3de5c02c45"}` |
-| record-doi | 2026-11-10T10:47:11Z | dc62f362fa92ca1879d396123117088f12e7c0b5 | `{"CITATION.cff": "461f2dc6bbc9ca36553ac5203fee781bf52b69cef615fba68c7069a771dafb01", "README.md": "17e4712701be778c807cd6282ccee938aa5cc771f34bc0a70aea66d68e573e19", "RELEASE.yaml": "033c62545751868d8d5ef171280ecdd15c9680c5c1a999c3a79ebfb955129d1b", "marketplace.json": "618a5b95179b581e4aa742c1bb90fd72b5c003c8fbf3fe7165936cd5c30152d2", "plugin.json": "c20c796f1fdc84a3933f8e36f44d959f3a9e339976b4a52498567b925e87da71"}` |
-| receipt | 2026-11-10T10:47:40Z | dc62f362fa92ca1879d396123117088f12e7c0b5 | `{"receipt": "32d4dedb9e5195781968d630f86f3142e3c98a6dcd358df6e5ad772b461c34fe"}` |
-| manifest | 2026-11-10T10:51:11Z | 75b57e9a34cf87a936958c395b2206d2e711a89f | `{"catalogue_jsonld": "341ff530c9464b9b95da82dd1a9f8dcf86eb4afaf0597d8c7cada6485e4c36f1", "collections_yaml": "28aab1a50c7c1e676dd04eda36296728bb43c1318a7b42005da0e491b581168e"}` |
-| tag | 2026-11-10T11:06:52Z | 75b57e9a34cf87a936958c395b2206d2e711a89f | `{}` |
+| gate | 2026-11-10T16:50:35Z | 1850043fc23f234b8462807a66731e8ab043a118 | `{"candidate_tree": "sha256:ec9adc53c6550228a2173513cb78ec03a9a0110e1c08d929ca951e8263fe87c8", "gate_report": "7f4875aca48367b07b7f2f46f3eb7842b1def9734c620622cceb4dcb357538f7"}` |
+| deposit-plan | 2026-11-10T16:50:35Z | 1850043fc23f234b8462807a66731e8ab043a118 | `{"archive_sha256": "c5dde0f401d951d3f562afdc574ed6d7cb6232d3398644eaa63960497790c030"}` |
+| deposit-draft | 2026-11-11T00:07:52Z | 1850043fc23f234b8462807a66731e8ab043a118 | `{"archive_sha256": "c5dde0f401d951d3f562afdc574ed6d7cb6232d3398644eaa63960497790c030"}` |
+| record-doi | 2026-11-11T00:27:45Z | 1850043fc23f234b8462807a66731e8ab043a118 | `{"CITATION.cff": "ebda3c2d2eee418aa809b6d69ab9d7ec42b153710657aef73b216de31c95a2b6", "README.md": "fc1c14e659aa4e88cd8fb6d02505194429c660e937e608f5ea0ed9dc837d50d1", "RELEASE.yaml": "2c9870e9f31a702f3724400a54fb7320cc8d402f0ea1a36e55b3413bfffad47b", "marketplace.json": "c9bdbd7ee535ab60db3c742e64860fff38486bb8a86eb85734a2528ed4f3dde0", "plugin.json": "915712d2f9de098bf290e13fd9109182f05f74c68a03689974211298c684d078"}` |
+| receipt | 2026-11-11T00:28:23Z | 1850043fc23f234b8462807a66731e8ab043a118 | `{"receipt": "183bf0a693f2a770e5aa62b1ab7d9f56a2057ad17449698716b340d683fa989e"}` |
 
 ## Owner actions
 
-- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24093092; publishing mints both the version DOI and the concept DOI
-- OWNER: run record-doi --doi <version DOI>, then manifest --concept-doi <concept DOI>
-- OWNER: git tag multi-omics-v1.0.0 75b57e9a34cf87a936958c395b2206d2e711a89f
-- OWNER: git push origin multi-omics-v1.0.0
-- OWNER: git tag multi-omics-v1.0.0 75b57e9a34cf87a936958c395b2206d2e711a89f
-- OWNER: git push origin multi-omics-v1.0.0
+- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24122110, then run record-doi --doi <version DOI>

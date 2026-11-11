@@ -30,7 +30,7 @@ This repository holds the multi-omics skill collection of AgenticScienceBuilder 
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
-| `collections/multi-omics/v1` | ASB Multi-omics Skill Collection v1 | 787 | 211 | 2026-11-09 | [10.5281/zenodo.24093092](https://doi.org/10.5281/zenodo.24093092) |
+| `collections/multi-omics/v1` | ASB Multi-omics Skill Collection v1 | 787 | 211 | 2026-11-10 | [10.5281/zenodo.24122110](https://doi.org/10.5281/zenodo.24122110) |
 
 ## Status
 

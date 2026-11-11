@@ -51,3 +51,6 @@ identifiers:
 - type: doi
   value: 10.5281/zenodo.24093092
   description: Zenodo version DOI of v1 (2026-11-09)
+- type: doi
+  value: 10.5281/zenodo.24122110
+  description: Zenodo version DOI of v1.0.1 (2026-11-10)
