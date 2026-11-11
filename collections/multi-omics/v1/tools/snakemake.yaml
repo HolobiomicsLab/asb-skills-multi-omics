@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/prism-oncology/sopa
 - https://github.com/recombinationlab/sciL3Pipe
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/WangLabPKU/MAPIT-seq
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/snakemake/snakemake/HEAD/LICENSE.md
+repo_url: https://github.com/snakemake/snakemake

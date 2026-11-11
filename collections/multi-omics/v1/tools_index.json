@@ -7,11 +7,11 @@
       "10.1002/imt2.70011"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/Yelab1994/iMLGAM",
+    "license_tier": "open",
+    "license": "GPL-3.0-or-later OR LicenseRef-file-LICENSE",
+    "license_detection": "cran-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/abess-team/abess",
     "used_by_skills": [
       "abess-best-subset-selection",
       "gene-pair-feature-selection",
@@ -22,6 +22,11 @@
       "machine-learning-base-learner-training",
       "pan-cancer-genomic-association-analysis",
       "risk-score-based-cohort-stratification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/package=abess",
+    "source_paper_repos": [
+      "https://github.com/Yelab1994/iMLGAM"
     ]
   },
   {
@@ -34,11 +39,11 @@
       "10.1093/bib/bbae450"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/MorrissyLab/mosaicMPI",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scverse/anndata",
     "used_by_skills": [
       "annadata-single-cell-io",
       "anndata-obs-annotation-handling",
@@ -63,6 +68,13 @@
       "program-feature-score-pearson-correlation",
       "shared-feature-subset-correlation-computation",
       "transcriptional-subtype-classification-transfer"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scverse/anndata/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE",
+      "https://github.com/MorrissyLab/mosaicMPI",
+      "https://github.com/saeyslab/napari-SPArrOW"
     ]
   },
   {
@@ -77,7 +89,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nitzanlab/Annotatability",
+    "repo_url": null,
     "used_by_skills": [
       "anndata-single-cell-data-processing",
       "annotation-confidence-score-computation",
@@ -108,6 +120,11 @@
       "spearman-rank-correlation-statistics",
       "trainability-aware-graph-construction",
       "training-dynamics-confidence-score-interpretation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nitzanlab/Annotatability"
     ]
   },
   {
@@ -122,10 +139,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/4dn-dcic/docker-4dn-hic",
+    "repo_url": null,
     "used_by_skills": [
       "single-cell-hic-pairtools-pair-filtering",
       "valid-pair-retention-statistics-reporting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/4dn-dcic/docker-4dn-hic",
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -137,11 +160,11 @@
       "10.1093/bib/bbaf429"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/yiwen-yang/MCGAE",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "bioconductor-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/edward130603/BayesSpace",
     "used_by_skills": [
       "ari-clustering-benchmark-against-annotations",
       "baseline-method-comparison-benchmarking",
@@ -155,6 +178,13 @@
       "spatially-aware-clustering-pipeline-execution",
       "spatially-aware-dimensionality-reduction",
       "visium-slice-preprocessing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/BayesSpace",
+    "source_paper_repos": [
+      "https://github.com/YuWang-VUMC/stImage",
+      "https://github.com/edward130603/BayesSpace",
+      "https://github.com/yiwen-yang/MCGAE"
     ]
   },
   {
@@ -165,10 +195,10 @@
       "10.1038/s41467-024-48981-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
     "repo_url": "https://github.com/kharchenkolab/Baysor",
     "used_by_skills": [
       "baysor-patch-configuration-and-conflict-resolution",
@@ -181,6 +211,12 @@
       "spatial-omics-patch-based-image-segmentation",
       "transcript-based-cell-segmentation",
       "umap-cell-type-distinction-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/baysor",
+    "source_paper_repos": [
+      "https://github.com/kharchenkolab/Baysor",
+      "https://github.com/prism-oncology/sopa"
     ]
   },
   {
@@ -195,7 +231,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
+    "repo_url": null,
     "used_by_skills": [
       "nextflow-subworkflow-reconstruction",
       "reference-genome-subsetting",
@@ -205,6 +241,11 @@
       "vcf-coordinate-liftover-hg18-to-hg19",
       "vcf-intersection-private-variant-derivation",
       "vcf-region-subsetting-and-indexing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -220,8 +261,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/famanalytics0/MultiModalGraphics",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ecell/transomics2cytoscape",
+      "https://github.com/famanalytics0/MultiModalGraphics"
+    ]
   },
   {
     "slug": "breakpointr",
@@ -235,12 +282,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
+    "repo_url": null,
     "used_by_skills": [
       "chromosome-coverage-normalization",
       "single-cell-bam-quality-filtering",
       "sister-chromatid-exchange-detection",
       "strand-state-calling-strand-seq"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -252,16 +304,22 @@
       "10.1101/2025.11.24.690117"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "license_tier": "open",
+    "license": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/lh3/bwa",
     "used_by_skills": [
       "abundant-rna-read-filtering-alignment",
       "mapit-seq-pipeline-execution",
       "rna-editing-event-detection-gatk",
       "snp-database-chromosome-splitting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/lh3/bwa/HEAD/README.md",
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq",
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -272,11 +330,11 @@
       "10.1093/nar/gkaf101"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
+    "license_tier": "open",
+    "license": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/lh3/bwa",
     "used_by_skills": [
       "chromosome-coverage-normalization",
       "restriction-fragment-pair-deduplication",
@@ -290,6 +348,11 @@
       "strand-state-calling-strand-seq",
       "vcf-coordinate-liftover-hg18-to-hg19",
       "vcf-intersection-private-variant-derivation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/lh3/bwa/HEAD/README.md",
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -304,7 +367,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BIRL/CanSeer",
+    "repo_url": null,
     "used_by_skills": [
       "boolean-network-simulation",
       "bootstrap-uncertainty-estimation",
@@ -340,6 +403,11 @@
       "tcga-rnaseq-sample-cohort-selection",
       "therapeutic-candidate-count-verification",
       "unpaired-sample-expression-normalization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BIRL/CanSeer"
     ]
   },
   {
@@ -354,7 +422,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/saezlab.github.io/CARNIVAL",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-output-verification",
       "benchmark-precision-recall-evaluation-against-gold-standard",
@@ -374,6 +442,12 @@
       "regulon-randomization-benchmarking",
       "shortest-path-naive-network-construction",
       "signaling-network-tool-capability-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+      "https://github.com/saezlab.github.io/CARNIVAL"
     ]
   },
   {
@@ -388,12 +462,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "multi-omics-method-benchmarking-extraction",
       "phosphoproteomic-activity-inference-method-taxonomy",
       "prior-knowledge-network-property-annotation",
       "signaling-network-tool-capability-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -404,12 +483,17 @@
       "10.1186/s13059-021-02577-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
+    "license_tier": "restricted",
     "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/scverse/muon",
-    "used_by_skills": []
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/10XGenomics/cellranger",
+    "used_by_skills": [],
+    "entry_kind": "vendor_product",
+    "license_evidence": "https://raw.githubusercontent.com/10XGenomics/cellranger/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/scverse/muon"
+    ]
   },
   {
     "slug": "cellpose",
@@ -423,7 +507,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/gustaveroussy/sopa",
+    "repo_url": null,
     "used_by_skills": [
       "baysor-patch-configuration-and-conflict-resolution",
       "cell-boundary-intersection-over-min-area-quantification",
@@ -436,6 +520,12 @@
       "segmentation-ratio-computation",
       "spatial-omics-patch-based-image-segmentation",
       "transcript-based-cell-segmentation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/gustaveroussy/sopa",
+      "https://github.com/prism-oncology/sopa"
     ]
   },
   {
@@ -450,7 +540,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lodimk2/chai",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-rand-index-benchmark-evaluation",
       "ari-nmi-clustering-concordance-evaluation",
@@ -469,6 +559,12 @@
       "snf-similarity-network-fusion",
       "spectral-clustering-consensus-assignment",
       "spectral-clustering-on-similarity-matrix"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lodimk2/chai",
+      "https://github.com/musaddiq-k-lodi/chai"
     ]
   },
   {
@@ -483,7 +579,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lodimk2/chai",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-rand-index-benchmark-evaluation",
       "ari-nmi-clustering-concordance-evaluation",
@@ -503,6 +599,12 @@
       "spatial-coordinate-knn-graph-construction",
       "spectral-clustering-on-similarity-matrix",
       "spectral-clustering-with-silhouette-k-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lodimk2/chai",
+      "https://github.com/musaddiq-k-lodi/chai"
     ]
   },
   {
@@ -517,7 +619,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lodimk2/chai",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-rand-index-benchmark-evaluation",
       "ari-nmi-clustering-concordance-evaluation",
@@ -542,6 +644,12 @@
       "spectral-clustering-consensus-assignment",
       "spectral-clustering-on-similarity-matrix",
       "spectral-clustering-with-silhouette-k-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lodimk2/chai",
+      "https://github.com/musaddiq-k-lodi/chai"
     ]
   },
   {
@@ -558,7 +666,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "repo_url": null,
     "used_by_skills": [
       "chromosome-region-gene-subsetting",
       "count-based-differential-expression-testing",
@@ -571,6 +679,13 @@
       "jaccard-index-threshold-filtering",
       "rna-seq-transcript-abundance-quantification",
       "simulated-rnaseq-ground-truth-validation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE",
+      "https://github.com/WangLabPKU/MAPIT-seq",
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -585,7 +700,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MorrissyLab/mosaicMPI",
+    "repo_url": null,
     "used_by_skills": [
       "annadata-single-cell-io",
       "cross-cohort-program-network-integration",
@@ -598,6 +713,11 @@
       "program-feature-score-matrix-handling",
       "program-feature-score-pearson-correlation",
       "transcriptional-subtype-classification-transfer"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MorrissyLab/mosaicMPI"
     ]
   },
   {
@@ -612,7 +732,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/famanalytics0/MultiModalGraphics",
+    "repo_url": null,
     "used_by_skills": [
       "brain-region-timepoint-matrix-reshaping",
       "cna-mutation-annotation-track-composition",
@@ -628,6 +748,11 @@
       "r-bioconductor-heatmap-rendering",
       "s4-class-dispatch-implementation",
       "significance-star-overlay-on-heatmap"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/famanalytics0/MultiModalGraphics"
     ]
   },
   {
@@ -639,11 +764,11 @@
       "10.1101/2025.11.24.690117"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/conda/conda",
     "used_by_skills": [
       "abundant-rna-read-filtering-alignment",
       "differential-rna-editing-analysis",
@@ -657,6 +782,12 @@
       "rna-editing-event-detection-gatk",
       "rna-editing-site-calling",
       "snp-database-chromosome-splitting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/conda/conda/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq",
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -671,8 +802,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
+    ]
   },
   {
     "slug": "cooltools",
@@ -686,12 +822,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
+    "repo_url": null,
     "used_by_skills": [
       "chip-seq-phasing-track-integration",
       "cooltools-contact-map-analysis",
       "single-cell-hic-data-aggregation",
       "spearman-correlation-validation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -706,12 +847,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "multi-omics-method-benchmarking-extraction",
       "phosphoproteomic-activity-inference-method-taxonomy",
       "prior-knowledge-network-property-annotation",
       "signaling-network-tool-capability-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -726,13 +872,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "ilp-causal-network-optimization",
       "network-parameter-benchmarking",
       "phosphosite-mapping-on-network-edges",
       "pkn-filtering-by-quantified-analytes",
       "shortest-path-naive-network-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -743,17 +894,22 @@
       "10.1093/nar/gkaf101"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/marcelm/cutadapt",
     "used_by_skills": [
       "fastq-barcode-extraction-mismatch-tolerant",
       "read-pair-orientation-via-rt-primer-matching",
       "rna-versus-dna-read-classification",
       "tn5-meds-adapter-trimming",
       "umi-extraction-into-read-names"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/marcelm/cutadapt/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -768,7 +924,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ecell/transomics2cytoscape",
+    "repo_url": null,
     "used_by_skills": [
       "cytoscape-network-automation-via-rcy3",
       "inter-layer-edge-integration",
@@ -779,6 +935,11 @@
       "trans-omic-network-layer-stacking",
       "transomic-network-2-5d-visualization",
       "z-coordinate-layer-placement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ecell/transomics2cytoscape"
     ]
   },
   {
@@ -790,11 +951,11 @@
       "10.1038/s41540-024-00342-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/dkainer/RWRtoolkit",
+    "license_tier": "open",
+    "license": "LGPL-2.1",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/cytoscape/cytoscape-impl",
     "used_by_skills": [
       "conventional-pathway-layout-preservation",
       "cytoscape-network-automation-via-rcy3",
@@ -819,6 +980,13 @@
       "transomic-interaction-table-parsing",
       "transomic-network-2-5d-visualization",
       "z-coordinate-layer-placement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cytoscape.org/download.html",
+    "source_paper_repos": [
+      "https://github.com/cytoscape/cytoscape",
+      "https://github.com/dkainer/RWRtoolkit",
+      "https://github.com/ecell/transomics2cytoscape"
     ]
   },
   {
@@ -829,12 +997,17 @@
       "10.1101/2025.04.27.650628"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNAs.jl",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "LGPL",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/benjjneb/dada2",
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/benjjneb/dada2/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
+    ]
   },
   {
     "slug": "dask",
@@ -848,13 +1021,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/prism-oncology/sopa",
+    "repo_url": null,
     "used_by_skills": [
       "cell-polygon-rasterization",
       "channel-intensity-aggregation",
       "lazy-image-bounding-box-extraction",
       "memory-footprint-benchmarking",
       "polygon-chunk-spatial-intersection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/prism-oncology/sopa"
     ]
   },
   {
@@ -869,11 +1047,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "repo_url": null,
     "used_by_skills": [
       "genomic-interval-pairing-and-slop-extension",
       "rbp-binding-region-annotation",
       "rna-editing-site-calling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq"
     ]
   },
   {
@@ -884,11 +1067,11 @@
       "10.1101/2025.11.24.690117"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
+    "license_tier": "open",
+    "license": "LGPL-3.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "count-based-differential-expression-testing",
       "differential-gene-expression-analysis",
@@ -901,6 +1084,11 @@
       "rna-seq-transcript-abundance-quantification",
       "simulated-rnaseq-ground-truth-validation",
       "transcript-expression-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/DESeq2.html",
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -912,11 +1100,11 @@
       "10.1186/s13059-024-03290-y"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/Yelab1994/iMLGAM",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/r-lib/devtools",
     "used_by_skills": [
       "abess-best-subset-selection",
       "benchmark-accuracy-scoring",
@@ -938,6 +1126,12 @@
       "trajectory-aware-dataset-simulation",
       "unequal-sample-size-experimental-design",
       "zero-inflation-and-library-size-characterization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/r-lib/devtools/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/Yelab1994/iMLGAM",
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -950,11 +1144,11 @@
       "10.1186/s13059-024-03290-y"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/moby/moby",
     "used_by_skills": [
       "clinvar-pathogenic-variant-extraction",
       "differential-gene-expression-analysis",
@@ -987,6 +1181,14 @@
       "variant-record-harmonisation-to-reference-format",
       "vcf-compression-and-tabix-indexing",
       "vcf-region-subsetting-and-indexing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/moby/moby/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/4dn-dcic/docker-4dn-hic",
+      "https://github.com/duohongrui/simpipe",
+      "https://github.com/lescai-teaching/eduomics",
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -1001,7 +1203,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/netlab-ku/pyPARAGON",
+    "repo_url": null,
     "used_by_skills": [
       "auprc-f1-metric-computation",
       "cancer-driver-network-inference",
@@ -1012,6 +1214,11 @@
       "parameter-grid-search-tuning",
       "precision-recall-driver-recovery-scoring",
       "seed-gene-network-propagation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/netlab-ku/pyPARAGON"
     ]
   },
   {
@@ -1022,11 +1229,11 @@
       "10.1186/s12859-025-06265-3"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/famanalytics0/MultiModalGraphics",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/tidyverse/dplyr",
     "used_by_skills": [
       "brain-region-timepoint-matrix-reshaping",
       "cna-mutation-annotation-track-composition",
@@ -1041,6 +1248,11 @@
       "pathway-activation-zscore-heatmap-encoding",
       "r-bioconductor-heatmap-rendering",
       "significance-star-overlay-on-heatmap"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/dplyr/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/famanalytics0/MultiModalGraphics"
     ]
   },
   {
@@ -1055,7 +1267,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/dynverse/dyntoy",
+    "repo_url": null,
     "used_by_skills": [
       "complexity-class-glm-fitting",
       "peak-memory-monitoring",
@@ -1064,6 +1276,12 @@
       "scam-shape-constrained-regression",
       "simulation-execution-time-profiling",
       "single-cell-rna-seq-dataset-resampling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe",
+      "https://github.com/dynverse/dyntoy"
     ]
   },
   {
@@ -1074,12 +1292,17 @@
       "10.1101/2025.04.27.650628"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNAs.jl",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/edgeR.html",
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
+    ]
   },
   {
     "slug": "fastp",
@@ -1089,12 +1312,17 @@
       "10.1101/2025.04.27.650628"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNAs.jl",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/OpenGene/fastp",
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/OpenGene/fastp/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
+    ]
   },
   {
     "slug": "fastq2-py",
@@ -1108,13 +1336,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
+    "repo_url": null,
     "used_by_skills": [
       "fastq-barcode-extraction-mismatch-tolerant",
       "read-pair-orientation-via-rt-primer-matching",
       "rna-versus-dna-read-classification",
       "tn5-meds-adapter-trimming",
       "umi-extraction-into-read-names"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -1126,11 +1359,11 @@
       "10.1101/2025.11.24.690117"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MultiPower",
+    "license_tier": "open",
+    "license": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/s-andrews/FastQC",
     "used_by_skills": [
       "clinvar-pathogenic-variant-extraction",
       "differential-gene-expression-analysis",
@@ -1146,6 +1379,12 @@
       "rna-seq-read-simulation-from-count-matrices",
       "simulated-read-variant-calling-validation",
       "transcript-expression-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/s-andrews/FastQC/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MultiPower",
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -1160,11 +1399,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YeoLab/FLARE",
+    "repo_url": null,
     "used_by_skills": [
       "genomic-interval-pairing-and-slop-extension",
       "rbp-binding-region-annotation",
       "rna-editing-site-calling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq",
+      "https://github.com/YeoLab/FLARE"
     ]
   },
   {
@@ -1179,8 +1424,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics"
+    ]
   },
   {
     "slug": "gatk",
@@ -1194,7 +1444,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "repo_url": null,
     "used_by_skills": [
       "differential-rna-editing-analysis",
       "fasta-indexing-and-sequence-dictionary-generation",
@@ -1210,6 +1460,11 @@
       "rna-editing-event-detection-gatk",
       "vcf-region-subsetting-and-indexing",
       "venn-set-intersection-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq"
     ]
   },
   {
@@ -1224,8 +1479,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics"
+    ]
   },
   {
     "slug": "genie3",
@@ -1239,7 +1499,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YosefLab/VIVS",
+    "repo_url": null,
     "used_by_skills": [
       "benjamini-hochberg-fdr-correction",
       "conditional-randomization-test-implementation",
@@ -1247,6 +1507,11 @@
       "genie3-regression-tree-network-inference",
       "prediction-error-importance-scoring",
       "synthetic-response-simulation-single-cell"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YosefLab/VIVS"
     ]
   },
   {
@@ -1261,11 +1526,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "repo_url": null,
     "used_by_skills": [
       "genomic-interval-pairing-and-slop-extension",
       "rbp-binding-region-annotation",
       "rna-editing-site-calling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq"
     ]
   },
   {
@@ -1276,11 +1546,11 @@
       "10.1186/s12859-025-06265-3"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/famanalytics0/MultiModalGraphics",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/tidyverse/ggplot2",
     "used_by_skills": [
       "brain-region-timepoint-matrix-reshaping",
       "differential-expression-cutoff-classification",
@@ -1298,6 +1568,11 @@
       "r-vignette-reproducible-rendering",
       "s4-class-dispatch-implementation",
       "volcano-plot-threshold-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/ggplot2/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/famanalytics0/MultiModalGraphics"
     ]
   },
   {
@@ -1312,8 +1587,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/musaddiq-k-lodi/chai",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/musaddiq-k-lodi/chai"
+    ]
   },
   {
     "slug": "graphst",
@@ -1327,13 +1607,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/musaddiq-k-lodi/chai",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-rand-index-benchmark-evaluation",
       "binary-similarity-matrix-generation-from-clustering-assignments",
       "similarity-network-fusion-of-binary-matrices",
       "spatial-coordinate-knn-graph-construction",
       "spectral-clustering-with-silhouette-k-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/musaddiq-k-lodi/chai"
     ]
   },
   {
@@ -1348,13 +1633,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "ilp-causal-network-optimization",
       "network-parameter-benchmarking",
       "phosphosite-mapping-on-network-edges",
       "pkn-filtering-by-quantified-analytes",
       "shortest-path-naive-network-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -1369,13 +1659,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNAs.jl",
+    "repo_url": null,
     "used_by_skills": [
       "cross-method-module-count-comparison",
       "hdwgcna-module-identification",
       "module-spatial-enrichment-mapping",
       "spatial-transcriptomics-co-expression-network-analysis",
       "spectral-clustering-module-detection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
     ]
   },
   {
@@ -1390,12 +1685,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "multi-omics-method-benchmarking-extraction",
       "phosphoproteomic-activity-inference-method-taxonomy",
       "prior-knowledge-network-property-annotation",
       "signaling-network-tool-capability-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -1406,16 +1706,21 @@
       "10.1038/s41592-025-02774-4"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "license_tier": "open",
+    "license": "GPL-3.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/DaehwanKimLab/hisat2",
     "used_by_skills": [
       "abundant-rna-read-filtering-alignment",
       "mapit-seq-pipeline-execution",
       "rna-editing-event-detection-gatk",
       "snp-database-chromosome-splitting"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/DaehwanKimLab/hisat2/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq"
     ]
   },
   {
@@ -1430,12 +1735,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "repo_url": null,
     "used_by_skills": [
       "homer-de-novo-motif-discovery",
       "permuted-cluster-background-statistics",
       "rbp-binding-motif-enrichment-analysis",
       "rna-editing-cluster-interval-extension"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq"
     ]
   },
   {
@@ -1450,10 +1760,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/saeyslab/napari-SPArrOW",
+    "repo_url": null,
     "used_by_skills": [
       "segmentation-backend-callable-configuration",
       "spatial-transcriptomics-image-segmentation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/saeyslab/napari-SPArrOW"
     ]
   },
   {
@@ -1468,8 +1783,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/famanalytics0/MultiModalGraphics",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/famanalytics0/MultiModalGraphics"
+    ]
   },
   {
     "slug": "igraph",
@@ -1480,11 +1800,11 @@
       "10.1101/2025.11.24.690117"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/dkainer/RWRtoolkit",
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/igraph/igraph",
     "used_by_skills": [
       "chromosome-region-gene-subsetting",
       "differential-gene-expression-analysis",
@@ -1499,6 +1819,12 @@
       "rwr-seed-score-computation",
       "supra-adjacency-matrix-generation",
       "tau-layer-weighting-parameter-sweep"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/igraph/index.html",
+    "source_paper_repos": [
+      "https://github.com/dkainer/RWRtoolkit",
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -1513,11 +1839,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Yelab1994/iMLAGA",
+    "repo_url": null,
     "used_by_skills": [
       "gene-pair-feature-selection",
       "icb-response-risk-score-prediction",
       "immune-signature-scoring"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Yelab1994/iMLAGA",
+      "https://github.com/Yelab1994/iMLGAM"
     ]
   },
   {
@@ -1532,7 +1864,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Yelab1994/iMLGAM",
+    "repo_url": null,
     "used_by_skills": [
       "abess-best-subset-selection",
       "auc-comparison-across-datasets",
@@ -1560,6 +1892,11 @@
       "roc-curve-analysis",
       "sgrna-logfc-aggregation",
       "univariate-cox-regression-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Yelab1994/iMLGAM"
     ]
   },
   {
@@ -1570,11 +1907,11 @@
       "10.1186/s13059-024-03419-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/YosefLab/VIVS",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/jax-ml/jax",
     "used_by_skills": [
       "benjamini-hochberg-fdr-correction",
       "cite-seq-gene-protein-association-analysis",
@@ -1604,6 +1941,11 @@
       "synthetic-count-sampling-latent-variable-model",
       "synthetic-response-simulation-single-cell",
       "vae-generative-model-count-data"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/jax-ml/jax/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/YosefLab/VIVS"
     ]
   },
   {
@@ -1614,13 +1956,19 @@
       "10.1093/nar/gkaf101"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/aidenlab/juicer",
     "used_by_skills": [
       "cross-dataset-hic-benchmark-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/juicer",
+    "source_paper_repos": [
+      "https://github.com/aidenlab/juicer",
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -1631,11 +1979,11 @@
       "10.1101/2025.04.27.650628"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNA",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/JuliaLang/julia",
     "used_by_skills": [
       "co-expression-module-gene-list-extraction",
       "co-expression-network-module-detection",
@@ -1650,6 +1998,12 @@
       "spectral-clustering-module-detection",
       "spectral-clustering-network-analysis",
       "wgcna-comparative-module-inference"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/JuliaLang/julia/HEAD/LICENSE.md",
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNA",
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
     ]
   },
   {
@@ -1664,8 +2018,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNAs.jl",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
+    ]
   },
   {
     "slug": "kbase",
@@ -1679,13 +2038,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/dkainer/RWRtoolkit",
+    "repo_url": null,
     "used_by_skills": [
       "arabidopsis-gene-identifier-handling",
       "cytoscape-subnetwork-export",
       "gene-rank-interpretation",
       "gene-set-file-construction",
       "multiplex-network-random-walk-scoring"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/dkainer/RWRtoolkit"
     ]
   },
   {
@@ -1696,17 +2060,22 @@
       "10.1093/bib/bbae399"
     ],
     "techniques": [],
-    "license_tier": "unknown",
+    "license_tier": "noncommercial",
     "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/netlab-ku/pyPARAGON",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "hypergeometric-enrichment-testing",
       "kegg-pathway-overrepresentation-analysis",
       "patient-cluster-module-annotation",
       "protein-network-community-annotation",
       "ras-signaling-module-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://www.kegg.jp/kegg/legal.html",
+    "source_paper_repos": [
+      "https://github.com/netlab-ku/pyPARAGON"
     ]
   },
   {
@@ -1721,7 +2090,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ecell/transomics2cytoscape",
+    "repo_url": null,
     "used_by_skills": [
       "conventional-pathway-layout-preservation",
       "cytoscape-network-automation-via-rcy3",
@@ -1743,6 +2112,11 @@
       "transomic-network-2-5d-visualization",
       "tsv-column-transformation",
       "z-coordinate-layer-placement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ecell/transomics2cytoscape"
     ]
   },
   {
@@ -1757,7 +2131,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ecell/transomics2cytoscape",
+    "repo_url": null,
     "used_by_skills": [
       "cytoscape-network-automation-via-rcy3",
       "inter-layer-edge-integration",
@@ -1768,6 +2142,11 @@
       "trans-omic-network-layer-stacking",
       "transomic-network-2-5d-visualization",
       "z-coordinate-layer-placement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ecell/transomics2cytoscape"
     ]
   },
   {
@@ -1778,16 +2157,21 @@
       "10.1186/s12859-025-06265-3"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/famanalytics0/MultiModalGraphics",
+    "license_tier": "open",
+    "license": "GPL-2.0-only OR GPL-3.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/yihui/knitr",
     "used_by_skills": [
       "differential-expression-cutoff-classification",
       "multi-assay-experiment-data-handling",
       "r-vignette-reproducible-rendering",
       "volcano-plot-threshold-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/knitr/index.html",
+    "source_paper_repos": [
+      "https://github.com/famanalytics0/MultiModalGraphics"
     ]
   },
   {
@@ -1802,10 +2186,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Lv-BioInfo/SSGATE",
+    "repo_url": null,
     "used_by_skills": [
       "clustering-metric-computation-ari-nmi-purity-homogeneity",
       "leiden-clustering-resolution-sweep"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE"
     ]
   },
   {
@@ -1820,11 +2209,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Lv-BioInfo/SSGATE",
+    "repo_url": null,
     "used_by_skills": [
       "clustering-metric-benchmarking",
       "knn-neighborhood-graph-construction",
       "leiden-clustering-resolution-sweep"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE"
     ]
   },
   {
@@ -1836,11 +2230,11 @@
       "10.1186/s12859-025-06265-3"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MOSim",
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "differential-expression-cutoff-classification",
       "differential-expression-significance-thresholding",
@@ -1853,6 +2247,12 @@
       "multiomics-object-routing-to-visualization-classes",
       "rna-seq-count-filtering-and-normalization",
       "volcano-plot-threshold-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/limma.html",
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MOSim",
+      "https://github.com/famanalytics0/MultiModalGraphics"
     ]
   },
   {
@@ -1867,13 +2267,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/netlab-ku/pyPARAGON",
+    "repo_url": null,
     "used_by_skills": [
       "cosine-similarity-network-comparison",
       "graphlet-guided-subnetwork-inference",
       "hypergeometric-enrichment-testing",
       "omics-network-propagation",
       "patient-stratification-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/netlab-ku/pyPARAGON"
     ]
   },
   {
@@ -1888,7 +2293,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MultiPower",
+    "repo_url": null,
     "used_by_skills": [
       "constraint-optimization-validation-against-reference",
       "cost-constrained-sample-size-optimization",
@@ -1897,6 +2302,11 @@
       "optimal-sample-size-estimation",
       "r-implementation-of-mathematical-programming-models",
       "unequal-sample-size-experimental-design"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MultiPower"
     ]
   },
   {
@@ -1911,7 +2321,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/USCbiostats/LUCIDus",
+    "repo_url": null,
     "used_by_skills": [
       "bic-based-cluster-number-selection",
       "complete-case-missingness-handling",
@@ -1938,6 +2348,11 @@
       "posterior-responsibility-computation",
       "sensitivity-analysis-vs-imputation-benchmark",
       "simulation-estimation-bias-assessment"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/USCbiostats/LUCIDus"
     ]
   },
   {
@@ -1952,7 +2367,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/USCbiostats/LUCIDus3",
+    "repo_url": null,
     "used_by_skills": [
       "em-based-integrated-imputation",
       "em-imputation-of-missing-omics-values",
@@ -1971,6 +2386,12 @@
       "posterior-inclusion-probability-visualization",
       "posterior-responsibility-computation",
       "simulation-estimation-bias-assessment"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/USCbiostats/LUCIDus",
+      "https://github.com/USCbiostats/LUCIDus3"
     ]
   },
   {
@@ -1985,7 +2406,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "batch-effect-metric-evaluation",
       "clustering-quality-metric-computation",
@@ -1998,6 +2419,11 @@
       "single-cell-rna-seq-data-simulation",
       "single-cell-simulation-scenario-benchmarking",
       "trajectory-topology-matching-with-slingshot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -2008,12 +2434,17 @@
       "10.1093/nar/gkaf101"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
-    "used_by_skills": []
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/macs3-project/MACS",
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/taoliu/MACS/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
+    ]
   },
   {
     "slug": "mapit-seq",
@@ -2027,10 +2458,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "repo_url": null,
     "used_by_skills": [
       "mapit-seq-enzyme-configuration-comparison",
       "rbp-target-identification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq"
     ]
   },
   {
@@ -2041,17 +2477,22 @@
       "10.1186/s13059-024-03233-7"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/MrTomRod/scoary-2",
+    "license_tier": "open",
+    "license": "LicenseRef-Matplotlib",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/matplotlib/matplotlib",
     "used_by_skills": [
       "lc-ms-gc-ms-data-preprocessing",
       "metabolomics-dimensionality-reduction",
       "multi-omics-scatter-visualization",
       "taxonomic-cluster-verification",
       "umap-embedding-of-omics-matrices"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/matplotlib/matplotlib/HEAD/LICENSE/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/MrTomRod/scoary-2"
     ]
   },
   {
@@ -2066,7 +2507,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/yiwen-yang/MCGAE",
+    "repo_url": null,
     "used_by_skills": [
       "3d-spatial-domain-reconstruction-across-consecutive-sections",
       "ari-spatial-clustering-benchmarking",
@@ -2089,6 +2530,11 @@
       "umap-embedding-visualization-of-spatial-domains",
       "visium-slice-preprocessing",
       "visium-spatial-transcriptomics-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/yiwen-yang/MCGAE"
     ]
   },
   {
@@ -2099,11 +2545,11 @@
       "10.1093/bioadv/vbae123"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/USCbiostats/LUCIDus",
+    "license_tier": "open",
+    "license": "GPL-2.0-or-later",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "bic-based-cluster-number-selection",
       "complete-case-missingness-handling",
@@ -2130,6 +2576,11 @@
       "posterior-responsibility-computation",
       "sensitivity-analysis-vs-imputation-benchmark",
       "simulation-estimation-bias-assessment"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/web/packages/mclust/index.html",
+    "source_paper_repos": [
+      "https://github.com/USCbiostats/LUCIDus"
     ]
   },
   {
@@ -2144,7 +2595,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hemberg-lab/SC3",
+    "repo_url": null,
     "used_by_skills": [
       "cite-seq-protein-gene-integration",
       "marginal-likelihood-hyperparameter-optimization",
@@ -2153,6 +2604,11 @@
       "spatial-autocorrelation-benchmarking-morans-i-lisi",
       "spatial-domain-clustering-benchmarking",
       "spatially-variable-gene-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hemberg-lab/SC3"
     ]
   },
   {
@@ -2167,7 +2623,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/prism-oncology/sopa",
+    "repo_url": null,
     "used_by_skills": [
       "baysor-patch-configuration-and-conflict-resolution",
       "baysor-transcript-segmentation",
@@ -2192,6 +2648,11 @@
       "spatial-transcriptomics-gene-count-aggregation",
       "transcript-based-cell-segmentation",
       "umap-cell-type-distinction-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/prism-oncology/sopa"
     ]
   },
   {
@@ -2206,7 +2667,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/pbagos/metacp",
+    "repo_url": null,
     "used_by_skills": [
       "cauchy-combination-test-implementation",
       "chi-squared-tail-probability-computation",
@@ -2238,6 +2699,11 @@
       "stouffer-zscore-combination",
       "tippett-minp-pvalue-combination",
       "z-score-transformation-and-quantile-functions"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/pbagos/metacp"
     ]
   },
   {
@@ -2252,13 +2718,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "dockerized-r-benchmark-execution",
       "error-message-classification-into-categories",
       "per-method-error-rate-quantification",
       "reference-dataset-benchmark-orchestration",
       "single-cell-rna-seq-data-simulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -2273,8 +2744,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MultiPower",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MultiPower"
+    ]
   },
   {
     "slug": "mofa",
@@ -2289,7 +2765,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/scverse/muon",
+    "repo_url": null,
     "used_by_skills": [
       "annndata-uns-attribute-management",
       "clustering-agreement-metric-computation--969d24d6c46ee9fc",
@@ -2306,6 +2782,12 @@
       "spatial-coordinate-neighborhood-graph-construction",
       "spatial-transcriptomics-proteomics-integration",
       "umap-spatial-cluster-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE",
+      "https://github.com/scverse/muon"
     ]
   },
   {
@@ -2320,8 +2802,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/famanalytics0/MultiModalGraphics",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/famanalytics0/MultiModalGraphics"
+    ]
   },
   {
     "slug": "monocle-3",
@@ -2331,17 +2818,22 @@
       "10.1093/bib/bbae450"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/Lv-BioInfo/SSGATE",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/cole-trapnell-lab/monocle3",
     "used_by_skills": [
       "monocle3-pseudotime-inference",
       "paga-graph-abstraction-trajectory-inference",
       "pseudotime-gene-expression-trend-visualization",
       "spatial-multiomics-integrated-embedding-analysis",
       "thymocyte-development-trajectory-interpretation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/cole-trapnell-lab/monocle3/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE"
     ]
   },
   {
@@ -2356,7 +2848,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MOSim",
+    "repo_url": null,
     "used_by_skills": [
       "bulk-multi-omics-count-simulation",
       "gene-regulator-correlation-null-comparison",
@@ -2364,6 +2856,11 @@
       "limma-voom-differential-expression-analysis",
       "multi-layer-grn-inference",
       "rna-seq-count-filtering-and-normalization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MOSim"
     ]
   },
   {
@@ -2378,7 +2875,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MorrissyLab/mosaicMPI",
+    "repo_url": null,
     "used_by_skills": [
       "annadata-single-cell-io",
       "categorical-metadata-overrepresentation-statistics",
@@ -2409,6 +2906,11 @@
       "program-network-community-detection",
       "single-node-community-pruning",
       "transcriptional-subtype-classification-transfer"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MorrissyLab/mosaicMPI"
     ]
   },
   {
@@ -2419,10 +2921,10 @@
       "10.1101/421834"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "bioconductor-package",
+    "license_subject": "tool",
     "repo_url": "https://github.com/ConesaLab/MOSim",
     "used_by_skills": [
       "adjusted-rand-index-evaluation",
@@ -2447,6 +2949,11 @@
       "spearman-distance-kmedoids-clustering",
       "time-series-multi-group-experimental-design",
       "variational-autoencoder-cell-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/MOSim",
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MOSim"
     ]
   },
   {
@@ -2461,9 +2968,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/scverse/muon",
+    "repo_url": null,
     "used_by_skills": [
       "hdf5-multimodal-data-serialisation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/scverse/muon"
     ]
   },
   {
@@ -2479,7 +2991,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/scverse/muon",
+    "repo_url": null,
     "used_by_skills": [
       "differential-expression-cutoff-classification",
       "differential-expression-significance-thresholding",
@@ -2494,6 +3006,12 @@
       "s4-class-dispatch-implementation",
       "significance-star-overlay-on-heatmap",
       "volcano-plot-threshold-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/famanalytics0/MultiModalGraphics",
+      "https://github.com/scverse/muon"
     ]
   },
   {
@@ -2508,7 +3026,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MultiPower",
+    "repo_url": null,
     "used_by_skills": [
       "classification-error-rate-curve-smoothing",
       "iterative-sample-size-convergence-testing",
@@ -2520,6 +3038,11 @@
       "penalized-pspline-regression",
       "random-forest-classification",
       "sample-size-curve-interpretation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MultiPower"
     ]
   },
   {
@@ -2534,7 +3057,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/famanalytics0/MultiModalGraphics",
+    "repo_url": null,
     "used_by_skills": [
       "brain-region-timepoint-matrix-reshaping",
       "cna-mutation-annotation-track-composition",
@@ -2557,6 +3080,11 @@
       "s4-class-dispatch-implementation",
       "significance-star-overlay-on-heatmap",
       "volcano-plot-threshold-annotation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/famanalytics0/MultiModalGraphics"
     ]
   },
   {
@@ -2567,10 +3095,10 @@
       "10.1038/s41467-020-16937-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "GPL-2.0-only",
+    "license_detection": "biotools-entry",
+    "license_subject": "tool",
     "repo_url": "https://github.com/ConesaLab/MultiPower",
     "used_by_skills": [
       "classification-error-rate-curve-smoothing",
@@ -2602,6 +3130,11 @@
       "sample-size-curve-interpretation",
       "tcga-cohort-data-handling",
       "unequal-sample-size-experimental-design"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bio.tools/multipower",
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MultiPower"
     ]
   },
   {
@@ -2617,7 +3150,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MultiPower",
+    "repo_url": null,
     "used_by_skills": [
       "clinvar-pathogenic-variant-extraction",
       "differential-gene-expression-analysis",
@@ -2633,6 +3166,12 @@
       "rna-seq-read-simulation-from-count-matrices",
       "simulated-read-variant-calling-validation",
       "transcript-expression-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MultiPower",
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -2643,10 +3182,10 @@
       "10.1186/s13059-021-02577-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "repository-licence-file",
+    "license_subject": "tool",
     "repo_url": "https://github.com/scverse/muon",
     "used_by_skills": [
       "anndata-object-construction",
@@ -2666,6 +3205,11 @@
       "single-cell-multimodal-matrix-io",
       "single-cell-multiome-count-preprocessing",
       "weighted-nearest-neighbour-graph-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scverse/muon/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/scverse/muon"
     ]
   },
   {
@@ -2680,13 +3224,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YuWang-VUMC/stImage",
+    "repo_url": null,
     "used_by_skills": [
       "dropout-noise-injection",
       "image-feature-profile-simulation",
       "multivariable-normal-expression-generation",
       "spatial-transcriptomics-data-simulation",
       "synthetic-benchmark-ground-truth-labeling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YuWang-VUMC/stImage"
     ]
   },
   {
@@ -2701,8 +3250,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/saeyslab/napari-SPArrOW",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/saeyslab/napari-SPArrOW"
+    ]
   },
   {
     "slug": "nextflow",
@@ -2712,11 +3266,11 @@
       "10.1101/2025.11.24.690117"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/nextflow-io/nextflow",
     "used_by_skills": [
       "clinvar-pathogenic-variant-extraction",
       "count-based-differential-expression-testing",
@@ -2747,6 +3301,12 @@
       "variant-record-harmonisation-to-reference-format",
       "vcf-compression-and-tabix-indexing",
       "vcf-region-subsetting-and-indexing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/nextflow-io/nextflow/HEAD/COPYING",
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics",
+      "https://github.com/nf-core/eduomics"
     ]
   },
   {
@@ -2761,7 +3321,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MOSim",
+    "repo_url": null,
     "used_by_skills": [
       "bulk-multi-omics-count-simulation",
       "gene-regulator-correlation-null-comparison",
@@ -2769,6 +3329,11 @@
       "limma-voom-differential-expression-analysis",
       "multi-layer-grn-inference",
       "rna-seq-count-filtering-and-normalization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MOSim"
     ]
   },
   {
@@ -2782,11 +3347,11 @@
       "10.1186/s13059-024-03233-7"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/scverse/muon",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/numpy/numpy",
     "used_by_skills": [
       "anndata-object-construction",
       "atac-seq-tfidf-normalisation",
@@ -2828,6 +3393,14 @@
       "t-cell-naive-memory-annotation-cd45",
       "transcriptional-subtype-classification-transfer",
       "weighted-nearest-neighbour-graph-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/numpy/numpy/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/MorrissyLab/mosaicMPI",
+      "https://github.com/MrTomRod/scoary-2",
+      "https://github.com/nitzanlab/Annotatability",
+      "https://github.com/scverse/muon"
     ]
   },
   {
@@ -2842,7 +3415,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/netlab-ku/pyPARAGON",
+    "repo_url": null,
     "used_by_skills": [
       "auprc-f1-metric-computation",
       "cancer-driver-network-inference",
@@ -2853,6 +3426,11 @@
       "parameter-grid-search-tuning",
       "precision-recall-driver-recovery-scoring",
       "seed-gene-network-propagation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/netlab-ku/pyPARAGON"
     ]
   },
   {
@@ -2867,13 +3445,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
+    "repo_url": null,
     "used_by_skills": [
       "chromosome-region-gene-subsetting",
       "differential-gene-expression-analysis",
       "gene-identifier-mapping",
       "gene-ontology-similarity-network-construction",
       "jaccard-index-threshold-filtering"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -2888,7 +3471,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/davidemms/OrthoFinder",
+    "repo_url": null,
     "used_by_skills": [
       "candidate-gene-identification-from-gwas",
       "carnitine-metabolism-gene-annotation",
@@ -2907,6 +3490,12 @@
       "scoary2-python-api-usage",
       "software-benchmark-runtime-measurement",
       "statistical-power-estimation-across-isolate-counts"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MrTomRod/scoary-2",
+      "https://github.com/davidemms/OrthoFinder"
     ]
   },
   {
@@ -2921,9 +3510,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Lv-BioInfo/SSGATE",
+    "repo_url": null,
     "used_by_skills": [
       "paga-graph-abstraction-trajectory-inference"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE"
     ]
   },
   {
@@ -2937,11 +3531,11 @@
       "10.1186/s13059-024-03233-7"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/scverse/muon",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/pandas-dev/pandas",
     "used_by_skills": [
       "annadata-single-cell-io",
       "anndata-object-construction",
@@ -3020,6 +3614,14 @@
       "transcriptional-subtype-classification-transfer",
       "umap-embedding-of-omics-matrices",
       "weighted-nearest-neighbour-graph-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/MorrissyLab/mosaicMPI",
+      "https://github.com/MrTomRod/scoary-2",
+      "https://github.com/nitzanlab/Annotatability",
+      "https://github.com/scverse/muon"
     ]
   },
   {
@@ -3030,14 +3632,19 @@
       "10.1093/bib/bbaf429"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/YuWang-VUMC/stImage",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "cran-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/thomasp85/patchwork",
     "used_by_skills": [
       "spatial-transcriptomics-clustering",
       "weighted-nearest-neighbor-multimodal-integration"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://cran.r-project.org/package=patchwork",
+    "source_paper_repos": [
+      "https://github.com/YuWang-VUMC/stImage"
     ]
   },
   {
@@ -3052,13 +3659,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "dockerized-r-benchmark-execution",
       "error-message-classification-into-categories",
       "per-method-error-rate-quantification",
       "reference-dataset-benchmark-orchestration",
       "single-cell-rna-seq-data-simulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -3073,7 +3685,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-precision-recall-evaluation-against-gold-standard",
       "causal-interaction-database-parsing",
@@ -3086,6 +3698,11 @@
       "phosphosite-mapping-on-network-edges",
       "phosphosite-regulatory-activity-scoring",
       "prior-knowledge-network-assembly"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -3100,8 +3717,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNAs.jl",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
+    ]
   },
   {
     "slug": "pip",
@@ -3111,11 +3733,11 @@
       "10.1093/bib/bbaf692"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/miaomiao6606/Protrec2",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/pypa/pip",
     "used_by_skills": [
       "baseline-method-comparison-proteomics",
       "bayesian-protein-presence-inference",
@@ -3134,6 +3756,11 @@
       "tumor-normal-differential-protein-classification",
       "upper-lower-bound-proteome-validation",
       "upper-lower-bound-recovery-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/pypa/pip/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/miaomiao6606/Protrec2"
     ]
   },
   {
@@ -3148,7 +3775,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/netlab-ku/pyPARAGON",
+    "repo_url": null,
     "used_by_skills": [
       "auprc-f1-metric-computation",
       "cancer-driver-network-inference",
@@ -3159,6 +3786,11 @@
       "parameter-grid-search-tuning",
       "precision-recall-driver-recovery-scoring",
       "seed-gene-network-propagation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/netlab-ku/pyPARAGON"
     ]
   },
   {
@@ -3173,7 +3805,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
+    "repo_url": null,
     "used_by_skills": [
       "count-based-differential-expression-testing",
       "differential-gene-expression-analysis",
@@ -3184,6 +3816,11 @@
       "rna-seq-transcript-abundance-quantification",
       "simulated-rnaseq-ground-truth-validation",
       "transcript-expression-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -3198,7 +3835,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/pbagos/metacp",
+    "repo_url": null,
     "used_by_skills": [
       "command-line-statistical-tool-execution",
       "correlation-matrix-handling-dependent-tests",
@@ -3210,6 +3847,11 @@
       "package-feature-comparison-matrix-construction",
       "pvalue-combination-dependent-tests",
       "software-method-coverage-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/pbagos/metacp"
     ]
   },
   {
@@ -3224,8 +3866,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MorrissyLab/mosaicMPI",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MorrissyLab/mosaicMPI"
+    ]
   },
   {
     "slug": "protrec",
@@ -3239,7 +3886,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/miaomiao6606/Protrec2",
+    "repo_url": null,
     "used_by_skills": [
       "baseline-method-comparison-proteomics",
       "bayesian-protein-presence-inference",
@@ -3250,6 +3897,11 @@
       "tissue-specific-prior-integration",
       "upper-lower-bound-proteome-validation",
       "upper-lower-bound-recovery-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/miaomiao6606/Protrec2"
     ]
   },
   {
@@ -3264,7 +3916,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/miaomiao6606/Protrec2",
+    "repo_url": null,
     "used_by_skills": [
       "baseline-method-comparison-proteomics",
       "bayesian-protein-presence-inference",
@@ -3291,6 +3943,11 @@
       "tumor-normal-differential-protein-classification",
       "upper-lower-bound-proteome-validation",
       "upper-lower-bound-recovery-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/miaomiao6606/Protrec2"
     ]
   },
   {
@@ -3305,7 +3962,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-precision-recall-evaluation-against-gold-standard",
       "carnival-network-reoptimization-on-phenotypes",
@@ -3315,6 +3972,11 @@
       "phenotype-activity-scoring-phenoscore",
       "phosphoproteomic-activity-inference-method-taxonomy",
       "signaling-network-tool-capability-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -3329,7 +3991,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "repo_url": null,
     "used_by_skills": [
       "genomic-interval-pairing-and-slop-extension",
       "homer-de-novo-motif-discovery",
@@ -3338,6 +4000,11 @@
       "rbp-binding-region-annotation",
       "rna-editing-cluster-interval-extension",
       "rna-editing-site-calling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq"
     ]
   },
   {
@@ -3352,7 +4019,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/netlab-ku/pyPARAGON",
+    "repo_url": null,
     "used_by_skills": [
       "auprc-f1-metric-computation",
       "cancer-driver-network-inference",
@@ -3386,6 +4053,11 @@
       "seed-node-network-anchoring",
       "subnetwork-reconstruction-from-scored-edges",
       "z-test-frequency-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/netlab-ku/pyPARAGON"
     ]
   },
   {
@@ -3403,11 +4075,11 @@
       "10.1186/s13059-024-03419-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/scverse/muon",
+    "license_tier": "open",
+    "license": "PSF-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/python/cpython",
     "used_by_skills": [
       "anndata-obs-annotation-handling",
       "anndata-single-cell-data-processing",
@@ -3584,6 +4256,20 @@
       "vcf-intersection-private-variant-derivation",
       "z-score-transformation-and-quantile-functions",
       "z-test-frequency-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/YosefLab/VIVS",
+      "https://github.com/metunetlab/pyPARAGON",
+      "https://github.com/miaomiao6606/Protrec2",
+      "https://github.com/netlab-ku/pyPARAGON",
+      "https://github.com/nitzanlab/Annotatability",
+      "https://github.com/pbagos/metacp",
+      "https://github.com/recombinationlab/sciL3Pipe",
+      "https://github.com/saeyslab/napari-SPArrOW",
+      "https://github.com/saeyslab/napari-sparrow",
+      "https://github.com/scverse/muon"
     ]
   },
   {
@@ -3597,11 +4283,11 @@
       "10.1186/s13059-024-03419-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/nitzanlab/Annotatability",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/pytorch/pytorch",
     "used_by_skills": [
       "anndata-single-cell-data-processing",
       "annotation-confidence-score-computation",
@@ -3639,6 +4325,14 @@
       "trainability-aware-graph-construction",
       "training-dynamics-confidence-score-interpretation",
       "vae-generative-model-count-data"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/pytorch/pytorch/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/YosefLab/VIVS",
+      "https://github.com/nitzanlab/Annotatability",
+      "https://github.com/saeyslab/napari-SPArrOW",
+      "https://github.com/yiwen-yang/MCGAE"
     ]
   },
   {
@@ -3649,11 +4343,11 @@
       "10.1101/2025.04.27.650628"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNAs.jl",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/qiime2/qiime2",
     "used_by_skills": [
       "coexpression-network-preprocessing-filtering",
       "cross-method-module-count-comparison",
@@ -3661,6 +4355,11 @@
       "metagenomic-amplicon-denoising-and-taxonomy-assignment",
       "spectral-clustering-module-detection",
       "wgcna-comparative-module-inference"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/qiime2/qiime2/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
     ]
   },
   {
@@ -3675,7 +4374,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Yelab1994/iMLGAM",
+    "repo_url": null,
     "used_by_skills": [
       "abess-best-subset-selection",
       "auc-comparison-across-datasets",
@@ -3696,6 +4395,11 @@
       "risk-score-stratified-group-comparison",
       "roc-auc-discrimination-assessment",
       "roc-curve-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Yelab1994/iMLGAM"
     ]
   },
   {
@@ -3710,8 +4414,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/musaddiq-k-lodi/chai",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/musaddiq-k-lodi/chai"
+    ]
   },
   {
     "slug": "r",
@@ -3730,11 +4439,11 @@
       "10.1038/s41540-024-00342-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MultiPower",
+    "license_tier": "open",
+    "license": "GPL-2.0-only OR GPL-3.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "abess-best-subset-selection",
       "adjusted-rand-index-benchmark-evaluation",
@@ -3941,6 +4650,21 @@
       "volcano-plot-threshold-annotation",
       "weighted-nearest-neighbor-multimodal-integration",
       "z-coordinate-layer-placement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://www.r-project.org/Licenses/",
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MOSim",
+      "https://github.com/ConesaLab/MultiPower",
+      "https://github.com/USCbiostats/LUCIDus",
+      "https://github.com/Yelab1994/iMLGAM",
+      "https://github.com/YuWang-VUMC/stImage",
+      "https://github.com/dkainer/RWRtoolkit",
+      "https://github.com/duohongrui/simpipe",
+      "https://github.com/ecell/transomics2cytoscape",
+      "https://github.com/famanalytics0/MultiModalGraphics",
+      "https://github.com/lodimk2/chai",
+      "https://github.com/musaddiq-k-lodi/chai"
     ]
   },
   {
@@ -3955,7 +4679,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/alberto-valdeolivas/RandomWalkRestartMH",
+    "repo_url": null,
     "used_by_skills": [
       "arabidopsis-gene-identifier-handling",
       "arabidopsis-multiplex-network-loading",
@@ -3989,6 +4713,12 @@
       "tabular-results-file-formatting",
       "tau-layer-weighting-parameter-sweep",
       "transition-matrix-normalization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/alberto-valdeolivas/RandomWalkRestartMH",
+      "https://github.com/dkainer/RWRtoolkit"
     ]
   },
   {
@@ -4003,10 +4733,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNAs.jl",
+    "repo_url": null,
     "used_by_skills": [
       "gene-ontology-enrichment-analysis",
       "julia-rcall-interop-bioinformatics"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
     ]
   },
   {
@@ -4021,7 +4756,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ecell/transomics2cytoscape",
+    "repo_url": null,
     "used_by_skills": [
       "conventional-pathway-layout-preservation",
       "cytoscape-network-automation-via-rcy3",
@@ -4044,6 +4779,11 @@
       "transomic-interaction-table-parsing",
       "transomic-network-2-5d-visualization",
       "z-coordinate-layer-placement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ecell/transomics2cytoscape"
     ]
   },
   {
@@ -4058,7 +4798,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BioinfoUNIBA/REDItools2",
+    "repo_url": null,
     "used_by_skills": [
       "differential-rna-editing-analysis",
       "mapit-seq-enzyme-configuration-comparison",
@@ -4066,6 +4806,12 @@
       "poisson-editing-site-filtering",
       "rbp-target-identification",
       "rna-editing-site-calling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BioinfoUNIBA/REDItools2",
+      "https://github.com/WangLabPKU/MAPIT-seq"
     ]
   },
   {
@@ -4080,7 +4826,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/yiwen-yang/MCGAE",
+    "repo_url": null,
     "used_by_skills": [
       "ari-spatial-clustering-benchmarking",
       "cnn-feature-extraction",
@@ -4096,6 +4842,11 @@
       "tsne-subcluster-verification",
       "tumor-invasion-region-annotation",
       "visium-spatial-transcriptomics-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/yiwen-yang/MCGAE"
     ]
   },
   {
@@ -4110,7 +4861,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MrTomRod/scoary-2",
+    "repo_url": null,
     "used_by_skills": [
       "candidate-gene-identification-from-gwas",
       "carnitine-metabolism-gene-annotation",
@@ -4123,6 +4874,11 @@
       "pangenome-neighborhood-reconstruction",
       "scoary2-python-api-usage",
       "statistical-power-estimation-across-isolate-counts"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MrTomRod/scoary-2"
     ]
   },
   {
@@ -4137,13 +4893,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/dkainer/RWRtoolkit",
+    "repo_url": null,
     "used_by_skills": [
       "arabidopsis-gene-identifier-handling",
       "gene-set-file-construction",
       "multilayer-edge-annotation-parsing",
       "multiplex-network-shortest-path-extraction",
       "network-topology-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/dkainer/RWRtoolkit"
     ]
   },
   {
@@ -4158,7 +4919,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/dkainer/RWRtoolkit",
+    "repo_url": null,
     "used_by_skills": [
       "arabidopsis-gene-identifier-handling",
       "arabidopsis-multiplex-network-loading",
@@ -4193,6 +4954,11 @@
       "tabular-results-file-formatting",
       "tau-layer-weighting-parameter-sweep",
       "transition-matrix-normalization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/dkainer/RWRtoolkit"
     ]
   },
   {
@@ -4207,13 +4973,19 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YeoLab/FLARE",
+    "repo_url": null,
     "used_by_skills": [
       "genomic-interval-pairing-and-slop-extension",
       "prc2-rna-substrate-validation",
       "rbp-binding-region-annotation",
       "rbp-target-identification",
       "rna-editing-site-calling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq",
+      "https://github.com/YeoLab/FLARE"
     ]
   },
   {
@@ -4228,7 +5000,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
+    "repo_url": null,
     "used_by_skills": [
       "count-based-differential-expression-testing",
       "differential-gene-expression-analysis",
@@ -4241,6 +5013,11 @@
       "rna-seq-transcript-abundance-quantification",
       "simulated-rnaseq-ground-truth-validation",
       "transcript-expression-quantification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -4255,7 +5032,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/yycunc/SAMEclustering",
+    "repo_url": null,
     "used_by_skills": [
       "ari-nmi-clustering-concordance-evaluation",
       "consensus-clustering-baseline-comparison",
@@ -4263,6 +5040,12 @@
       "scrna-seq-clustering-benchmarking",
       "scrnaseq-clustering-ensemble-implementation",
       "single-cell-rna-seq-consensus-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/musaddiq-k-lodi/chai",
+      "https://github.com/yycunc/SAMEclustering"
     ]
   },
   {
@@ -4273,16 +5056,21 @@
       "10.1093/nar/gkaf101"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/samtools/samtools",
     "used_by_skills": [
       "fasta-indexing-and-sequence-dictionary-generation",
       "nextflow-subworkflow-reconstruction",
       "reference-genome-subsetting",
       "vcf-region-subsetting-and-indexing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/samtools/samtools/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -4293,11 +5081,11 @@
       "10.1093/bib/bbae411"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lodimk2/chai",
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-rand-index-benchmark-evaluation",
       "ari-nmi-clustering-concordance-evaluation",
@@ -4316,6 +5104,12 @@
       "snf-similarity-network-fusion",
       "spectral-clustering-consensus-assignment",
       "spectral-clustering-on-similarity-matrix"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/SC3.html",
+    "source_paper_repos": [
+      "https://github.com/lodimk2/chai",
+      "https://github.com/musaddiq-k-lodi/chai"
     ]
   },
   {
@@ -4330,7 +5124,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "complexity-class-glm-fitting",
       "peak-memory-monitoring",
@@ -4339,6 +5133,11 @@
       "scam-shape-constrained-regression",
       "simulation-execution-time-profiling",
       "single-cell-rna-seq-dataset-resampling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -4353,11 +5152,11 @@
       "10.1186/s13059-024-03419-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/scverse/muon",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scverse/scanpy",
     "used_by_skills": [
       "anndata-object-construction",
       "annndata-uns-attribute-management",
@@ -4400,6 +5199,15 @@
       "thymocyte-development-trajectory-interpretation",
       "umap-spatial-cluster-visualization",
       "weighted-nearest-neighbour-graph-construction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scverse/scanpy/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE",
+      "https://github.com/YosefLab/VIVS",
+      "https://github.com/nitzanlab/Annotatability",
+      "https://github.com/prism-oncology/sopa",
+      "https://github.com/scverse/muon"
     ]
   },
   {
@@ -4414,7 +5222,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "complexity-class-glm-fitting",
       "correlation-significance-testing",
@@ -4433,6 +5241,11 @@
       "simulation-method-accuracy-score-wrangling",
       "single-cell-rna-seq-data-simulation",
       "single-cell-rna-seq-dataset-resampling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -4447,13 +5260,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "dockerized-r-benchmark-execution",
       "error-message-classification-into-categories",
       "per-method-error-rate-quantification",
       "reference-dataset-benchmark-orchestration",
       "single-cell-rna-seq-data-simulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -4464,11 +5282,11 @@
       "10.1186/s13059-024-03290-y"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "bioconductor-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/SONGDONGYUAN1994/scDesign3",
     "used_by_skills": [
       "complexity-class-glm-fitting",
       "correlation-significance-testing",
@@ -4491,6 +5309,11 @@
       "spatial-kde-density-evaluation",
       "spatial-multiks-distribution-comparison",
       "spot-assignment-hungarian-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/scDesign3",
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -4505,7 +5328,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hemberg-lab/SC3",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-mutual-information-evaluation",
       "clustering-benchmark-evaluation",
@@ -4513,6 +5336,11 @@
       "paired-t-test-significance-testing",
       "spatial-domain-clustering-benchmarking",
       "spatial-transcriptomics-simulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hemberg-lab/SC3"
     ]
   },
   {
@@ -4525,11 +5353,11 @@
       "10.1186/s13059-025-03576-9"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/yiwen-yang/MCGAE",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scikit-learn/scikit-learn",
     "used_by_skills": [
       "clustering-agreement-metric-computation--89a468bebe16f1ba",
       "clustering-benchmark-evaluation",
@@ -4547,6 +5375,13 @@
       "spatial-domain-clustering-benchmarking",
       "spatial-transcriptomics-simulation",
       "spatially-variable-gene-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/HEAD/COPYING",
+    "source_paper_repos": [
+      "https://github.com/MrTomRod/scoary-2",
+      "https://github.com/hemberg-lab/SC3",
+      "https://github.com/yiwen-yang/MCGAE"
     ]
   },
   {
@@ -4557,11 +5392,11 @@
       "10.1038/s43588-024-00721-5"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/nitzanlab/Annotatability",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scipy/scipy",
     "used_by_skills": [
       "anndata-single-cell-data-processing",
       "annotation-confidence-score-computation",
@@ -4587,6 +5422,11 @@
       "spearman-rank-correlation-statistics",
       "trainability-aware-graph-construction",
       "training-dynamics-confidence-score-interpretation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scipy/scipy/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/nitzanlab/Annotatability"
     ]
   },
   {
@@ -4601,7 +5441,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/xianglin226/scMDC",
+    "repo_url": null,
     "used_by_skills": [
       "cite-seq-protein-gene-integration",
       "clustering-agreement-metric-computation--89a468bebe16f1ba",
@@ -4614,6 +5454,12 @@
       "spatial-autocorrelation-benchmarking-morans-i-lisi",
       "spatial-domain-clustering-benchmarking",
       "spatially-variable-gene-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hemberg-lab/SC3",
+      "https://github.com/xianglin226/scMDC"
     ]
   },
   {
@@ -4628,7 +5474,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Lv-BioInfo/SSGATE",
+    "repo_url": null,
     "used_by_skills": [
       "clustering-agreement-metric-computation--969d24d6c46ee9fc",
       "clustering-metric-computation-ari-nmi-purity-homogeneity",
@@ -4636,6 +5482,11 @@
       "leiden-clustering-resolution-sweep",
       "robust-rank-aggregation-statistics",
       "single-cell-multiomics-integration-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE"
     ]
   },
   {
@@ -4646,11 +5497,11 @@
       "10.1186/s13059-024-03233-7"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/MrTomRod/scoary-2",
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/AdmiralenOla/Scoary",
     "used_by_skills": [
       "command-line-tool-parameter-reproduction",
       "computational-performance-verification",
@@ -4662,6 +5513,11 @@
       "runtime-benchmarking-of-mgwas-algorithms",
       "software-benchmark-runtime-measurement",
       "symbolic-regression-of-runtime-scaling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/scoary",
+    "source_paper_repos": [
+      "https://github.com/MrTomRod/scoary-2"
     ]
   },
   {
@@ -4676,7 +5532,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MrTomRod/scoary-2",
+    "repo_url": null,
     "used_by_skills": [
       "candidate-gene-identification-from-gwas",
       "carnitine-metabolism-gene-annotation",
@@ -4709,6 +5565,11 @@
       "symbolic-regression-of-runtime-scaling",
       "taxonomic-cluster-verification",
       "umap-embedding-of-omics-matrices"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MrTomRod/scoary-2"
     ]
   },
   {
@@ -4719,11 +5580,11 @@
       "10.1038/s43588-024-00721-5"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/nitzanlab/Annotatability",
+    "license_tier": "open",
+    "license": "GPL-3.0-only",
+    "license_detection": "bioconductor-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/SydneyBioX/scReClassify",
     "used_by_skills": [
       "merfish-spatial-omics-analysis",
       "mislabeled-cell-detection-auroc",
@@ -4731,6 +5592,11 @@
       "semi-synthetic-label-perturbation",
       "single-cell-training-dynamics-scoring",
       "spatial-transcriptomics-benchmark-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/scReClassify",
+    "source_paper_repos": [
+      "https://github.com/nitzanlab/Annotatability"
     ]
   },
   {
@@ -4745,7 +5611,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lodimk2/chai",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-rand-index-benchmark-evaluation",
       "ari-nmi-clustering-concordance-evaluation",
@@ -4763,6 +5629,12 @@
       "snf-similarity-network-fusion",
       "spectral-clustering-consensus-assignment",
       "spectral-clustering-on-similarity-matrix"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lodimk2/chai",
+      "https://github.com/musaddiq-k-lodi/chai"
     ]
   },
   {
@@ -4773,11 +5645,11 @@
       "10.1186/s13059-024-03419-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/YosefLab/VIVS",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scverse/scvi-tools",
     "used_by_skills": [
       "benjamini-hochberg-fdr-correction",
       "cite-seq-gene-protein-association-analysis",
@@ -4805,6 +5677,11 @@
       "synthetic-count-sampling-latent-variable-model",
       "synthetic-response-simulation-single-cell",
       "vae-generative-model-count-data"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scverse/scvi-tools/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/YosefLab/VIVS"
     ]
   },
   {
@@ -4819,13 +5696,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "causal-interaction-database-parsing",
       "kinase-substrate-percentile-threshold-filtering",
       "multi-database-sign-format-compliance",
       "phosphosite-mapping-on-network-edges",
       "prior-knowledge-network-assembly"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -4840,7 +5722,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/satijalab/seurat",
+    "repo_url": null,
     "used_by_skills": [
       "cite-seq-protein-gene-integration",
       "clustering-benchmark-evaluation",
@@ -4856,6 +5738,12 @@
       "spatial-autocorrelation-benchmarking-morans-i-lisi",
       "spatial-domain-clustering-benchmarking",
       "umap-embedding-computation-seurat"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hemberg-lab/SC3",
+      "https://github.com/satijalab/seurat"
     ]
   },
   {
@@ -4870,7 +5758,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Lv-BioInfo/SSGATE",
+    "repo_url": null,
     "used_by_skills": [
       "clustering-agreement-metric-computation--969d24d6c46ee9fc",
       "clustering-metric-computation-ari-nmi-purity-homogeneity",
@@ -4882,6 +5770,11 @@
       "robust-rank-aggregation-statistics",
       "self-supervised-loss-weighting",
       "single-cell-multiomics-integration-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE"
     ]
   },
   {
@@ -4898,11 +5791,11 @@
       "10.1093/bib/bbaf429"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/scverse/muon",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/satijalab/seurat",
     "used_by_skills": [
       "adjusted-rand-index-benchmark-evaluation",
       "adjusted-rand-index-evaluation",
@@ -4965,6 +5858,19 @@
       "variational-autoencoder-cell-clustering",
       "visium-slice-preprocessing",
       "weighted-nearest-neighbor-multimodal-integration"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/satijalab/seurat/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl",
+      "https://github.com/ConesaLab/MOSim",
+      "https://github.com/Lv-BioInfo/SSGATE",
+      "https://github.com/YuWang-VUMC/stImage",
+      "https://github.com/lodimk2/chai",
+      "https://github.com/musaddiq-k-lodi/chai",
+      "https://github.com/recombinationlab/sciL3Pipe",
+      "https://github.com/satijalab/seurat",
+      "https://github.com/scverse/muon"
     ]
   },
   {
@@ -4979,7 +5885,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNA",
+    "repo_url": null,
     "used_by_skills": [
       "co-expression-module-gene-list-extraction",
       "gene-ontology-enrichment-analysis",
@@ -4987,6 +5893,12 @@
       "julia-rcall-interop-bioinformatics",
       "module-spatial-enrichment-mapping",
       "spatial-transcriptomics-co-expression-network-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNA",
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
     ]
   },
   {
@@ -5001,7 +5913,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNA",
+    "repo_url": null,
     "used_by_skills": [
       "co-expression-network-module-detection",
       "coexpression-network-preprocessing-filtering",
@@ -5014,6 +5926,12 @@
       "spectral-clustering-network-analysis",
       "wgcna-comparative-module-inference",
       "wgcna-scale-free-parameter-tuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNA",
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
     ]
   },
   {
@@ -5028,13 +5946,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/prism-oncology/sopa",
+    "repo_url": null,
     "used_by_skills": [
       "cell-to-niche-group-assignment",
       "delaunay-graph-border-extraction",
       "niche-polygon-vectorization",
       "spatial-niche-geometry-statistics",
       "spatial-omics-colocalization-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/prism-oncology/sopa"
     ]
   },
   {
@@ -5049,7 +5972,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
+    "repo_url": null,
     "used_by_skills": [
       "cross-modality-cell-assignment-agreement-evaluation",
       "pca-dimension-reduction-single-cell",
@@ -5058,6 +5981,11 @@
       "single-cell-atac-lsi-dimensionality-reduction",
       "single-cell-rna-pca-dimensionality-reduction",
       "umap-embedding-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -5072,7 +6000,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-output-verification",
       "benchmark-precision-recall-evaluation-against-gold-standard",
@@ -5101,6 +6029,11 @@
       "shortest-path-naive-network-construction",
       "signaling-network-tool-capability-comparison",
       "transcription-factor-activity-inference-from-target-genes"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -5115,7 +6048,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-precision-recall-evaluation-against-gold-standard",
       "causal-interaction-database-parsing",
@@ -5128,6 +6061,11 @@
       "phosphosite-regulatory-activity-scoring",
       "prior-knowledge-network-assembly",
       "transcription-factor-activity-inference-from-target-genes"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -5142,7 +6080,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simmethods",
+    "repo_url": null,
     "used_by_skills": [
       "batch-effect-metric-evaluation",
       "benchmark-accuracy-scoring",
@@ -5183,6 +6121,12 @@
       "trajectory-aware-dataset-simulation",
       "trajectory-topology-matching-with-slingshot",
       "zero-inflation-and-library-size-characterization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simmethods",
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -5197,7 +6141,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "batch-effect-metric-evaluation",
       "benchmark-accuracy-scoring",
@@ -5239,6 +6183,11 @@
       "trajectory-aware-dataset-simulation",
       "trajectory-topology-matching-with-slingshot",
       "zero-inflation-and-library-size-characterization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -5253,7 +6202,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe2docker",
+    "repo_url": null,
     "used_by_skills": [
       "batch-effect-metric-evaluation",
       "benchmark-accuracy-scoring",
@@ -5274,6 +6223,12 @@
       "single-cell-simulation-scenario-benchmarking",
       "trajectory-aware-dataset-simulation",
       "trajectory-topology-matching-with-slingshot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe",
+      "https://github.com/duohongrui/simpipe2docker"
     ]
   },
   {
@@ -5288,13 +6243,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "dockerized-r-benchmark-execution",
       "error-message-classification-into-categories",
       "per-method-error-rate-quantification",
       "reference-dataset-benchmark-orchestration",
       "single-cell-rna-seq-data-simulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -5309,7 +6269,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
+    "repo_url": null,
     "used_by_skills": [
       "clinvar-pathogenic-variant-extraction",
       "dna-read-simulation-with-variant-injection",
@@ -5317,6 +6277,11 @@
       "pathogenic-variant-detection-verification",
       "reference-genome-subsetting",
       "simulated-read-variant-calling-validation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -5327,11 +6292,11 @@
       "10.1101/2025.11.24.690117"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
+    "license_tier": "open",
+    "license": "BSD-3-Clause AND BSD-3-Clause-LBNL",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/sylabs/singularity",
     "used_by_skills": [
       "clinvar-pathogenic-variant-extraction",
       "dna-read-simulation-with-variant-injection",
@@ -5346,6 +6311,11 @@
       "simulated-read-variant-calling-validation",
       "variant-record-harmonisation-to-reference-format",
       "vcf-compression-and-tabix-indexing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/sylabs/singularity/HEAD/LICENSE.md",
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics"
     ]
   },
   {
@@ -5360,11 +6330,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hemberg-lab/SC3",
+    "repo_url": null,
     "used_by_skills": [
       "cite-seq-protein-gene-integration",
       "marker-based-cluster-annotation-verification",
       "spatial-autocorrelation-benchmarking-morans-i-lisi"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hemberg-lab/SC3"
     ]
   },
   {
@@ -5379,7 +6354,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hemberg-lab/SC3",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-mutual-information-evaluation",
       "cite-seq-protein-gene-integration",
@@ -5394,6 +6369,11 @@
       "spatial-domain-clustering-benchmarking",
       "spatial-transcriptomics-simulation",
       "spatially-variable-gene-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hemberg-lab/SC3"
     ]
   },
   {
@@ -5406,11 +6386,11 @@
       "10.1093/nar/gkaf101"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/WangLabPKU/MAPIT-seq",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/snakemake/snakemake",
     "used_by_skills": [
       "chromosome-coverage-normalization",
       "cross-dataset-hic-benchmark-comparison",
@@ -5434,6 +6414,14 @@
       "umi-extraction-into-read-names",
       "valid-pair-retention-statistics-reporting",
       "vcf-intersection-private-variant-derivation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/snakemake/snakemake/HEAD/LICENSE.md",
+    "source_paper_repos": [
+      "https://github.com/WangLabPKU/MAPIT-seq",
+      "https://github.com/YeoLab/FLARE",
+      "https://github.com/prism-oncology/sopa",
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -5448,7 +6436,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/musaddiq-k-lodi/chai",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-rand-index-benchmark-evaluation",
       "ari-nmi-clustering-concordance-evaluation",
@@ -5465,6 +6453,11 @@
       "spatial-coordinate-knn-graph-construction",
       "spectral-clustering-on-similarity-matrix",
       "spectral-clustering-with-silhouette-k-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/musaddiq-k-lodi/chai"
     ]
   },
   {
@@ -5479,8 +6472,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lescai-teaching/eduomics",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lescai-teaching/eduomics"
+    ]
   },
   {
     "slug": "sopa",
@@ -5490,10 +6488,10 @@
       "10.1038/s41467-024-48981-z"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "bioconda-package",
+    "license_subject": "tool",
     "repo_url": "https://github.com/gustaveroussy/sopa",
     "used_by_skills": [
       "baysor-patch-configuration-and-conflict-resolution",
@@ -5536,6 +6534,12 @@
       "transcript-based-cell-segmentation",
       "umap-cell-type-distinction-visualization",
       "xenium-explorer-data-conversion"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://anaconda.org/bioconda/sopa",
+    "source_paper_repos": [
+      "https://github.com/gustaveroussy/sopa",
+      "https://github.com/prism-oncology/sopa"
     ]
   },
   {
@@ -5550,13 +6554,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/yiwen-yang/MCGAE",
+    "repo_url": null,
     "used_by_skills": [
       "ari-spatial-clustering-benchmarking",
       "he-image-feature-extraction",
       "multimodal-gene-expression-image-integration",
       "spatial-domain-clustering",
       "visium-spatial-transcriptomics-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/yiwen-yang/MCGAE"
     ]
   },
   {
@@ -5571,7 +6580,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hemberg-lab/SC3",
+    "repo_url": null,
     "used_by_skills": [
       "cite-seq-protein-gene-integration",
       "fdr-multiple-testing-correction",
@@ -5585,6 +6594,11 @@
       "spatial-transcriptomics-count-matrix-preprocessing",
       "spatial-transcriptomics-simulation",
       "spatially-variable-gene-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hemberg-lab/SC3"
     ]
   },
   {
@@ -5599,12 +6613,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/saeyslab/napari-sparrow",
+    "repo_url": null,
     "used_by_skills": [
       "anndata-obs-annotation-handling",
       "leiden-graph-clustering-of-cell-by-gene-matrix",
       "segmentation-backend-callable-configuration",
       "spatial-transcriptomics-image-segmentation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/saeyslab/napari-SPArrOW",
+      "https://github.com/saeyslab/napari-sparrow"
     ]
   },
   {
@@ -5620,7 +6640,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ConesaLab/MOSim",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-rand-index-evaluation",
       "batch-effect-metric-evaluation",
@@ -5642,6 +6662,12 @@
       "spearman-distance-kmedoids-clustering",
       "trajectory-topology-matching-with-slingshot",
       "variational-autoencoder-cell-clustering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ConesaLab/MOSim",
+      "https://github.com/duohongrui/simpipe"
     ]
   },
   {
@@ -5656,7 +6682,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/scverse/spatialdata",
+    "repo_url": null,
     "used_by_skills": [
       "baysor-patch-configuration-and-conflict-resolution",
       "baysor-transcript-segmentation",
@@ -5698,6 +6724,12 @@
       "transcript-based-cell-segmentation",
       "umap-cell-type-distinction-visualization",
       "xenium-explorer-data-conversion"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/prism-oncology/sopa",
+      "https://github.com/scverse/spatialdata"
     ]
   },
   {
@@ -5712,13 +6744,19 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/JinmiaoChenLab/SpatialGlue_3M",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-mutual-information-evaluation",
       "multi-omics-dimension-reduction",
       "paired-t-test-significance-testing",
       "spatial-domain-clustering-benchmarking",
       "spatial-transcriptomics-simulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/JinmiaoChenLab/SpatialGlue_3M",
+      "https://github.com/hemberg-lab/SC3"
     ]
   },
   {
@@ -5733,7 +6771,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/JinmiaoChenLab/SpatialGlue_3M",
+    "repo_url": null,
     "used_by_skills": [
       "cite-seq-protein-gene-integration",
       "marker-based-cluster-annotation-verification",
@@ -5741,6 +6779,12 @@
       "spatial-autocorrelation-benchmarking-morans-i-lisi",
       "spatial-domain-clustering-benchmarking",
       "spatially-variable-gene-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/JinmiaoChenLab/SpatialGlue_3M",
+      "https://github.com/hemberg-lab/SC3"
     ]
   },
   {
@@ -5756,7 +6800,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/shangll123/SpatialPCA",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-mutual-information-evaluation",
       "ari-clustering-benchmark-against-annotations",
@@ -5791,6 +6835,13 @@
       "spatially-aware-dimensionality-reduction",
       "spatially-aware-domain-clustering",
       "spatially-variable-gene-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YuWang-VUMC/stImage",
+      "https://github.com/hemberg-lab/SC3",
+      "https://github.com/shangll123/SpatialPCA"
     ]
   },
   {
@@ -5805,7 +6856,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ttgump/spaVAE",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-mutual-information-evaluation",
       "cite-seq-protein-gene-integration",
@@ -5816,6 +6867,12 @@
       "spatial-domain-clustering-benchmarking",
       "spatial-transcriptomics-simulation",
       "spatially-variable-gene-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hemberg-lab/SC3",
+      "https://github.com/ttgump/spaVAE"
     ]
   },
   {
@@ -5830,7 +6887,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/lodimk2/chai",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-rand-index-benchmark-evaluation",
       "ari-nmi-clustering-concordance-evaluation",
@@ -5849,6 +6906,12 @@
       "snf-similarity-network-fusion",
       "spectral-clustering-consensus-assignment",
       "spectral-clustering-on-similarity-matrix"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/lodimk2/chai",
+      "https://github.com/musaddiq-k-lodi/chai"
     ]
   },
   {
@@ -5864,7 +6927,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "adjusted-mutual-information-evaluation",
       "benchmark-accuracy-scoring",
@@ -5899,6 +6962,12 @@
       "spatially-variable-gene-selection",
       "spot-assignment-hungarian-matching",
       "trajectory-aware-dataset-simulation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe",
+      "https://github.com/hemberg-lab/SC3"
     ]
   },
   {
@@ -5913,7 +6982,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Linliu-Bioinf/SSGATE",
+    "repo_url": null,
     "used_by_skills": [
       "annndata-uns-attribute-management",
       "clustering-agreement-metric-computation--969d24d6c46ee9fc",
@@ -5944,6 +7013,14 @@
       "thymocyte-development-trajectory-interpretation",
       "triplet-loss-self-supervised-training",
       "umap-spatial-cluster-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Linliu-Bioinf/SSGATE",
+      "https://github.com/Linliu-Bioinf/SSGATE.git",
+      "https://github.com/Linliu-Bioinfo/SSGATE.git",
+      "https://github.com/Lv-BioInfo/SSGATE"
     ]
   },
   {
@@ -5958,7 +7035,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/yiwen-yang/MCGAE",
+    "repo_url": null,
     "used_by_skills": [
       "ari-spatial-clustering-benchmarking",
       "baseline-method-comparison-benchmarking",
@@ -5973,6 +7050,11 @@
       "spatial-omics-colocalization-analysis",
       "visium-slice-preprocessing",
       "visium-spatial-transcriptomics-processing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/yiwen-yang/MCGAE"
     ]
   },
   {
@@ -5987,7 +7069,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YuWang-VUMC/stImage",
+    "repo_url": null,
     "used_by_skills": [
       "ari-clustering-benchmark-against-annotations",
       "clustering-ari-benchmark-evaluation",
@@ -6010,6 +7092,11 @@
       "spot-neighbor-vs-nonneighbor-distance-analysis",
       "synthetic-benchmark-ground-truth-labeling",
       "weighted-nearest-neighbor-multimodal-integration"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YuWang-VUMC/stImage"
     ]
   },
   {
@@ -6020,11 +7107,11 @@
       "10.1093/bib/bbaf429"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/YuWang-VUMC/stImage",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/tidyverse/tidyverse",
     "used_by_skills": [
       "ari-clustering-benchmark-against-annotations",
       "clustering-ari-benchmark-evaluation",
@@ -6047,6 +7134,11 @@
       "spot-neighbor-vs-nonneighbor-distance-analysis",
       "synthetic-benchmark-ground-truth-labeling",
       "weighted-nearest-neighbor-multimodal-integration"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/tidyverse/HEAD/DESCRIPTION",
+    "source_paper_repos": [
+      "https://github.com/YuWang-VUMC/stImage"
     ]
   },
   {
@@ -6061,7 +7153,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "repo_url": null,
     "used_by_skills": [
       "batch-effect-metric-evaluation",
       "benchmark-accuracy-scoring",
@@ -6077,6 +7169,12 @@
       "single-cell-simulation-scenario-benchmarking",
       "trajectory-aware-dataset-simulation",
       "trajectory-topology-matching-with-slingshot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe",
+      "https://github.com/dynverse/ti_slingshot"
     ]
   },
   {
@@ -6091,13 +7189,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/yiwen-yang/MCGAE",
+    "repo_url": null,
     "used_by_skills": [
       "cnn-feature-extraction",
       "histological-image-tile-segmentation",
       "image-augmentation-pipelines",
       "mlp-training",
       "pca-dimensionality-reduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/yiwen-yang/MCGAE"
     ]
   },
   {
@@ -6113,7 +7216,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hemberg-lab/SC3",
+    "repo_url": null,
     "used_by_skills": [
       "cite-seq-protein-gene-integration",
       "clustering-agreement-metric-computation--969d24d6c46ee9fc",
@@ -6127,6 +7230,12 @@
       "spatial-autocorrelation-benchmarking-morans-i-lisi",
       "spatial-domain-clustering-benchmarking",
       "spatially-variable-gene-selection"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Lv-BioInfo/SSGATE",
+      "https://github.com/hemberg-lab/SC3"
     ]
   },
   {
@@ -6137,11 +7246,11 @@
       "10.1038/s41540-024-00342-8"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/ecell/transomics2cytoscape",
+    "license_tier": "open",
+    "license": "Artistic-2.0",
+    "license_detection": "bioconductor-package",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "conventional-pathway-layout-preservation",
       "cytoscape-network-automation-via-rcy3",
@@ -6168,6 +7277,11 @@
       "transomic-network-2-5d-visualization",
       "tsv-column-transformation",
       "z-coordinate-layer-placement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/transomics2cytoscape",
+    "source_paper_repos": [
+      "https://github.com/ecell/transomics2cytoscape"
     ]
   },
   {
@@ -6182,13 +7296,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MrTomRod/scoary-2",
+    "repo_url": null,
     "used_by_skills": [
       "lc-ms-gc-ms-data-preprocessing",
       "metabolomics-dimensionality-reduction",
       "multi-omics-scatter-visualization",
       "taxonomic-cluster-verification",
       "umap-embedding-of-omics-matrices"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MrTomRod/scoary-2"
     ]
   },
   {
@@ -6203,7 +7322,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/recombinationlab/sciL3Pipe",
+    "repo_url": null,
     "used_by_skills": [
       "cross-modality-cell-assignment-agreement-evaluation",
       "sequencing-depth-correlated-dimension-exclusion",
@@ -6211,6 +7330,11 @@
       "single-cell-atac-lsi-dimensionality-reduction",
       "single-cell-rna-pca-dimensionality-reduction",
       "umap-embedding-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/recombinationlab/sciL3Pipe"
     ]
   },
   {
@@ -6225,12 +7349,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/saeyslab/napari-SPArrOW",
+    "repo_url": null,
     "used_by_skills": [
       "memory-runtime-benchmark-profiling",
       "segmentation-backend-callable-configuration",
       "spatial-omics-data-loading",
       "spatial-transcriptomics-image-segmentation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/saeyslab/napari-SPArrOW"
     ]
   },
   {
@@ -6245,11 +7374,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ecell/transomics2cytoscape",
+    "repo_url": null,
     "used_by_skills": [
       "software-maintenance-status-assessment",
       "structured-table-data-extraction",
       "trans-omic-visualization-tool-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ecell/transomics2cytoscape"
     ]
   },
   {
@@ -6264,7 +7398,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YosefLab/VIVS",
+    "repo_url": null,
     "used_by_skills": [
       "benjamini-hochberg-fdr-correction",
       "cite-seq-gene-protein-association-analysis",
@@ -6294,6 +7428,11 @@
       "synthetic-count-sampling-latent-variable-model",
       "synthetic-response-simulation-single-cell",
       "vae-generative-model-count-data"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YosefLab/VIVS"
     ]
   },
   {
@@ -6308,7 +7447,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SaccoPerfettoLab/SignalingProfiler",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-output-verification",
       "benchmark-precision-recall-evaluation-against-gold-standard",
@@ -6328,6 +7467,11 @@
       "regulon-randomization-benchmarking",
       "signaling-network-tool-capability-comparison",
       "transcription-factor-activity-inference-from-target-genes"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SaccoPerfettoLab/SignalingProfiler"
     ]
   },
   {
@@ -6342,7 +7486,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/YosefLab/VIVS",
+    "repo_url": null,
     "used_by_skills": [
       "benjamini-hochberg-fdr-correction",
       "cite-seq-gene-protein-association-analysis",
@@ -6365,6 +7509,11 @@
       "synthetic-count-sampling-latent-variable-model",
       "synthetic-response-simulation-single-cell",
       "vae-generative-model-count-data"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/YosefLab/VIVS"
     ]
   },
   {
@@ -6379,7 +7528,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/C37H41N2O6/SGCRNAs.jl",
+    "repo_url": null,
     "used_by_skills": [
       "co-expression-module-gene-list-extraction",
       "co-expression-network-module-detection",
@@ -6395,6 +7544,11 @@
       "spectral-clustering-network-analysis",
       "wgcna-comparative-module-inference",
       "wgcna-scale-free-parameter-tuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/C37H41N2O6/SGCRNAs.jl"
     ]
   },
   {
@@ -6409,7 +7563,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/prism-oncology/sopa",
+    "repo_url": null,
     "used_by_skills": [
       "cell-boundary-polygon-export",
       "cellpose-image-segmentation",
@@ -6422,6 +7576,11 @@
       "spatial-niche-clustering-and-vectorization",
       "spatial-omics-multilayer-image-alignment",
       "xenium-explorer-data-conversion"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/prism-oncology/sopa"
     ]
   },
   {
@@ -6432,11 +7591,11 @@
       "10.1186/s13059-024-03290-y"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/duohongrui/simpipe",
+    "license_tier": "open",
+    "license": "Artistic-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "complexity-class-glm-fitting",
       "correlation-significance-testing",
@@ -6455,6 +7614,11 @@
       "simulation-method-accuracy-score-wrangling",
       "single-cell-rna-seq-data-simulation",
       "single-cell-rna-seq-dataset-resampling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://bioconductor.org/packages/release/bioc/html/zinbwave.html",
+    "source_paper_repos": [
+      "https://github.com/duohongrui/simpipe"
     ]
   }
 ]

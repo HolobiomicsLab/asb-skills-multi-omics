@@ -9,8 +9,10 @@ derived_from:
 source_repos:
 - https://github.com/recombinationlab/sciL3Pipe
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/recombinationlab/sciL3Pipe
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/taoliu/MACS/HEAD/LICENSE
+repo_url: https://github.com/macs3-project/MACS

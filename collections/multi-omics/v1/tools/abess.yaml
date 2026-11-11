@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/Yelab1994/iMLGAM
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/Yelab1994/iMLGAM
+entry_kind: software
+license_tier: open
+license: GPL-3.0-or-later OR LicenseRef-file-LICENSE
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=abess
+repo_url: https://github.com/abess-team/abess

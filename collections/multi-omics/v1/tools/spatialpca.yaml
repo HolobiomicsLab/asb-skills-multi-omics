@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/hemberg-lab/SC3
 - https://github.com/YuWang-VUMC/stImage
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/shangll123/SpatialPCA
+license_evidence: null
+repo_url: null

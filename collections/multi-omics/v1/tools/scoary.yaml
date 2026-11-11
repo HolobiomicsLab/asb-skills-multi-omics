@@ -11,8 +11,10 @@ derived_from:
 source_repos:
 - https://github.com/MrTomRod/scoary-2
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/MrTomRod/scoary-2
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/scoary
+repo_url: https://github.com/AdmiralenOla/Scoary
