@@ -41,7 +41,7 @@ Collection `v1`, built from corpus cut `dd3209129626`, is released on `main` at 
 | Release gate | `receipts/dd3209129626/gate_report.json` reports `pass`: 15 of 16 checks pass and 1 is not applicable (`cut_manifest`). [`receipts/dd3209129626/VERIFY.md`](receipts/dd3209129626/VERIFY.md) gives the command that re-verifies it. |
 | Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` and for `collections/multi-omics/v1` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/multi-omics/v1` |
-| IRI resolution (2026-10-30) | Registered at w3id.org. It redirects (HTTP 302) to a path in the asb-skill-collections registry that returns 404: the collection lives in this repository, not in the registry. |
+| IRI resolution (2026-11-14) | Registered at w3id.org. It redirects (HTTP 302) to the collection landing page in the asb-skill-collections registry (HTTP 200), which names this repository and the Zenodo record. |
 | DOI | [10.5281/zenodo.24093092](https://doi.org/10.5281/zenodo.24093092) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
 | Concept DOI | [10.5281/zenodo.24093090](https://doi.org/10.5281/zenodo.24093090) (all versions) |
 
