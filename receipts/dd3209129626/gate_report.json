@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-15T16:43:55.883918+00:00",
+  "generated_at": "2026-11-15T18:57:56.042784+00:00",
   "collection_dir": "collections/multi-omics/v1",
   "corpus_path": "collections/multi-omics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "b534cfa6334a336fee350795df0f1614d857650a11f3c523bdd1c04cf4754a12",
+      "sha256": "9254f22b76c5042a4643700022edf0b698b83975c0de84af827e4bd432cc30f9",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -63,7 +63,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 520,
-          "sha256": "54e1a8535374257b55451ef84b8d5104ed18516b25517b499a2e46c3499cc919"
+          "sha256": "37e12f7ce31e702470410bcb6705c4a80756aee392ee4268ca220c888ef9e324"
         },
         {
           "path": ".zenodo.json",
@@ -72,8 +72,8 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 1064,
-          "sha256": "1f41ee90b9f3bec0e28421f83b1c4cfd1b76233b97e29d036e70a5598ac5402e"
+          "bytes": 1166,
+          "sha256": "dc038b325925b9ae6eab13590c20ae549e2ef21190591c440331474c3f42b8c8"
         },
         {
           "path": "bin",
@@ -8726,5 +8726,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "52ed5a966647b3734bed8fbed54abb1bc14572ba1e07dbaf15c7fadba8dae282"
+  "receipt_sha256": "da303c179ad807e0881c154a3d8954e4672f386666dc69835e409f0c95a44239"
 }
