@@ -10,7 +10,7 @@
       "name": "multi-omics",
       "source": "./collections/multi-omics/v1",
       "description": "ASB Multi-omics Skill Collection v1: 787 evidence-grounded skills over 211 tools.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "Holobiomics Lab",
         "url": "https://github.com/HolobiomicsLab"
