@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-14T21:15:46.803024+00:00",
+  "generated_at": "2026-11-15T16:43:55.883918+00:00",
   "collection_dir": "collections/multi-omics/v1",
   "corpus_path": "collections/multi-omics/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "be579a035da3d98c7822881e1d26511b896282c1d41368ee0fc827183824dde6",
+      "sha256": "b534cfa6334a336fee350795df0f1614d857650a11f3c523bdd1c04cf4754a12",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -67,8 +67,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2546,
-          "sha256": "b3cd1563996cf6ba0582843833c03c04e0b6fac3bfcf5c47e463193b07155f89"
+          "bytes": 2697,
+          "sha256": "c763be8980d88b95bf85e84f665dd88b8e07e3827771c5b945fa32d9155fd456"
         },
         {
           "path": "CITATION.cff",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/report_issue.py",
-          "bytes": 44558,
-          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+          "bytes": 44518,
+          "sha256": "fc5f56dc586aa6bb28d4930ce4170204633cdcc0f70ade2221b3c1db79ae5d4d"
         },
         {
           "path": "bin/search_skills.py",
@@ -7206,8 +7206,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 4294,
-          "sha256": "f3daf6a76d3805308888854b9b35dba7f437bd87fe9cc6b41f34f3fa7bdf5be2"
+          "bytes": 4286,
+          "sha256": "86dc8d9bfa64bd9de453b9b18e47c580478a8bbdb990177c621a36a8a0f636ea"
         },
         {
           "path": "skills_index.json",
@@ -8293,8 +8293,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 4785,
-          "sha256": "81a55f9ca7773734060516c9afe49670965cdf9e0d3b8700fa5e9d8df16db6fc"
+          "bytes": 4777,
+          "sha256": "7c5b932f1d58ee52fdb0b400d1f8f079e1d3e59a273f9b5b907128f4fb14be86"
         },
         {
           "path": "workflows/single-cell-transcriptome-proteome-integration",
@@ -8726,5 +8726,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "0497d8fe45ac44bc415b28aec6f162b039ac36215e7eede2e9850e900ec92cc1"
+  "receipt_sha256": "52ed5a966647b3734bed8fbed54abb1bc14572ba1e07dbaf15c7fadba8dae282"
 }
